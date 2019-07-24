@@ -1,0 +1,57 @@
+/* CONFIGURABLE */
+html, body, input, button, select {font-family: "Gordita", "Graphik", arial, sans-serif}
+a {color: #2DC9D7; text-decoration: underline;}
+a:hover {} 
+aside {background-color: #2dc9d7;}
+aside .leftback {background: linear-gradient(#0095a4, #2dc9d7);}
+main {background: #ffffff}
+.toplogo figure {background-image: url(../images/default-top_logo_white.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */}
+main #main_inside section {color: #212121}
+main #main_inside section .brand_family img {background-image: url(../images/runkeeper/runkeeper-brand_family_runkeeper.svg); padding-top: 23.2% /* (img_height/img_width * container_width%) */}
+main #main_inside section .app_logo figure {background-image: url(../images/runkeeper/runkeeper-app_logo.svg); padding-top: 50%}
+main #main_inside section .app_logo {width: 50%}
+main #main_inside section .top_details {margin-top: 12px}
+main #main_inside section h2 {font-size: 1.5em}
+main #main_inside section h2.translate-or {text-transform: lowercase; font-weight: 500; font-size: 1.2em}
+
+/* CONFIGURABLE */
+.input_outer_container .input_container .inputText {color: #212121;}
+.input_outer_container .input_container .required_mark {color: #212121;}
+.input_outer_container .input_container select:focus {border-color: #4a4a4a;}
+.input_outer_container:not(.invalid).focus .floating-label {color: #212121}
+.input_outer_container .floating-label {color: #212121}
+.input_outer_container:not(.invalid) .input_underline {background: #4a4a4a;}
+.input_outer_container:not(.invalid).focus .input_underline {background: #212121;}
+.input_outer_container .subtext_box {color: #212121;}
+
+/* errors */
+.input_outer_container .subtext_box .error, .input_outer_container.invalid .floating-label, .error, .login_required, .complete_profile_required, main #main_inside section .delete_confirm {color: #ef5f31;}
+.input_outer_container.invalid .input_underline {background: #ef5f31;}
+
+.checkbox_box input[type=checkbox]:checked+label:before {background-color: #ffb636; border-color: #ffb636;}
+.checkbox_box label:before {border: 1px solid #212121;}
+
+.modal {color: #212121}
+.modal-header .modal-close:hover {fill: #2DC9D7;}
+
+button, input[type=submit], .action_div {background: #FFB636; border-radius: 25px; color: #ffffff; font-size: 1em; font-weight: 700; text-transform: none; box-shadow: none}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #FFB636;}
+button.white {border: 1px solid #212121; color: #2DC9D7}
+	button.white:hover {background: #d8d8d8}
+button.gray {background: #d0d0d0; color: #ffffff}
+	button.gray:hover {background: #d8d8d8}
+	button.google, button.google:hover {background: #ffffff; color: #212121; border: 1px solid #979797}
+	
+@keyframes colorTint{
+	0% {background: #FFB636;}
+	100% {background: #d8d8d8;}
+}
+
+@media screen and (max-width: 800px) {
+	main #main_inside {padding-top: 60px}
+	#left_panel {display: none}
+}
+/* END CONFIGURABLE */
+
+/* unhide after css overrides applied */
+#loading_overlay {display: none !important;} 

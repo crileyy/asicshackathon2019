@@ -1,0 +1,1838 @@
+{
+  "pl-pl": {
+    "change-email": {
+      "change_email_button": {
+        "comment": "",
+        "value": "Zmień adres e-mail"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "Nowy adres e-mail"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Nieprawidłowy adres e-mail"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Błędny adres e-mail lub hasło"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Nie znaleziono użytkownika"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Nie można zmienić adresu e-mail i hasła, ponieważ dokonano rejestracji przy pomocy konta na Facebooku lub w Google."
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Hasło"
+      },
+      "title": {
+        "comment": "",
+        "value": "Aktualizuj adres e-mail konta"
+      }
+    },
+    "change-email-confirm": {
+      "email_updated": {
+        "comment": "",
+        "value": "Adres e-mail zaktualizowany"
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "Zmieniliśmy adres e-mail na nowy."
+      },
+      "leadin_text2": {
+        "comment": "",
+        "value": "Pamiętaj, aby odtąd logować się przy użyciu nowego adresu e-mail."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Tworząc konto ASICS, potwierdzam, że znam i rozumiem obowiązującą <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>politykę prywatności</a> i akceptuję <a href='terms' class='dynamic_link_terms' target='_blank'>regulamin</a> ASICS."
+      }
+    },
+    "change-email-done": {
+      "email_updated": {
+        "comment": "",
+        "value": "Adres e-mail zaktualizowany"
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "E-mail z potwierdzeniem został wysłany na adres "
+      }
+    },
+    "change-password": {
+      "change_password_button": {
+        "comment": "",
+        "value": "Zmień hasło"
+      },
+      "current_password_field": {
+        "comment": "",
+        "value": "Aktualne hasło"
+      },
+      "error_invalid_current_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Aktualne hasło jest nieprawidłowe"
+      },
+      "error_invalid_new_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_matching_passwords": {
+        "comment": "",
+        "value": "Hasła nie mogą być takie same."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Nie można zmienić adresu e-mail i hasła, ponieważ dokonano rejestracji przy pomocy konta na Facebooku lub w Google."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Nie pamiętasz hasła?"
+      },
+      "helptext_current_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "helptext_new_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "Potrzebujesz konta?"
+      },
+      "new_password_field": {
+        "comment": "",
+        "value": "Nowe hasło"
+      },
+      "success": {
+        "comment": "",
+        "value": "Ukończono"
+      },
+      "title": {
+        "comment": "",
+        "value": "Zmień hasło"
+      }
+    },
+    "connect-facebook": {
+      "connect_facebook_button": {
+        "comment": "",
+        "value": "Połącz z Facebookiem"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Błędny adres e-mail lub hasło"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Nie pamiętasz hasła?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Hasło"
+      },
+      "title": {
+        "comment": "",
+        "value": "Połącz konto z Facebookiem"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Ten adres e-mail został zarejestrowany przy użyciu hasła. Potwierdź hasło, aby połączyć konto z Facebookiem."
+      }
+    },
+    "connect-google": {
+      "connect_google_button": {
+        "comment": "",
+        "value": "Połącz z Google"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Błędny adres e-mail lub hasło"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Nie pamiętasz hasła?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Hasło"
+      },
+      "title": {
+        "comment": "",
+        "value": "Połącz konto z Google"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Ten adres e-mail został zarejestrowany przy użyciu hasła. Potwierdź hasło, aby połączyć konto z Google."
+      }
+    },
+    "continue": {
+      "continue_button": {
+        "comment": "",
+        "value": "Kontynuuj"
+      },
+      "disclaimer_text": {
+        "comment": "",
+        "value": "Klikając poniżej, potwierdzam, że znam i rozumiem obowiązującą <a href='privacy_policy' class=dynamic_link_pp'>politykę prywatności</a> i akceptuję <a href='terms' class='dynamic_link_terms' target='_blank'>regulamin</a> ASICS."
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "ASICS prosi o dostęp do informacji o Twoim koncie ASICS:"
+      },
+      "or": {
+        "comment": "",
+        "value": "Lub"
+      },
+      "register_cta": {
+        "comment": "",
+        "value": "Utwórz nowe konto ASICS"
+      }
+    },
+    "country_options": {
+      "AD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Andora"
+      },
+      "AE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zjednoczone Emiraty Arabskie"
+      },
+      "AF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Afganistan"
+      },
+      "AG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Antigua i Barbuda"
+      },
+      "AI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Anguilla"
+      },
+      "AL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Albania"
+      },
+      "AM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Armenia"
+      },
+      "AN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Antyle Holenderskie"
+      },
+      "AO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Angola"
+      },
+      "AQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Antarktyda"
+      },
+      "AR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Argentyna"
+      },
+      "AS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Samoa Amerykańskie"
+      },
+      "AT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Austria"
+      },
+      "AU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Australia"
+      },
+      "AW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Aruba"
+      },
+      "AX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Alandzkie"
+      },
+      "AZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Azerbejdżan"
+      },
+      "BA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bośnia i Hercegowina"
+      },
+      "BB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Barbados"
+      },
+      "BD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bangladesz"
+      },
+      "BE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Belgia"
+      },
+      "BF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Burkina Faso"
+      },
+      "BG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bułgaria"
+      },
+      "BH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bahrajn"
+      },
+      "BI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Burundi"
+      },
+      "BJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Benin"
+      },
+      "BL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint-Barthélemy"
+      },
+      "BM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bermudy"
+      },
+      "BN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brunei"
+      },
+      "BO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Boliwia"
+      },
+      "BR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brazylia"
+      },
+      "BS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bahamy"
+      },
+      "BT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bhutan"
+      },
+      "BV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspa Bouveta"
+      },
+      "BW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Botswana"
+      },
+      "BY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Białoruś"
+      },
+      "BZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Belize"
+      },
+      "CA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kanada"
+      },
+      "CC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Kokosowe"
+      },
+      "CD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Demokratyczna Republika Konga"
+      },
+      "CF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Republika Środkowoafrykańska"
+      },
+      "CG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kongo"
+      },
+      "CH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Szwajcaria"
+      },
+      "CI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wybrzeże Kości Słoniowej"
+      },
+      "CK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Cooka"
+      },
+      "CL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Chile"
+      },
+      "CM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kamerun"
+      },
+      "CN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Chiny"
+      },
+      "CO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kolumbia"
+      },
+      "CR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kostaryka"
+      },
+      "CU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kuba"
+      },
+      "CV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Republika Zielonego Przylądka"
+      },
+      "CX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspa Bożego Narodzenia"
+      },
+      "CY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Cypr"
+      },
+      "CZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Czechy"
+      },
+      "DE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Niemcy"
+      },
+      "DJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dżibuti"
+      },
+      "DK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dania"
+      },
+      "DM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dominika"
+      },
+      "DO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dominikana"
+      },
+      "DZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Algieria"
+      },
+      "EC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ekwador"
+      },
+      "EE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Estonia"
+      },
+      "EG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Egipt"
+      },
+      "EH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sahara Zachodnia"
+      },
+      "ER": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Erytrea"
+      },
+      "ES": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Hiszpania"
+      },
+      "ET": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Etiopia"
+      },
+      "FI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Finlandia"
+      },
+      "FJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Fidżi"
+      },
+      "FK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Falklandy (Malwiny)"
+      },
+      "FM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mikronezja"
+      },
+      "FO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Owcze"
+      },
+      "FR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Francja"
+      },
+      "GA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gabon"
+      },
+      "GB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wielka Brytania"
+      },
+      "GD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Grenada"
+      },
+      "GE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gruzja"
+      },
+      "GF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gujana Francuska"
+      },
+      "GG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guernsey"
+      },
+      "GH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ghana"
+      },
+      "GI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gibraltar"
+      },
+      "GL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Grenlandia"
+      },
+      "GM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gambia"
+      },
+      "GN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gwinea"
+      },
+      "GP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gwadelupa"
+      },
+      "GQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gwinea Równikowa"
+      },
+      "GR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Grecja"
+      },
+      "GS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Georgia Południowa i Sandwich Południowy"
+      },
+      "GT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gwatemala"
+      },
+      "GU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guam"
+      },
+      "GW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gwinea Bissau"
+      },
+      "GY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gujana"
+      },
+      "HK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Hongkong"
+      },
+      "HM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Heard i McDonalda"
+      },
+      "HN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Honduras"
+      },
+      "HR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Chorwacja"
+      },
+      "HT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Haiti"
+      },
+      "HU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Węgry"
+      },
+      "ID": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Indonezja"
+      },
+      "IE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Irlandia"
+      },
+      "IL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Izrael"
+      },
+      "IM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspa Man"
+      },
+      "IN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Indie"
+      },
+      "IO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brytyjskie Terytorium Oceanu Indyjskiego"
+      },
+      "IQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Irak"
+      },
+      "IR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Islamska Republika Iranu"
+      },
+      "IS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Islandia"
+      },
+      "IT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Włochy"
+      },
+      "JE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jersey"
+      },
+      "JM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jamajka"
+      },
+      "JO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jordania"
+      },
+      "JP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Japonia"
+      },
+      "KE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kenia"
+      },
+      "KG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kirgistan"
+      },
+      "KH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kambodża"
+      },
+      "KI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kiribati"
+      },
+      "KM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Komory"
+      },
+      "KN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint Kitts i Nevis"
+      },
+      "KR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Korea"
+      },
+      "KW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kuwejt"
+      },
+      "KY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kajmany"
+      },
+      "KZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kazachstan"
+      },
+      "LA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Laotańska Republika Ludowo-Demokratyczna"
+      },
+      "LB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Liban"
+      },
+      "LC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint Lucia"
+      },
+      "LI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Liechtenstein"
+      },
+      "LK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sri Lanka"
+      },
+      "LR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Liberia"
+      },
+      "LS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Lesotho"
+      },
+      "LT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Litwa"
+      },
+      "LU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Luksemburg"
+      },
+      "LV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Łotwa"
+      },
+      "LY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Libia"
+      },
+      "MA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Maroko"
+      },
+      "MC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Monako"
+      },
+      "MD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mołdawia"
+      },
+      "ME": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Czarnogóra"
+      },
+      "MF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sint Maarten"
+      },
+      "MG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Madagaskar"
+      },
+      "MH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Marshalla"
+      },
+      "MK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Macedonia"
+      },
+      "ML": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mali"
+      },
+      "MM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mjanma"
+      },
+      "MN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mongolia"
+      },
+      "MO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Makao"
+      },
+      "MP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mariany Północne"
+      },
+      "MQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Martynika"
+      },
+      "MR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mauretania"
+      },
+      "MS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Montserrat"
+      },
+      "MT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malta"
+      },
+      "MU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mauritius"
+      },
+      "MV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malediwy"
+      },
+      "MW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malawi"
+      },
+      "MX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Meksyk"
+      },
+      "MY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malezja"
+      },
+      "MZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mozambik"
+      },
+      "NA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Namibia"
+      },
+      "NC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nowa Kaledonia"
+      },
+      "NE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Niger"
+      },
+      "NF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspa Norfolk"
+      },
+      "NG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nigeria"
+      },
+      "NI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nikaragua"
+      },
+      "NL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Holandia"
+      },
+      "NO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Norwegia"
+      },
+      "NP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nepal"
+      },
+      "NR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nauru"
+      },
+      "NU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Niue"
+      },
+      "NZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nowa Zelandia"
+      },
+      "OM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oman"
+      },
+      "PA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Panama"
+      },
+      "PE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Peru"
+      },
+      "PF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Polinezja Francuska"
+      },
+      "PG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Papua-Nowa Gwinea"
+      },
+      "PH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Filipiny"
+      },
+      "PK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Pakistan"
+      },
+      "PL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Polska"
+      },
+      "PM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint-Pierre i Miquelon"
+      },
+      "PN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Pitcairn"
+      },
+      "PR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Portoryko"
+      },
+      "PS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Terytoria palestyńskie"
+      },
+      "PT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Portugalia"
+      },
+      "PW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Palau"
+      },
+      "PY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Paragwaj"
+      },
+      "QA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Katar"
+      },
+      "RE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Reunion"
+      },
+      "RO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Rumunia"
+      },
+      "RS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Serbia"
+      },
+      "RU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Rosja"
+      },
+      "RW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Rwanda"
+      },
+      "SA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Arabia Saudyjska"
+      },
+      "SB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Salomona"
+      },
+      "SC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Seszele"
+      },
+      "SD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sudan"
+      },
+      "SE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Szwecja"
+      },
+      "SG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Singapur"
+      },
+      "SH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspa Świętej Heleny"
+      },
+      "SI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Słowenia"
+      },
+      "SJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Svalbard i Jan Mayen"
+      },
+      "SK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Słowacja"
+      },
+      "SL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sierra Leone"
+      },
+      "SM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "San Marino"
+      },
+      "SN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Senegal"
+      },
+      "SO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Somalia"
+      },
+      "SR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Surinam"
+      },
+      "ST": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Świętego Tomasza i Książęca"
+      },
+      "SV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Salwador"
+      },
+      "SY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Syryjska Republika Arabska"
+      },
+      "SZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Eswatini"
+      },
+      "TC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Turks i Caicos"
+      },
+      "TD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Czad"
+      },
+      "TF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Francuskie Terytoria Południowe"
+      },
+      "TG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Togo"
+      },
+      "TH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tajlandia"
+      },
+      "TJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tadżykistan"
+      },
+      "TK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tokelau"
+      },
+      "TL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Timor Wschodni"
+      },
+      "TM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Turkmenistan"
+      },
+      "TN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tunezja"
+      },
+      "TO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tonga"
+      },
+      "TR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Turcja"
+      },
+      "TT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Trynidad i Tobago"
+      },
+      "TV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tuvalu"
+      },
+      "TW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tajwan"
+      },
+      "TZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tanzania"
+      },
+      "UA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ukraina"
+      },
+      "UG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Uganda"
+      },
+      "UM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dalekie Wyspy Stanów Zjednoczonych"
+      },
+      "US": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Stany Zjednoczone"
+      },
+      "UY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Urugwaj"
+      },
+      "UZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Uzbekistan"
+      },
+      "VA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Watykan"
+      },
+      "VC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint Vincent i Grenadyny"
+      },
+      "VE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wenezuela"
+      },
+      "VG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brytyjskie Wyspy Dziewicze"
+      },
+      "VI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wyspy Dziewicze Stanów Zjednoczonych"
+      },
+      "VN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wietnam"
+      },
+      "VU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Vanuatu"
+      },
+      "WF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wallis i Futuna"
+      },
+      "WS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Samoa"
+      },
+      "YE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jemen"
+      },
+      "YT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Majotta"
+      },
+      "ZA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Republika Południowej Afryki"
+      },
+      "ZM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zambia"
+      },
+      "ZW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zimbabwe"
+      }
+    },
+    "delete-account": {
+      "above_button": {
+        "comment": "No need to translate the link.",
+        "value": "Dotyczy to wszystkich kont <b>ASICS</b>, włącznie z ASICS Runkeeper, ASICS Studio, My ASICS i ASICS.com. Aby usunąć określone dane, przejdź do naszego <a target='_blank' href='https://www.asics.com/privacy'>centrum prywatności</a>."
+      },
+      "below_button": {
+        "comment": "",
+        "value": "Jesteś tu przez przypadek? <a href='http://www.asics.com'>Przejdź do ASICS.com</a>"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "Usuń konto"
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "Poniższy użytkownik i związane z nim dane zostaną usunięte z naszych serwerów:"
+      },
+      "title": {
+        "comment": "",
+        "value": "Usuń konto użytkownika"
+      }
+    },
+    "footer": {
+      "cookie_policy": {
+        "comment": "",
+        "value": "Zasady dotyczące plików cookie"
+      },
+      "cookie_settings": {
+        "comment": "",
+        "value": "Ustawienia dotyczące plików cookie"
+      },
+      "exit": {
+        "comment": "",
+        "value": "Wyjdź"
+      },
+      "language_change": {
+        "comment": "",
+        "value": "Zmień"
+      },
+      "privacy_policy": {
+        "comment": "",
+        "value": "Polityka prywatności"
+      },
+      "terms_of_service": {
+        "comment": "",
+        "value": "Regulamin"
+      }
+    },
+    "forgot-password": {
+      "email_field": {
+        "comment": "",
+        "value": "E-mail"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Nieprawidłowy adres e-mail"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Nie znaleziono użytkownika"
+      },
+      "forgot_password_button": {
+        "comment": "",
+        "value": "Wyślij link resetujący"
+      },
+      "success": {
+        "comment": "",
+        "value": "Ukończono"
+      },
+      "title": {
+        "comment": "",
+        "value": "Nie pamiętasz hasła?"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Wprowadź poniżej adres e-mail powiązany z Twoim kontem. Otrzymasz link do zresetowania hasła."
+      }
+    },
+    "format_date": {
+      "comment": "Please format this date to match the localized standard (using '.', '/', '-', etc.). Keep the letters M, D, and Y as identifiers for month, day, and year.",
+      "value": "dd.mm.yyyy"
+    },
+    "gender_options": {
+      "male": {
+        "comment": "This is a gender option.",
+        "value": "Mężczyźni"
+      },
+      "female": {
+        "comment": "This is a gender option.",
+        "value": "Kobiety"
+      },
+      "other": {
+        "comment": "This is a gender option.",
+        "value": "Inne"
+      }
+    },
+    "lander": {
+      "already_have": {
+        "comment": "",
+        "value": "Masz już konto ASICS?"
+      },
+      "alt_brand_family": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Logo wszystkich marek Asics: Asics Tiger, Onitsuka Tiger, Häglofs, Runkeeper oraz Asics Studio"
+      },
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Zarejestruj się przez Facebooka"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Zarejestruj się przez Google"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Zarejestruj się"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Zarejestruj się"
+      },
+      "haglofs": {
+        "leftback": {
+          "comment": "",
+          "value": "białe ośnieżone góry"
+        }
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Zaloguj się"
+      },
+      "signup_email_button": {
+        "comment": "",
+        "value": "Zarejestruj się przez e-mail"
+      },
+      "title": {
+        "comment": "",
+        "value": "Jedno konto."
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Jeden prosty sposób korzystania ze wszystkich usług ASICS."
+      }
+    },
+    "left_panel": {
+      "asics_studio_header": {
+        "comment": "",
+        "value": "Jeszcze jedna rzecz, zanim ruszymy się z miejsca"
+      }
+    },
+    "logged-in": {
+      "leadin_text": {
+        "comment": "",
+        "value": "Rejestracja przebiegła pomyślnie."
+      },
+      "welcome_back": {
+        "comment": "",
+        "value": "Witaj z powrotem "
+      }
+    },
+    "login": {
+      "alt_facebook": {
+        "comment": "",
+        "value": "Zaloguj się przez Facebooka"
+      },
+      "alt_google": {
+        "comment": "",
+        "value": "Zaloguj się przez Google"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Zaloguj się"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Zaloguj się"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "E-mail"
+      },
+      "error_account_locked": {
+        "comment": "",
+        "value": "Konto zablokowane"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "Wygląda na to, że już masz konto. Sprawdź pocztę e-mail, aby uzyskać link do zresetowania hasła."
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Nieprawidłowy adres e-mail"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Błędny adres e-mail lub hasło"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "Gdy się zalogujesz, przekierujemy Cię do pierwotnego żądania."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Nie znaleziono użytkownika"
+      },
+      "error_wrong_account_type_fb": {
+        "comment": "",
+        "value": "Konto zostało utworzone przez Facebooka. Zaloguj się przez Facebooka."
+      },
+      "error_wrong_account_type_google": {
+        "comment": "",
+        "value": "Konto zostało utworzone przez Google. Zaloguj się przez Google."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Nie pamiętasz hasła?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "login_button": {
+        "comment": "",
+        "value": "Zaloguj się"
+      },
+      "need_account": {
+        "comment": "",
+        "value": "Potrzebujesz konta?"
+      },
+      "or": {
+        "comment": "",
+        "value": "Lub"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Hasło"
+      },
+      "remember_me_checkbox": {
+        "comment": "",
+        "value": "Pamiętaj mnie"
+      },
+      "sign_up": {
+        "comment": "",
+        "value": "Zarejestruj się"
+      },
+      "title": {
+        "comment": "",
+        "value": "Zaloguj się"
+      },
+      "runkeeper": {
+        "top_details": {
+          "comment": "",
+          "value": "Zaloguj się do konta OneASICS, aby zacząć korzystać z aplikacji Runkeeper."
+        }
+      }
+    },
+    "modal_cookie_policy": {
+      "close_button": {
+        "comment": "",
+        "value": "Zamknij"
+      },
+      "title": {
+        "comment": "",
+        "value": "Zasady dotyczące plików cookie"
+      }
+    },
+    "modal_delete_confirm": {
+      "close_button": {
+        "comment": "",
+        "value": "Anuluj"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "Usuń konto"
+      },
+      "delete_confirm_final": {
+        "comment": "",
+        "value": "Wszystkie dane z tych kont zostaną usunięte."
+      },
+      "delete_confirm_leadin": {
+        "comment": "",
+        "value": "Utracisz dostęp do następujących usług:"
+      },
+      "delete_confirm_services": {
+        "comment": "No need to translate this, brand stays the same",
+        "value": "<ul><li>ASICS</li><li>ASICS Tiger</li><li>Onitsuka Tiger</li><li>OneASICS</li><li>ASICS Runkeeper</li><li>Pace Your Race</li><li>Frontrunners</li></ul>"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "success": {
+        "comment": "",
+        "value": "Twoje konto zostało usunięte. Nastąpi przekierowanie."
+      },
+      "title": {
+        "comment": "",
+        "value": "Potwierdź usunięcie konta"
+      }
+    },
+    "profile": {
+      "already_have": {
+        "comment": "",
+        "value": "Masz już konto ASICS?"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Wybierz"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Kraj zamieszkania"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Data urodzenia"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Sprawdź, czy została podana prawidłowa data urodzenia."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Nie możesz dokonać rejestracji w OneASICS."
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Błędna data"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Pole obowiązkowe"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Imię"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Wybierz płeć"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Dostosuj sprzęt i usługi dla:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Nazwisko"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Chcę otrzymywać biuletyny i informacje na temat produktów, usług i wydarzeń w wiadomościach e-mail dopasowanych do moich zainteresowań i preferencji zgodnie z polityką prywatności."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "Dalej"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Zapis fonetyczny imienia"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Zapis fonetyczny nazwiska"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "Dostosuj trening do:"
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "Zapisz"
+      },
+      "success": {
+        "comment": "",
+        "value": "Profil został zaktualizowany."
+      },
+      "title": {
+        "comment": "",
+        "value": "Edytuj profil"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Wprowadź swoje informacje, aby pomóc nam dostosować sprzęt i usługi do Twoich preferencji."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Tworząc konto ASICS, potwierdzam, że znam i rozumiem obowiązującą <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>politykę prywatności</a> i akceptuję <a href='terms' class='dynamic_link_terms' target='_blank'>regulamin</a> ASICS."
+      }
+    },
+    "register": {
+      "already_have": {
+        "comment": "",
+        "value": "Masz już konto ASICS?"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Zarejestruj się"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Zarejestruj się"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Wybierz"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Kraj zamieszkania"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Data urodzenia"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "E-mail"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "Wygląda na to, że już masz konto. Sprawdź pocztę e-mail, aby uzyskać link do zresetowania hasła."
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Sprawdź, czy została podana prawidłowa data urodzenia."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Nie możesz dokonać rejestracji w OneASICS."
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "Wygląda na to, że już masz konto. <a href='index.html#login' data-show='login'>Zaloguj się</a>."
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Błędna data"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Nieprawidłowy adres e-mail"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "Gdy utworzysz konto, przekierujemy Cię do pierwotnego żądania."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Pole obowiązkowe"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "finish_button": {
+        "comment": "",
+        "value": "Zakończ"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Imię"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Wybierz płeć"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Dostosuj sprzęt i usługi dla:"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Nazwisko"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Zaloguj się"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Chcę otrzymywać biuletyny i informacje na temat produktów, usług i wydarzeń w wiadomościach e-mail dopasowanych do moich zainteresowań i preferencji zgodnie z polityką prywatności."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "Dalej"
+      },
+      "or": {
+        "comment": "",
+        "value": "Lub"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Hasło"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Zapis fonetyczny imienia"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Zapis fonetyczny nazwiska"
+      },
+      "runkeeper": {
+        "finish_button": {
+          "comment": "",
+          "value": "Utwórz konto"
+        },
+        "gender_field_above": {
+          "comment": "",
+          "value": "Dostosuj trening do:"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Utwórz konto OneASICS, aby zarejestrować się w aplikacji Runkeeper"
+        }
+      },
+      "success": {
+        "comment": "",
+        "value": "Ukończono. Utworzono konto i zalogowano."
+      },
+      "title": {
+        "comment": "",
+        "value": "Utwórz konto"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Wprowadź swoje informacje, aby pomóc nam dostosować sprzęt i usługi do Twoich preferencji."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Tworząc konto ASICS, potwierdzam, że znam i rozumiem obowiązującą <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>politykę prywatności</a> i akceptuję <a href='terms' class='dynamic_link_terms' target='_blank'>regulamin</a> ASICS."
+      }
+    },
+    "register-confirm": {
+      "leadin_text": {
+        "comment": "",
+        "value": "Dziękujemy za potwierdzenie adresu e-mail."
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Zaloguj się"
+      }
+    },
+    "reset-password": {
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Błąd serwera — spróbuj ponownie"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Hasło musi mieć co najmniej 8 znaków."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Hasło"
+      },
+      "reset_password_button": {
+        "comment": "",
+        "value": "Ustaw hasło"
+      },
+      "success": {
+        "comment": "",
+        "value": "Ukończono"
+      },
+      "title": {
+        "comment": "",
+        "value": "Zresetuj hasło"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Ustaw nowe hasło poniżej."
+      }
+    },
+    "signed-up": {
+      "leadin_text": {
+        "comment": "",
+        "value": "Jesteś teraz zalogowany(a) do nowego konta OneASICS."
+      },
+      "thanks_for_signing_up": {
+        "comment": "",
+        "value": "Dziękujemy za rejestrację "
+      }
+    }
+  }
+}

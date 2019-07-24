@@ -1,0 +1,93 @@
+/* CONFIGURABLE */
+a {color: #001e63; text-decoration: underline}
+a:hover {color: #001e63; text-decoration: underline}
+aside {background: #001e63}
+aside .leftback {background: url(../images/raceroster_25/raceroster_25-bg_1.jpg) no-repeat center 90% transparent; background-size: cover}
+aside .leftfront {font-weight: 500; color: #001e63}
+	aside .leftfront .subtitle {text-transform: uppercase; font-size: 2em; font-weight: 700; padding-top: 1.5em; line-height: 1.25em;}
+	aside .leftfront .description {padding-top: 1em; padding-bottom: 2em; font-size: 0.8em;}
+	aside .leftfront .disclaimer {font-size: 0.7em; position: fixed;font-weight: 300; padding-bottom: 15px; bottom: 0; left: 50%; margin-left: -50%; width: 40%; padding-left: 5%; padding-right: 5%; line-height: 120%;}
+main {background: #ffffff}
+.toplogo {width: 40%; padding-top: 80px;}
+.toplogo figure {background-image: url(../images/default-top_logo_blue.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */}
+main #main_inside section {color: #001e63}
+main #main_inside section .brand_family {width: 100%; padding-top: 0; padding-bottom: 0;}
+main #main_inside section .brand_family img {background-image: url(../images/raceroster_25/raceroster_25-brand_family_blue.svg); padding-top: 10%;}
+main #main_inside section .app_logo {width: 25%}
+main #main_inside section .app_logo figure {background-image: url(../images/default-app_logo_blue.svg); padding-top: 100%}
+main #main_inside section .bottom_cta {font-weight: normal}
+
+.input_outer_container .input_container .inputText {color: #001e63;}
+.input_outer_container .input_container .required_mark {color: #001e63;}
+.input_outer_container .input_container select:focus {border-color: #00c3e6;}
+.input_outer_container:not(.invalid).focus .floating-label {color: #02c3e6}
+.input_outer_container .floating-label {color: #001e63}
+.input_outer_container:not(.invalid) .input_underline {background: #4a4a4a;}
+.input_outer_container:not(.invalid).focus .input_underline {background: #02c3e6;}
+.input_outer_container .subtext_box {color: #001e63;}
+
+.checkbox_box input[type=checkbox]:checked+label:before {background-color: #001e63; border-color: #001e63;}
+.checkbox_box label:before {border: 1px solid #001e63;}
+
+.modal {color: #001e63}
+.modal-header .modal-close:hover {fill: #001e63;}
+
+button, input[type=submit], .action_div {background: #02C3E6; color: #001e63;}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #57ddf5;}
+button.white {border: 1px solid #001e63}
+	button.white:hover {background: #d8d8d8}
+button.gray {background: #d0d0d0; color: #ffffff}
+	button.gray:hover {background: #d8d8d8}
+
+@keyframes colorTint{
+	0% {background: #02c3e6;}
+	100% {background: #d8d8d8;}
+}
+
+@media screen and (max-width: 800px) {
+	.toplogo {padding-top: 24px; padding-bottom: 24px; width: 40%;}
+	.toplogo figure {background-image: url(../images/default-top_logo_white.svg)}
+}
+
+/* one asics marketing */
+.responsive_hide.oneasics_content {width: 75%; margin: auto}
+	/*.onasics_desktop_box {display: block !important;}*/
+.whatis_grid {display: table; max-width: 85%; margin: auto;}
+.whatis_grid .row {display: table-row}
+.whatis_grid .row .col {padding: .8em; padding-right: 0px; padding-left: 0px; display: table-cell; vertical-align: middle; text-align: left;}
+.whatis_grid .row .col .icon_box {width: auto; height: 20px; height: 3.5vw; min-height: 40px; max-width: 100%; max-height: 100%;}
+.whatis_grid .row .col:first-child {width: 20%; padding: 0px; text-align: center}
+	.whatis_grid .row .whatis_star {background: url(../images/raceroster_25/raceroster_25-whatis_star.svg) no-repeat center center transparent; background-size: 60% 60%}
+	.whatis_grid .row .whatis_box {background: url(../images/raceroster_25/raceroster_25-whatis_box.svg) no-repeat center center transparent; background-size: 65% 65%}
+	.whatis_grid .row .whatis_mobile {background: url(../images/raceroster_25/raceroster_25-whatis_mobile.svg) no-repeat center center transparent; background-size: 65% 65%}
+	.whatis_grid .row .whatis_shoe {background: url(../images/raceroster_25/raceroster_25-whatis_shoe.svg) no-repeat center center transparent; background-size: 50% 50%}
+.carousel_box {width: 800px; overflow: hidden; margin: auto; padding: 1em 0px 1em 0px; padding-bottom: 0px; max-width: 100%; max-width: calc(100vw - 40px)}
+.oneasics_carousel {width: 80%; margin: auto; text-align: center;}
+.oneasics_carousel .row {text-align: center}
+.oneasics_carousel .col {text-align: center; margin: auto; padding-top: 1em; padding-bottom: 1em}
+.slick-prev, .slick-next {top: 40%; width: 30px; height: 50px}
+.slick-prev {left: -35px}
+.slick-next {right: -35px}
+.slick-prev:before, .slick-next:before {color: #001e63; font-size: 50px; font-family: "Font Awesome 5 Free"; font-weight: 700}
+.slick-next:before {content: "\f105";}
+.slick-prev:before {content: "\f104";}
+.slick-dots li.slick-active button:before {color: #001e63}
+.slick-dots li button:before {font-size: 15px; color: #001e63}
+.oneasics_carousel button {box-shadow: none;}
+
+@media screen and (max-width: 800px) {
+	.responsive_show.oneasics_content {background: #ffffff}
+		.oneasics_carousel {display: none}
+		main #main_inside section .top_details {display: none}
+		main #main_inside section .bottom_details {display: none}
+		aside .leftfront .subtitle {line-height: 140%; padding-top: 10px; width: 80%; margin: auto;}
+		aside .leftfront .disclaimer {bottom: 0;left: 0; padding-top: 20px;width: 60%; position: relative; margin-left: 0; padding-left: 20%; padding-right: 20%; padding-bottom: 0;}
+		aside .leftfront .description {padding-top: 0; padding-bottom: 0;}
+		#lander {margin-top: -20px}
+		#lander .title, #lander .title + .top_details, #lander .brand_family {display: none}
+}
+
+/* END CONFIGURABLE */
+
+/* unhide after css overrides applied */
+#loading_overlay {display: none !important;} 

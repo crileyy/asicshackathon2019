@@ -1,0 +1,2586 @@
+{
+  "ko-kr": {
+    "change-email": {
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "change_email_button": {
+        "comment": "",
+        "value": "이메일 변경"
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "계정에 이미 등록되어 있는 이메일 주소입니다."
+      },
+      "email_field": {
+        "comment": "",
+        "value": "새 이메일"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "잘못된 이메일"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "이메일 또는 비밀번호가 잘못됨"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "잘못된 이메일"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_password_required": {
+        "comment": "",
+        "value": "비밀번호를 입력하세요."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "사용자를 찾을 수 없음"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Facebook 또는 Google 계정으로 등록했기 때문에 이메일과 비밀번호를 변경할 수 없습니다."
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "비밀번호"
+      },
+      "title": {
+        "comment": "",
+        "value": "계정 이메일 업데이트"
+      }
+    },
+    "change-email-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "이메일 주소 업데이트됨"
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "잘못된 토큰"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "새로운 이메일 주소로 업데이트했습니다."
+      },
+      "leadin_text2": {
+        "comment": "",
+        "value": "이제부터 새로운 이메일 주소로 로그인하시기 바랍니다."
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "본인은 ASICS 계정을 생성함으로써 해당 <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>개인정보 보호정책</a>을 읽고 이해했음을 확인합니다."
+      }
+    },
+    "change-email-done": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "확인 필요"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "다음 주소로 확인 이메일이 전송됨 "
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      }
+    },
+    "change-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "change_password_button": {
+        "comment": "",
+        "value": "비밀번호 변경"
+      },
+      "current_password_field": {
+        "comment": "",
+        "value": "현재 비밀번호"
+      },
+      "error_invalid_current_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "현재 비밀번호가 잘못됨"
+      },
+      "error_invalid_new_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_matching_passwords": {
+        "comment": "",
+        "value": "다른 비밀번호를 사용해야 합니다."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Facebook 또는 Google 계정으로 등록했기 때문에 이메일과 비밀번호를 변경할 수 없습니다."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "비밀번호를 잊으셨나요?"
+      },
+      "helptext_current_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "helptext_new_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "계정이 필요하신가요?"
+      },
+      "new_password_field": {
+        "comment": "",
+        "value": "새 비밀번호"
+      },
+      "success": {
+        "comment": "",
+        "value": "완료됨"
+      },
+      "title": {
+        "comment": "",
+        "value": "비밀번호 변경"
+      }
+    },
+    "connect-facebook": {
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "connect_facebook_button": {
+        "comment": "",
+        "value": "Facebook에 연결"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "이메일 또는 비밀번호가 잘못됨"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "비밀번호를 잊으셨나요?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "비밀번호"
+      },
+      "title": {
+        "comment": "",
+        "value": "Facebook에 계정 연결"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "비밀번호를 사용하여 등록된 이메일입니다. 계정을 Facebook과 연결하려면 비밀번호를 확인하세요."
+      }
+    },
+    "connect-google": {
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "connect_google_button": {
+        "comment": "",
+        "value": "Google에 연결"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "이메일 또는 비밀번호가 잘못됨"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "비밀번호를 잊으셨나요?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "비밀번호"
+      },
+      "title": {
+        "comment": "",
+        "value": "Google에 계정 연결"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "비밀번호를 사용하여 등록된 이메일입니다. 계정을 Google과 연결하려면 비밀번호를 확인하세요."
+      }
+    },
+    "continue": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "continue_button": {
+        "comment": "",
+        "value": "계속"
+      },
+      "disclaimer_text": {
+        "comment": "",
+        "value": "본인은 아래를 클릭함으로써 해당 <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>개인정보 보호정책</a>을 읽고 이해했으며 ASICS <a href='terms' class='dynamic_link_terms' target='_blank'>이용 약관</a>에 동의함을 확인합니다."
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "ASICS에서 다음의 OneASICS 계정 정보에 액세스하려고 합니다."
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "or": {
+        "comment": "",
+        "value": "또는"
+      },
+      "register_cta": {
+        "comment": "",
+        "value": "새 OneASICS 계정 만들기"
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      }
+    },
+    "country_options": {
+      "AD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "안도라"
+      },
+      "AE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아랍에미리트"
+      },
+      "AF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아프가니스탄"
+      },
+      "AG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "안티가바부다"
+      },
+      "AI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "앵귈라"
+      },
+      "AL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "알바니아"
+      },
+      "AM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아르메니아"
+      },
+      "AN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "네덜란드령 안틸레스"
+      },
+      "AO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "앙골라"
+      },
+      "AQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "남극"
+      },
+      "AR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아르헨티나"
+      },
+      "AS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아메리칸사모아"
+      },
+      "AT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "오스트리아"
+      },
+      "AU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "오스트레일리아"
+      },
+      "AW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아루바"
+      },
+      "AX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "올란드 제도"
+      },
+      "AZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아제르바이잔"
+      },
+      "BA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "보스니아 헤르체고비나"
+      },
+      "BB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "바베이도스"
+      },
+      "BD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "방글라데시"
+      },
+      "BE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "벨기에"
+      },
+      "BF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "부르키나파소"
+      },
+      "BG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "불가리아"
+      },
+      "BH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "바레인"
+      },
+      "BI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "부룬디"
+      },
+      "BJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "베냉"
+      },
+      "BL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "생바르텔레미"
+      },
+      "BM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "버뮤다"
+      },
+      "BN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "브루나이"
+      },
+      "BO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "볼리비아"
+      },
+      "BR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "브라질"
+      },
+      "BS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "바하마"
+      },
+      "BT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "부탄"
+      },
+      "BV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "부베섬"
+      },
+      "BW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "보츠와나"
+      },
+      "BY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "벨라루스"
+      },
+      "BZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "벨리즈"
+      },
+      "CA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "캐나다"
+      },
+      "CC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "코코스(킬링) 제도"
+      },
+      "CD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "콩고 민주 공화국"
+      },
+      "CF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "중앙아프리카 공화국"
+      },
+      "CG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "콩고"
+      },
+      "CH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "스위스"
+      },
+      "CI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "코트디부아르"
+      },
+      "CK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "쿡 제도"
+      },
+      "CL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "칠레"
+      },
+      "CM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "카메룬"
+      },
+      "CN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "중국"
+      },
+      "CO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "콜롬비아"
+      },
+      "CR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "코스타리카"
+      },
+      "CU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "쿠바"
+      },
+      "CV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "카보베르데"
+      },
+      "CX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "크리스마스섬"
+      },
+      "CY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "키프로스"
+      },
+      "CZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "체코"
+      },
+      "DE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "독일"
+      },
+      "DJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "지부티"
+      },
+      "DK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "덴마크"
+      },
+      "DM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "도미니카"
+      },
+      "DO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "도미니카 공화국"
+      },
+      "DZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "알제리"
+      },
+      "EC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "에콰도르"
+      },
+      "EE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "에스토니아"
+      },
+      "EG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "이집트"
+      },
+      "EH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "서사하라"
+      },
+      "ER": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "에리트레아"
+      },
+      "ES": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "스페인"
+      },
+      "ET": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "에티오피아"
+      },
+      "FI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "핀란드"
+      },
+      "FJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "피지"
+      },
+      "FK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "포클랜드(말비나스) 제도"
+      },
+      "FM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "미크로네시아연방"
+      },
+      "FO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "페로 제도"
+      },
+      "FR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "프랑스"
+      },
+      "GA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "가봉"
+      },
+      "GB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "영국"
+      },
+      "GD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "그레나다"
+      },
+      "GE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "조지아"
+      },
+      "GF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "프랑스령 기아나"
+      },
+      "GG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "건지"
+      },
+      "GH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "가나"
+      },
+      "GI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "지브롤터"
+      },
+      "GL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "그린랜드"
+      },
+      "GM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "감비아"
+      },
+      "GN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "기니"
+      },
+      "GP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "과들루프"
+      },
+      "GQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "적도 기니"
+      },
+      "GR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "그리스"
+      },
+      "GS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "사우스 조지아 사우스샌드위치 제도"
+      },
+      "GT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "과테말라"
+      },
+      "GU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "괌"
+      },
+      "GW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "기니비사우"
+      },
+      "GY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "가이아나"
+      },
+      "HK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "홍콩"
+      },
+      "HM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "허드 맥도널드 제도"
+      },
+      "HN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "온두라스"
+      },
+      "HR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "크로아티아"
+      },
+      "HT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아이티"
+      },
+      "HU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "헝가리"
+      },
+      "ID": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "인도네시아"
+      },
+      "IE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아일랜드"
+      },
+      "IL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "이스라엘"
+      },
+      "IM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "맨섬"
+      },
+      "IN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "인도"
+      },
+      "IO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "영국령 인도양 지역"
+      },
+      "IQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "이라크"
+      },
+      "IR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "이란"
+      },
+      "IS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "아이슬란드"
+      },
+      "IT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "이탈리아"
+      },
+      "JE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "저지"
+      },
+      "JM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "자메이카"
+      },
+      "JO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "요르단"
+      },
+      "JP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "일본"
+      },
+      "KE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "케냐"
+      },
+      "KG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "키르기스스탄"
+      },
+      "KH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "캄보디아"
+      },
+      "KI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "키리바시"
+      },
+      "KM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "코모로"
+      },
+      "KN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세인트키츠네비스"
+      },
+      "KR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "대한민국"
+      },
+      "KW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "쿠웨이트"
+      },
+      "KY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "케이맨 제도"
+      },
+      "KZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "카자흐스탄"
+      },
+      "LA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "라오스"
+      },
+      "LB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "레바논"
+      },
+      "LC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세인트 루시아"
+      },
+      "LI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "리히텐슈타인"
+      },
+      "LK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "스리랑카"
+      },
+      "LR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "라이베리아"
+      },
+      "LS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "레소토"
+      },
+      "LT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "리투아니아"
+      },
+      "LU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "룩셈부르크"
+      },
+      "LV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "라트비아"
+      },
+      "LY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "리비아"
+      },
+      "MA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "모로코"
+      },
+      "MC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "모나코"
+      },
+      "MD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "몰도바"
+      },
+      "ME": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "몬테네그로"
+      },
+      "MF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세인트마틴"
+      },
+      "MG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "마다가스카르"
+      },
+      "MH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "마셜 제도"
+      },
+      "MK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "마케도니아"
+      },
+      "ML": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "말리"
+      },
+      "MM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "미얀마"
+      },
+      "MN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "몽골"
+      },
+      "MO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "마카오"
+      },
+      "MP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "북마리아나 제도"
+      },
+      "MQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "마르티니크"
+      },
+      "MR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "모리타니"
+      },
+      "MS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "몬세라트"
+      },
+      "MT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "몰타"
+      },
+      "MU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "모리셔스"
+      },
+      "MV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "몰디브"
+      },
+      "MW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "말라위"
+      },
+      "MX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "멕시코"
+      },
+      "MY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "말레이시아"
+      },
+      "MZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "모잠비크"
+      },
+      "NA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "나미비아"
+      },
+      "NC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "뉴칼레도니아"
+      },
+      "NE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "니제르"
+      },
+      "NF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "노퍽섬"
+      },
+      "NG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "나이지리아"
+      },
+      "NI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "니카라과"
+      },
+      "NL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "네덜란드"
+      },
+      "NO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "노르웨이"
+      },
+      "NP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "네팔"
+      },
+      "NR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "나우루"
+      },
+      "NU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "니우에"
+      },
+      "NZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "뉴질랜드"
+      },
+      "OM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "오만"
+      },
+      "PA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "파나마"
+      },
+      "PE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "페루"
+      },
+      "PF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "프랑스령 폴리네시아"
+      },
+      "PG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "파푸아뉴기니"
+      },
+      "PH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "필리핀"
+      },
+      "PK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "파키스탄"
+      },
+      "PL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "폴란드"
+      },
+      "PM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "생피에르미클롱"
+      },
+      "PN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "핏케언"
+      },
+      "PR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "푸에르토리코"
+      },
+      "PS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "팔레스타인 영토"
+      },
+      "PT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "포르투갈"
+      },
+      "PW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "팔라우"
+      },
+      "PY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "파라과이"
+      },
+      "QA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "카타르"
+      },
+      "RE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "레위니옹"
+      },
+      "RO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "루마니아"
+      },
+      "RS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세르비아"
+      },
+      "RU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "러시아"
+      },
+      "RW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "르완다"
+      },
+      "SA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "사우디아라비아"
+      },
+      "SB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "솔로몬제도"
+      },
+      "SC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세이셸"
+      },
+      "SD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "수단"
+      },
+      "SE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "스웨덴"
+      },
+      "SG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "싱가포르"
+      },
+      "SH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세인트 헬레나"
+      },
+      "SI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "슬로베니아"
+      },
+      "SJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "스발바르 얀마옌 제도"
+      },
+      "SK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "슬로바키아"
+      },
+      "SL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "시에라리온"
+      },
+      "SM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "산마리노"
+      },
+      "SN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세네갈"
+      },
+      "SO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "소말리아"
+      },
+      "SR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "수리남"
+      },
+      "ST": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "상투메프린시페"
+      },
+      "SV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "엘살바도르"
+      },
+      "SY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "시리아"
+      },
+      "SZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "스와질란드"
+      },
+      "TC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "터크스 케이커스 제도"
+      },
+      "TD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "차드"
+      },
+      "TF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "프랑스령 남방 및 남극"
+      },
+      "TG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "토고"
+      },
+      "TH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "태국"
+      },
+      "TJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "타지키스탄"
+      },
+      "TK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "토켈라우"
+      },
+      "TL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "동티모르"
+      },
+      "TM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "투르크메니스탄"
+      },
+      "TN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "튀니지"
+      },
+      "TO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "통가"
+      },
+      "TR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "터키"
+      },
+      "TT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "트리니다드 토바고"
+      },
+      "TV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "투발루"
+      },
+      "TW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "대만"
+      },
+      "TZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "탄자니아"
+      },
+      "UA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "우크라이나"
+      },
+      "UG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "우간다"
+      },
+      "UM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "미국령 군소 제도"
+      },
+      "US": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "미국"
+      },
+      "UY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "우루과이"
+      },
+      "UZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "우즈베키스탄"
+      },
+      "VA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "바티칸 시국"
+      },
+      "VC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "세인트빈센트그레나딘"
+      },
+      "VE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "베네수엘라"
+      },
+      "VG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "영국령 버진아일랜드"
+      },
+      "VI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "미국령 버진아일랜드"
+      },
+      "VN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "베트남"
+      },
+      "VU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "바누아투"
+      },
+      "WF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "왈리스 퓌튀나"
+      },
+      "WS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "사모아"
+      },
+      "YE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "예멘"
+      },
+      "YT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "마요트"
+      },
+      "ZA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "남아프리카 공화국"
+      },
+      "ZM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "잠비아"
+      },
+      "ZW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "짐바브웨"
+      }
+    },
+    "delete": {
+      "above_button": {
+        "comment": "No need to translate the link.",
+        "value": "ASICS Runkeeper, ASICS Studio 및 ASICS.com을 포함한 <b>모든 ASICS</b> 계정에 적용됩니다. 특정 데이터를 삭제하려면 ASICS의 <a target='_blank' href='https://www.asics.com/privacy'>개인정보 보호 허브</a>를 방문하세요."
+      },
+      "below_button": {
+        "comment": "",
+        "value": "잘못 오셨나요? <a href='http://www.asics.com'>ASICS.com으로 이동</a>"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "모든 데이터 삭제"
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "다음 사용자 및 관련 데이터가 ASICS 서버에서 삭제됩니다."
+      },
+      "title": {
+        "comment": "",
+        "value": "사용자 계정 삭제"
+      }
+    },
+    "footer": {
+      "cookie_policy": {
+        "comment": "",
+        "value": "쿠키 정책"
+      },
+      "cookie_settings": {
+        "comment": "",
+        "value": "쿠키 설정"
+      },
+      "exit": {
+        "comment": "",
+        "value": "나가기"
+      },
+      "language_change": {
+        "comment": "",
+        "value": "변경"
+      },
+      "privacy_policy": {
+        "comment": "",
+        "value": "개인정보 보호정책"
+      },
+      "terms_of_service": {
+        "comment": "",
+        "value": "서비스 약관"
+      },
+      "aeg_outlet_instore": {
+        "terms-and-conditions": {
+          "comment": "",
+          "value": "이용 약관이 적용됩니다. 자세한 사항은 <a href='https://outlet.asics.com/gb/en-gb/customer-service/faq-outlet-oneasics/faq-outlet-oneasics.html' target='_blank'>여기를 확인</a>하세요."
+        }
+      }
+    },
+    "forgot-password": {
+      "email_field": {
+        "comment": "",
+        "value": "이메일"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "잘못된 이메일"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "사용자를 찾을 수 없음"
+      },
+      "forgot_password_button": {
+        "comment": "",
+        "value": "재설정 링크 보내기"
+      },
+      "success": {
+        "comment": "",
+        "value": "완료했습니다. 이 링크는 임시적으로만 유효하며 24시간 후 만료됩니다."
+      },
+      "title": {
+        "comment": "",
+        "value": "비밀번호를 잊으셨나요?"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "아래에서 계정에 연결된 이메일 주소를 입력하세요. 비밀번호 재설정 링크가 전송됩니다."
+      }
+    },
+    "newsletter-opt-in": {
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "success": {
+        "comment": "",
+        "value": "완료됨"
+      },
+      "title": {
+        "comment": "",
+        "value": "뉴스레터 받아 보기"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "개인정보 보호정책에 명시된 바와 같이 관심사와 기본 설정에 맞는 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+      },
+      "newsletter_opt_in_button": {
+        "comment": "",
+        "value": "업데이트"
+      }
+    },
+    "format_date": {
+      "comment": "Please format this date to match the localized standard (using '.', '/', '-', etc.). Keep the letters M, D, and Y as identifiers for month, day, and year.",
+      "value": "YYYY-MM-DD"
+    },
+    "gender_options": {
+      "male": {
+        "comment": "This is a gender option.",
+        "value": "남성"
+      },
+      "female": {
+        "comment": "This is a gender option.",
+        "value": "여성"
+      },
+      "other": {
+        "comment": "This is a gender option.",
+        "value": "기타"
+      }
+    },
+    "lander": {
+      "already_have": {
+        "comment": "",
+        "value": "이미 OneASICS 계정이 있으신가요?"
+      },
+      "alt_brand_family": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "모든 ASICS 패밀리 브랜드의 로고: ASICS Tiger, Onitsuka Tiger, Häglofs, Runkeeper, ASICS Studio"
+      },
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Facebook으로 가입"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Google로 가입"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "가입"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "가입"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "signup_email_button": {
+        "comment": "",
+        "value": "이메일로 가입"
+      },
+      "title": {
+        "comment": "",
+        "value": "계정을 만들어 ASICS에 가입해 보세요."
+      },
+      "top_details": {
+        "comment": "",
+        "value": "손쉽게 계정을 만들어 모든 ASICS 제품군을 활용해 보세요."
+      },
+      "asics_walking": {
+        "title": {
+          "comment": "",
+          "value": "하나의 계정"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "무료 통합 계정으로 빠르게 이용하세요."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_jp": {
+        "title": {
+          "comment": "",
+          "value": "하나의 계정"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "무료 통합 계정으로 빠르게 이용하세요."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "title": {
+          "comment": "",
+          "value": "무료 통합 계정으로 빠르게 이용하세요."
+        },
+        "top_details": {
+          "comment": "",
+          "value": "지금 가입하고 Onitsuka Tiger의 특별 혜택을 이용하세요."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "모든 주문 무료 배송 및 90일간 구매 제품 착용 혜택을 얻으려면 가입하세요."
+        },
+        "alt_brand_family": {
+          "comment": "This is alt text on image for low vision / blind users",
+          "value": "모든 ASICS 패밀리 브랜드의 로고: ASICS, Runkeeper 및 ASICS Studio"
+        }
+      },
+      "asics_tiger_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "모든 주문 무료 배송 및 90일간 구매 제품 착용 혜택을 얻으려면 가입하세요."
+        }
+      },
+      "aeg_outlet_instore": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "가입하여 첫 구매 시 <strong>10% 할인을 받고, 모든 주문에 대해 무료 배송을 받고, Runkeeper Go&trade; 90일 무료 체험판을 이용하세요.</strong>"
+        },
+        "already_have": {
+          "comment": "",
+          "value": "OneASICS 계정은 모든 ASICS 브랜드에 사용할 수 있습니다. 이미 OneASICS 계정이 있으신가요?"
+        }
+      }
+    },
+    "left_panel": {
+      "asics_studio_header": {
+        "comment": "",
+        "value": "운동을 시작하기 전 마지막 준비"
+      },
+      "asics_walking": {
+        "description": {
+          "comment": "",
+          "value": "OneASICS 무료 계정에 등록하여 다음과 같은 특별 혜택을 누려보세요."
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "이용 약관이 적용됩니다. 자세한 사항은 <a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>여기를 확인</a>하세요."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "2019년 3월 31일까지 모든 주문 10% 할인"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "무료 달리기 분석 혜택 제공"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Runkeeper Go&trade; 프리미엄 앱 3개월 무료 이용"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "멤버십을 통한 Right to Play 재단 후원"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "회원에게는 더 많은 혜택이 제공됩니다."
+        }
+      },
+      "aeg_outlet_instore": {
+        "description": {
+          "comment": "",
+          "value": "가입하여 첫 구매 시 제공되는 혜택을 얻어보세요."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "10% 할인"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Runkeeper Go&trade; 90일 무료 체험판"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "모든 주문 무료 배송"
+        }
+      },
+      "asics_perf_jp": {
+        "description": {
+          "comment": "",
+          "value": "OneASICS 무료 계정에 등록하여 다음과 같은 특별 혜택을 누려보세요."
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "이용 약관이 적용됩니다. 자세한 사항은 <a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>여기를 확인</a>하세요."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "2019년 3월 31일까지 모든 주문 10% 할인"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "무료 달리기 분석 혜택 제공"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Runkeeper Go&trade; 프리미엄 앱 3개월 무료 이용"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "멤버십을 통한 Right to Play 재단 후원"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "회원에게는 더 많은 혜택이 제공됩니다."
+        }
+      },
+      "asics_perf_uk": {
+        "description": {
+          "comment": "",
+          "value": "OneASICS 무료 계정에 등록하여 다음과 같은 특별 혜택을 누려보세요."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "모든 주문에 무료 신속 배송"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Runkeeper Go&trade; 앱 90일 무료 체험판"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90일 동안 모든 신발 및 의류 착용"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "혜택과 이벤트 독점 제공"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "회원에게는 더 많은 혜택이 제공됩니다."
+        }
+      },
+      "raceroster_25": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "자세한 사항을 입력하여 이메일로 25달러의 리워드 코드를 받으세요. <br />더불어 50달러 이상 주문 시 적용되는 2일 무료 배송 혜택도 받으세요."
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "25달러의 리워드를 받으세요."
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "*무료 ONEASICS 계정에 가입하여 ASICS.com에서 100달러 이상 구매 시 25달러의 할인 혜택을 받으세요. 약관이 적용됩니다."
+        }
+      },
+      "raceroster_rkgo": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "Runkeeper Go&trade; 90일 무료 체험판을 시작하려면 자세한 정보를 입력하세요."
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "Runkeeper Go&trade; 무료 체험판 활성화"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "*이용 약관이 적용됩니다."
+        }
+      },
+      "asics_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "OneASICS 무료 계정에 등록하여 다음과 같은 특별 혜택을 누려보세요."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "모든 주문에 무료 신속 배송"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Runkeeper Go&trade; 앱 90일 무료 체험판"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90일 동안 모든 신발 및 의류 착용"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "혜택과 이벤트 독점 제공"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "회원에게는 더 많은 혜택이 제공됩니다."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "무료 계정에 가입하여 다음과 같은 특별 혜택을 누려 보세요."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "모든 주문 무료 배송"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Runkeeper Go&trade; 앱 90일 무료 체험판"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90일 동안 모든 신발 및 의류 착용"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "혜택과 이벤트 독점 제공"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "회원에게는 더 많은 혜택이 제공됩니다."
+        }
+      }
+    },
+    "logged-in": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "로그인에 성공했습니다."
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>OneASICS 계정에 로그인해 주셔서 감사합니다.</b><br><br><b>10% 할인된 가격으로 시작하세요.</b><br>사용하려면 이 화면을 판매 담당자에게 보여주세요."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      },
+      "welcome_back": {
+        "comment": "",
+        "value": "반갑습니다 "
+      }
+    },
+    "login": {
+      "alt_facebook": {
+        "comment": "",
+        "value": "Facebook으로 로그인"
+      },
+      "alt_google": {
+        "comment": "",
+        "value": "Google로 로그인"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "이메일"
+      },
+      "error_account_locked": {
+        "comment": "",
+        "value": "계정 잠김"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "이미 계정을 만들었습니다. 비밀번호를 재설정하려면 <a href='/forgot-password' data-show='forgot-password'>여기를 클릭</a>하세요."
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "사용자 정보를 가져올 수 없음"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "잘못된 이메일"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "이메일 또는 비밀번호가 잘못됨"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호 필드가 비어 있습니다. 비밀번호를 재설정하려면 <a href='/forgot-password' data-show='forgot-password'>여기를 클릭</a>하세요."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "로그인하면 원래 요청으로 리디렉션됩니다."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "사용자를 찾을 수 없음"
+      },
+      "error_wrong_account_type_fb": {
+        "comment": "",
+        "value": "Facebook을 사용하여 계정을 만들었습니다. Facebook으로 로그인하세요."
+      },
+      "error_wrong_account_type_google": {
+        "comment": "",
+        "value": "Google을 통해 계정을 만들었습니다. Google로 로그인하세요."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "비밀번호를 잊으셨나요?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "login_button": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "message_password_changed": {
+        "comment": "",
+        "value": "비밀번호가 변경되었습니다. 새 비밀번호로 아래에서 로그인하세요."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "계정이 필요하신가요?"
+      },
+      "or": {
+        "comment": "",
+        "value": "또는"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "비밀번호"
+      },
+      "remember_me_checkbox": {
+        "comment": "",
+        "value": "로그인 정보 기억"
+      },
+      "sign_up": {
+        "comment": "",
+        "value": "가입"
+      },
+      "title": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "runkeeper": {
+        "top_details": {
+          "comment": "",
+          "value": "Runkeeper 사용을 시작하려면 OneASICS 계정으로 로그인하세요."
+        }
+      }
+    },
+    "logout": {
+      "leadin_text": {
+        "comment": "",
+        "value": "OneASICS 계정에서 로그아웃되었습니다."
+      }
+    },
+    "modal_cookie_policy": {
+      "close_button": {
+        "comment": "",
+        "value": "닫기"
+      },
+      "title": {
+        "comment": "",
+        "value": "쿠키 정책"
+      }
+    },
+    "modal_delete_confirm": {
+      "close_button": {
+        "comment": "",
+        "value": "취소"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "계정 삭제"
+      },
+      "delete_confirm_final": {
+        "comment": "",
+        "value": "이 계정의 모든 데이터가 삭제됩니다. 이 과정은 2주까지 소요될 수 있습니다. 양해해 주셔서 감사합니다."
+      },
+      "delete_confirm_leadin": {
+        "comment": "",
+        "value": "다음 서비스에 액세스할 수 없게 됩니다."
+      },
+      "delete_confirm_services": {
+        "comment": "No need to translate this, brand stays the same",
+        "value": "<ul><li>ASICS</li><li>ASICS Tiger</li><li>Onitsuka Tiger</li><li>OneASICS</li><li>ASICS Studio</li><li>ASICS Runkeeper</li><li>Pace Your Race</li><li>Frontrunners</li></ul>"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "success": {
+        "comment": "",
+        "value": "계정이 삭제되었습니다. 리디렉션됩니다."
+      },
+      "title": {
+        "comment": "",
+        "value": "계정 삭제 확인"
+      }
+    },
+    "profile": {
+      "already_have": {
+        "comment": "",
+        "value": "이미 OneASICS 계정이 있으신가요?"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "선택"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "거주 국가"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "생년월일"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "정확한 생일로 확인해 주세요."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "OneASICS에 등록할 수 없습니다."
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "잘못된 문자"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "날짜가 잘못됨"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "필수 필드"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "이름"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "성별 선택"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "맞춤 장비와 서비스 제공:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "성"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "개인정보 보호정책에 명시된 바와 같이 관심사와 기본 설정에 맞는 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "다음"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "이름"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "성"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "성별"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "개인정보 보호정책에 명시된 바와 같이 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "저장"
+      },
+      "success": {
+        "comment": "",
+        "value": "프로필이 업데이트되었습니다."
+      },
+      "title": {
+        "comment": "",
+        "value": "프로필 수정"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "회원님에게 알맞은 맞춤 장비와 서비스를 제공해드릴 수 있도록 정보를 입력해 주세요."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "본인은 ASICS 계정을 생성함으로써 해당 <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>개인정보 보호정책</a>을 읽고 이해했음을 확인합니다."
+      }
+    },
+    "complete-profile": {
+      "complete_profile_required": {
+        "comment": "",
+        "value": "계속하려면 추가 정보를 입력하셔야 합니다."
+      },
+      "country_field": {
+        "comment": "",
+        "value": "선택"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "거주 국가"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "생년월일"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "정확한 생일로 확인해 주세요."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "OneASICS에 등록할 수 없습니다."
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "날짜가 잘못됨"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "필수 필드"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "이름"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "성별 선택"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "맞춤 장비와 서비스 제공:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "성"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "개인정보 보호정책에 명시된 바와 같이 관심사와 기본 설정에 맞는 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "이름"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "성"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "성별"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "개인정보 보호정책에 명시된 바와 같이 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "계속"
+      },
+      "title": {
+        "comment": "",
+        "value": "프로필 완성"
+      },
+      "skip_for_now_link": {
+        "comment": "",
+        "value": "일단 건너뛰기"
+      }
+    },
+    "register": {
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Facebook으로 가입"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Google로 가입"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "already_have": {
+        "comment": "",
+        "value": "이미 OneASICS 계정이 있으신가요?"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "가입"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "가입"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "선택"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "거주 국가"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "생년월일"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "이메일"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "이미 계정을 만들었습니다. 비밀번호를 재설정하려면 <a href='/forgot-password' data-show='forgot-password'>여기를 클릭</a>하세요."
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "정확한 생일로 확인해 주세요."
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "사용자 정보를 가져올 수 없음"
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "OneASICS에 등록할 수 없습니다."
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "계정을 이미 만든 것 같습니다. <a href='index.html#login' data-show='login'>로그인</a>해 주세요."
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "잘못된 문자"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "날짜가 잘못됨"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "잘못된 이메일"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "잘못된 이메일"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "계정을 만들면 원래 요청으로 리디렉션됩니다."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "필수 필드"
+      },
+      "error_invalid_name": {
+        "comment": "",
+        "value": "50자를 초과하거나 특수 문자를 사용할 수 없습니다."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "finish_button": {
+        "comment": "",
+        "value": "완료"
+      },
+      "finish_button_facebook": {
+        "comment": "",
+        "value": "Facebook으로 가입"
+      },
+      "finish_button_google": {
+        "comment": "",
+        "value": "Google로 가입"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "이름"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "성별 선택"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "맞춤 장비와 서비스 제공:"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "성"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "개인정보 보호정책에 명시된 바와 같이 관심사와 기본 설정에 맞는 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "다음"
+      },
+      "or": {
+        "comment": "",
+        "value": "또는"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "비밀번호"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "이름"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "성"
+      },
+      "runkeeper": {
+        "finish_button": {
+          "comment": "",
+          "value": "계정 만들기"
+        },
+        "gender_field_above": {
+          "comment": "",
+          "value": "성별"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Runkeeper로 로그인하려면 OneASICS 계정 만들기"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "개인정보 보호정책에 명시된 바와 같이 제품, 서비스 및 이벤트에 관한 뉴스레터와 정보를 이메일로 수신하겠습니다."
+        }
+      },
+      "success": {
+        "comment": "",
+        "value": "완료했습니다. 계정이 생성되었으며 로그인되었습니다."
+      },
+      "title": {
+        "comment": "",
+        "value": "계정 만들기"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "회원님에게 알맞은 맞춤 장비와 서비스를 제공해드릴 수 있도록 정보를 입력해 주세요."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "본인은 ASICS 계정을 생성함으로써 해당 <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>개인정보 보호정책</a>을 읽고 이해했음을 확인합니다."
+      },
+      "asics_studio": {
+        "error_email_exists": {
+          "comment": "",
+          "value": "이미 OneASICS 또는 Runkeeper 계정이 있습니다. <br>로그인을 <a href='/login' data-show='login'>실행해</a> 주세요."
+        },
+        "error_account_without_password": {
+          "comment": "User who has signed up but needs to click reset password email.",
+          "value": "이미 OneASICS 또는 Runkeeper 계정이 있습니다. 비밀번호를 재설정하려면 <br><a href='/forgot-password' data-show='forgot-password'>여기를 클릭</a>하세요."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "error_email_exists": {
+          "comment": "OT is separate from other brands but users still need to know their account is the same.",
+          "value": "계정을 이미 만든 것 같습니다. <a href='index.html#login' data-show='login'>로그인</a>해 주세요."
+        }
+      }
+    },
+    "register-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "이메일 주소를 확인해 주셔서 감사합니다."
+      },
+      "log_in": {
+        "comment": "",
+        "value": "로그인"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      }
+    },
+    "reset-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "비밀번호 표시/숨기기"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "서버 오류 - 다시 시도하세요."
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "임시 링크가 만료되었습니다. <a href='/forgot-password' data-show='forgot-password'>여기</a>에서 비밀번호를 재설정하세요."
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "비밀번호는 8자 이상이어야 합니다."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "비밀번호"
+      },
+      "reset_password_button": {
+        "comment": "",
+        "value": "비밀번호 설정"
+      },
+      "success": {
+        "comment": "",
+        "value": "완료됨"
+      },
+      "title": {
+        "comment": "",
+        "value": "비밀번호 재설정"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "아래에서 새 비밀번호를 설정하세요."
+      }
+    },
+    "register-success": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "새로운 OneASICS 계정에 로그인하셨습니다."
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>OneASICS 멤버십 프로그램에 참여하신 것을 환영합니다.</b><br>이제 온라인과 스토어 내에서 다양한 독점 혜택을 누릴 수 있습니다.<br><br><b>10% 할인된 가격으로 시작하세요.</b><br>사용하려면 이 화면을 판매 담당자에게 보여주세요."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      },
+      "thanks_for_signing_up": {
+        "comment": "",
+        "value": "가입해 주셔서 감사합니다. "
+      }
+    }
+  }
+}

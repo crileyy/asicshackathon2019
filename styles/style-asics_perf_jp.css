@@ -1,0 +1,93 @@
+/* CONFIGURABLE */
+a {color: #001e63; text-decoration: underline}
+a:hover {color: #001e63; text-decoration: underline}
+aside {background: #001e63}
+aside .leftback {background: #ffffff url(../images/asics_perf_jp/asics_perf_jp-bg.jpg) no-repeat bottom 30% center; background-size: cover}
+aside .leftfront {font-weight: 500; color: #001e63}
+  aside .leftfront .subtitle {text-transform: uppercase; font-size: 1.4em;}
+  aside .leftfront .description {padding-top: 2em; padding-bottom: 2em}
+  aside .leftfront .disclaimer {padding-top: 5em}
+.toplogo {width:50%; padding-bottom: 0px}
+.toplogo figure {background-image: url(../images/default-top_logo_blue.svg); padding-top: 32.6% /* (img_height/img_width * container_width%) */}
+main {background: #ffffff}
+main #main_inside section {color: #001e63}
+main #main_inside section .brand_family img {background-image: url(../images/asics_perf_jp/asics_perf_jp-brand_family_blue.svg)}
+main #main_inside section .app_logo {width: 25%}
+main #main_inside section .app_logo figure {background-image: url(../images/default-app_logo_blue.svg); padding-top: 100%}
+main #main_inside section .title {font-size: 1.4em; text-transform: uppercase}
+  main #main_inside section .title + .top_details {margin-top: 10px}
+main #main_inside section .bottom_cta {font-weight: normal}
+
+.input_outer_container .input_container .inputText {color: #001e63;}
+.input_outer_container .input_container .required_mark {color: #001e63;}
+.input_outer_container .input_container select:focus {border-color: #00c3e6;}
+.input_outer_container:not(.invalid).focus .floating-label {color: #02c3e6}
+.input_outer_container .floating-label {color: #001e63}
+.input_outer_container:not(.invalid) .input_underline {background: #4a4a4a;}
+.input_outer_container:not(.invalid).focus .input_underline {background: #02c3e6;}
+.input_outer_container .subtext_box {color: #001e63;}
+
+.checkbox_box input[type=checkbox]:checked+label:before {background-color: #001e63; border-color: #001e63;}
+.checkbox_box label:before {border: 1px solid #001e63;}
+
+.modal {color: #001e63}
+.modal-header .modal-close:hover {fill: #001e63;}
+
+button, input[type=submit], .action_div {background: #02C3E6; color: #001e63;}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #57ddf5;}
+button.white {border: 1px solid #001e63}
+  button.white:hover {background: #d8d8d8}
+button.gray {background: #d0d0d0; color: #ffffff}
+  button.gray:hover {background: #d8d8d8}
+
+@keyframes colorTint{
+  0% {background: #02c3e6;}
+  100% {background: #d8d8d8;}
+}
+
+@media screen and (max-width: 800px) {
+  .toplogo {padding-top: 12px; padding-bottom: 12px}
+  .toplogo figure {background-image: url(../images/default-top_logo_white.svg)}
+  .responsive_show.oneasics_content {background: #ffffff}
+    .oneasics_carousel .col {display: block; text-align: center; width: 100%}
+    .oneasics_carousel .row .col .icon_box {height: 12vw}
+    .oneasics_carousel .row .col:first-child {padding: 0px}
+    .oneasics_carousel .row .whatis_star {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_star.svg) no-repeat center center transparent; background-size: contain;}
+    .oneasics_carousel .row .whatis_box {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_box.svg) no-repeat center center transparent; background-size: contain}
+    .oneasics_carousel .row .whatis_mobile {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_mobile.svg) no-repeat center center transparent; background-size: contain}
+    .oneasics_carousel .row .whatis_gift {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_gift.svg) no-repeat center center transparent; background-size: contain}
+    .oneasics_carousel .row .whatis_shoe {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_shoe.svg) no-repeat center center transparent; background-size: contain}
+    aside .leftfront .description {padding-top: 0px; padding-bottom: 1em}
+    #lander {margin-top: -20px}
+    #lander .title, #lander .title + .top_details, #lander .brand_family {display: none}
+}
+
+/* one asics marketing */
+.responsive_hide.oneasics_content {width: 95%; margin: auto}
+.whatis_grid {display: table; max-width: 85%; margin: auto;}
+.whatis_grid .row {display: table-row}
+.whatis_grid .row .col {padding: .8em; padding-right: 0px; padding-left: 0px; display: table-cell; vertical-align: middle; text-align: left;}
+.whatis_grid .row .col .icon_box {width: auto; height: 20px; height: 3.5vw; min-height: 40px; max-width: 100%; max-height: 100%;}
+.whatis_grid .row .col:first-child {width: 20%; padding: 0px; text-align: center}
+  .whatis_grid .row .whatis_star {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_star.svg) no-repeat center center transparent; background-size: 60% 60%}
+  .whatis_grid .row .whatis_box {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_box.svg) no-repeat center center transparent; background-size: 65% 65%}
+  .whatis_grid .row .whatis_mobile {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_gift.svg) no-repeat center center transparent; background-size: 55% 55%}
+  .whatis_grid .row .whatis_shoe {background: url(../images/asics_perf_jp/asics_perf_jp-whatis_shoe.svg) no-repeat center center transparent; background-size: 50% 50%}
+.carousel_box {width: 800px; overflow: hidden; margin: auto; padding: 1em 0px 1em 0px; padding-bottom: 0px; max-width: 100%; max-width: 85vw}
+.oneasics_carousel {width: 85%; width: calc(100% - 70px); margin: auto; text-align: center;}
+.oneasics_carousel .row {text-align: center}
+.oneasics_carousel .col {text-align: center; margin: auto; padding-top: 1em; padding-bottom: 1em}
+.slick-prev, .slick-next {top: 40%; width: 30px; height: 50px}
+.slick-prev {left: -35px}
+.slick-next {right: -35px}
+.slick-prev:before, .slick-next:before {color: #001e63; font-size: 50px; font-family: "Font Awesome 5 Free"; font-weight: 700}
+.slick-next:before {content: "\f105";}
+.slick-prev:before {content: "\f104";}
+.slick-dots li.slick-active button:before {color: #02c3e6}
+.slick-dots li button:before {font-size: 15px; color: #02c3e6}
+.oneasics_carousel button {box-shadow: none;}
+
+/* END CONFIGURABLE */
+
+/* unhide after css overrides applied */
+#loading_overlay {display: none !important;} 

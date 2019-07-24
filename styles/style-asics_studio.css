@@ -1,0 +1,50 @@
+/* CONFIGURABLE */
+html, body, input, button, select {font-family: "Graphik", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"}
+aside .leftback {background: url(../images/asics_studio/asics_studio-bg_2.jpg) no-repeat top center #c8b8a5; background-size: cover}
+.toplogo {width: 90%; line-height: 40px; font-size: 37px; font-weight: 700; text-align: left; padding-top: 35%; padding-bottom: 45px; color:#ffffff}
+.toplogo figure {display: none}
+main #main_inside section {color: #083a81}
+main #main_inside section h2 {font-weight: 500}
+main #main_inside section .brand_family img {background-image: url(../images/default-brand_family_blue.svg)}
+main #main_inside section .app_logo {width: 45%}
+main #main_inside section .app_logo figure {background-image: url(../images/asics_studio/asics_studio-app_logo_blue.svg); padding-top: 50%}
+main #main_inside section .bottom_cta, main #main_inside section .bottom_cta a {font-weight: 500}
+
+.input_outer_container .input_container .inputText {color: #083a81}
+.input_outer_container .input_container .required_mark {color: #083a81}
+.input_outer_container .input_container select:focus {border-color: #083a81}
+.input_outer_container:not(.invalid).focus .floating-label {color: #02c3e6}
+.input_outer_container.invalid .floating-label {color: #083a81}
+.input_outer_container .floating-label {color: #083a81}
+.input_outer_container:not(.invalid) .input_underline {background: #083a81}
+.input_outer_container:not(.invalid).focus .input_underline {background: #02c3e6}
+.input_outer_container .subtext_box {color: #083a81}
+
+/* button animation */
+@keyframes colorTint{
+    0% {background: #f7485d}
+    100% {background: #d8d8d8}
+}
+
+@media screen and (max-width: 800px) {
+	aside {display: none}
+}
+
+/* errors */
+.input_outer_container .subtext_box .error, .input_outer_container.invalid .floating-label, .error, .complete_profile_required, .login_required {color: #ef5f31}
+.input_outer_container.invalid .input_underline {background: #ef5f31}
+
+.modal {color: #083a81}
+
+button, input[type=submit], .action_div {background: #f7485d; color: #ffffff; box-shadow: none}
+button.facebook, button.facebook:hover {background: #3b5998; color: #ffffff}
+button.google, button.google:hover {background: #ffffff; color: #083a81; border: 1px solid #cacaca}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #f7485d}
+button.white {border: 1px solid #083a81}
+    button.white:hover {background: #d8d8d8}
+button.gray {background: #ffb9be; color: #ffffff}
+    button.gray:hover {background: #ffb9be}
+/* END CONFIGURABLE */
+
+/* unhide after css overrides applied */
+#loading_overlay {display: none !important;} 

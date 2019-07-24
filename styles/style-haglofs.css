@@ -1,0 +1,56 @@
+@import url(//fonts.asics.digital/haglofs/haglofs-fonts.min.css);
+
+/* CONFIGURABLE */
+html, body, input, button, select {font-family: "GT-Eesti", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"; text-transform: none}
+aside .leftback {background: url(../images/haglofs/background-haglofs.jpg) no-repeat top center; background-size: cover}
+.toplogo {width:35%}
+main #main_inside section {color: #001e63}
+main #main_inside section h2 {font-weight: normal}
+main #main_inside section .brand_family img {background-image: url(../images/haglofs/haglofs-brand_family.svg)}
+main #main_inside section .app_logo {width: 25%}
+main #main_inside section .app_logo figure {background-image: url(../images/haglofs/haglofs-app_logo.svg); padding-top: 100%}
+main #main_inside section .bottom_cta, main #main_inside section .bottom_cta a {font-weight: normal}
+
+.input_outer_container .input_container .inputText {color: #4a4a4a}
+.input_outer_container .input_container .required_mark {color: #4a4a4a}
+.input_outer_container .input_container select:focus {border-color: #4a4a4a}
+.input_outer_container:not(.invalid).focus .floating-label {color: #003a70}
+.input_outer_container.invalid .floating-label {color: #343434}
+.input_outer_container .floating-label {color: #4a4a4a}
+.input_outer_container:not(.invalid) .input_underline {background: #4a4a4a}
+.input_outer_container:not(.invalid).focus .input_underline {background: #003a70}
+.input_outer_container .subtext_box {color: #4a4a4a}
+
+.checkbox_box input[type=checkbox]:checked+label:before {background-color: #001e63; border-color: #001e63;}
+.checkbox_box label:before {border: 1px solid #001e63;}
+
+/* button animation */
+@keyframes colorTint{
+    0% {background: #ff4338;}
+    100% {background: #d8d8d8;}
+}
+
+@media screen and (max-width: 800px) {
+	aside {background: #001e63 url(../images/haglofs/background-haglofs.jpg) no-repeat top center/cover}
+	.toplogo {padding-top: 24px; padding-bottom: 24px}
+	.toplogo figure {background-image: url(../images/default-top_logo_white.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */;}
+}
+
+/* errors */
+.input_outer_container .subtext_box .error, .input_outer_container.invalid .floating-label, .error, .complete_profile_required, .login_required {color: #f8485e}
+.input_outer_container.invalid .input_underline {background: #f8485e}
+
+.modal {color: #001e63}
+
+button, input[type=submit], .action_div {background: #ff4338; color: #ffffff; box-shadow: none; border-radius: 2px; text-transform: none}
+button.facebook, button.facebook:hover {background: #3b5998; color: #ffffff}
+button.google, button.google:hover {background: #ffffff; color: #001e63; border: 1px solid #cacaca}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #ff4338}
+button.white {border: 1px solid #001e63}
+    button.white:hover {background: #d8d8d8}
+button.gray {background: #d0d0d0; color: #ffffff}
+    button.gray:hover {background: #d8d8d8}
+/* END CONFIGURABLE */
+
+/* unhide after css overrides applied */
+#loading_overlay {display: none !important;} 

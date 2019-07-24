@@ -1,0 +1,2586 @@
+{
+  "ru-ru": {
+    "change-email": {
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "change_email_button": {
+        "comment": "",
+        "value": "Изменить электронный адрес"
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "Этот адрес электронной почты уже зарегистрирован в учетной записи"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "Новый адрес"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Неправильный электронный адрес"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Неправильный электронный адрес или пароль"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "Неправильный электронный адрес"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_password_required": {
+        "comment": "",
+        "value": "Введите пароль"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Пользователь не найден"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Невозможно изменить электронный адрес или пароль, так как учетная запись зарегистрирована с помощью Facebook или Google."
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Пароль"
+      },
+      "title": {
+        "comment": "",
+        "value": "Изменение электронного адреса для учетной записи"
+      }
+    },
+    "change-email-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "Электронный адрес изменен"
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "Недействительный токен"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "Ваш электронный адрес изменен."
+      },
+      "leadin_text2": {
+        "comment": "",
+        "value": "Теперь для входа в систему используй новый электронный адрес."
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Создавая учетную запись ASICS, я подтверждаю, что прочитал(-а) и принимаю действующую <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Политику конфиденциальности</a>."
+      }
+    },
+    "change-email-done": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "Требуется подтверждение"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Письмо с подтверждением отправлено на адрес "
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      }
+    },
+    "change-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "change_password_button": {
+        "comment": "",
+        "value": "Сменить пароль"
+      },
+      "current_password_field": {
+        "comment": "",
+        "value": "Текущий пароль"
+      },
+      "error_invalid_current_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Неправильный текущий пароль"
+      },
+      "error_invalid_new_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_matching_passwords": {
+        "comment": "",
+        "value": "Пароли должны отличаться."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Невозможно изменить электронный адрес или пароль, так как учетная запись зарегистрирована с помощью Facebook или Google."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Забыли пароль?"
+      },
+      "helptext_current_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "helptext_new_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "Нужна учетная запись?"
+      },
+      "new_password_field": {
+        "comment": "",
+        "value": "Новый пароль"
+      },
+      "success": {
+        "comment": "",
+        "value": "Готово!"
+      },
+      "title": {
+        "comment": "",
+        "value": "Смена пароля"
+      }
+    },
+    "connect-facebook": {
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "connect_facebook_button": {
+        "comment": "",
+        "value": "Подключиться к Facebook"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Неправильный электронный адрес или пароль"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Забыли пароль?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Пароль"
+      },
+      "title": {
+        "comment": "",
+        "value": "Подключение учетной записи к Facebook"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Этот электронный адрес зарегистрирован с использованием пароля. Подтвердите пароль, чтобы подключить учетную запись к Facebook."
+      }
+    },
+    "connect-google": {
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "connect_google_button": {
+        "comment": "",
+        "value": "Подключиться к Google"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Неправильный электронный адрес или пароль"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Забыли пароль?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Пароль"
+      },
+      "title": {
+        "comment": "",
+        "value": "Подключение учетной записи к Google"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Этот электронный адрес зарегистрирован с использованием пароля. Подтвердите пароль, чтобы подключить учетную запись к Google."
+      }
+    },
+    "continue": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "continue_button": {
+        "comment": "",
+        "value": "Продолжить"
+      },
+      "disclaimer_text": {
+        "comment": "",
+        "value": "Нажимая кнопку ниже, я подтверждаю, что прочитал(-а) и принимаю действующую <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Политику конфиденциальности</a> и <a href='terms' class='dynamic_link_terms' target='_blank'>Условия</a> ASICS."
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "ASICS запрашивает доступ к информации в вашей учетной записи OneASICS:"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "or": {
+        "comment": "",
+        "value": "Или"
+      },
+      "register_cta": {
+        "comment": "",
+        "value": "Создать учетную запись OneASICS"
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      }
+    },
+    "country_options": {
+      "AD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Андорра"
+      },
+      "AE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Объединенные Арабские Эмираты"
+      },
+      "AF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Афганистан"
+      },
+      "AG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Антигуа и Барбуда"
+      },
+      "AI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ангилья"
+      },
+      "AL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Албания"
+      },
+      "AM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Армения"
+      },
+      "AN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Нидерландские Антильские острова"
+      },
+      "AO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ангола"
+      },
+      "AQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Антарктида"
+      },
+      "AR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Аргентина"
+      },
+      "AS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Американское Самоа"
+      },
+      "AT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Австрия"
+      },
+      "AU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Австралия"
+      },
+      "AW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Аруба"
+      },
+      "AX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Аландские острова"
+      },
+      "AZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Азербайджан"
+      },
+      "BA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Босния и Герцеговина"
+      },
+      "BB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Барбадос"
+      },
+      "BD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бангладеш"
+      },
+      "BE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бельгия"
+      },
+      "BF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Буркина-Фасо"
+      },
+      "BG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Болгария"
+      },
+      "BH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бахрейн"
+      },
+      "BI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бурунди"
+      },
+      "BJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бенин"
+      },
+      "BL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сен-Бартелеми"
+      },
+      "BM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бермуды"
+      },
+      "BN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бруней"
+      },
+      "BO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Боливия"
+      },
+      "BR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бразилия"
+      },
+      "BS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Багамы"
+      },
+      "BT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Бутан"
+      },
+      "BV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Остров Буве"
+      },
+      "BW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ботсвана"
+      },
+      "BY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Беларусь"
+      },
+      "BZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Белиз"
+      },
+      "CA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Канада"
+      },
+      "CC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кокосовые острова (Килинг)"
+      },
+      "CD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Демократическая Республика Конго"
+      },
+      "CF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Центральноафриканская Республика"
+      },
+      "CG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Конго"
+      },
+      "CH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Швейцария"
+      },
+      "CI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кот-д’Ивуар"
+      },
+      "CK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Острова Кука"
+      },
+      "CL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Чили"
+      },
+      "CM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Камерун"
+      },
+      "CN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Китай"
+      },
+      "CO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Колумбия"
+      },
+      "CR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Коста-Рика"
+      },
+      "CU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Куба"
+      },
+      "CV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кабо-Верде"
+      },
+      "CX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Остров Рождества"
+      },
+      "CY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кипр"
+      },
+      "CZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Чехия"
+      },
+      "DE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Германия"
+      },
+      "DJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Джибути"
+      },
+      "DK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Дания"
+      },
+      "DM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Доминика"
+      },
+      "DO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Доминиканская Республика"
+      },
+      "DZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Алжир"
+      },
+      "EC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Эквадор"
+      },
+      "EE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Эстония"
+      },
+      "EG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Египет"
+      },
+      "EH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Западная Сахара"
+      },
+      "ER": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Эритрея"
+      },
+      "ES": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Испания"
+      },
+      "ET": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Эфиопия"
+      },
+      "FI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Финляндия"
+      },
+      "FJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Фиджи"
+      },
+      "FK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Фолклендские (Мальвинские) острова"
+      },
+      "FM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Федеративные Штаты Микронезии"
+      },
+      "FO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Фарерские острова"
+      },
+      "FR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Франция"
+      },
+      "GA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Габон"
+      },
+      "GB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Великобритания"
+      },
+      "GD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гренада"
+      },
+      "GE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Грузия"
+      },
+      "GF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Французская Гвиана"
+      },
+      "GG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гернси"
+      },
+      "GH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гана"
+      },
+      "GI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гибралтар"
+      },
+      "GL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гренландия"
+      },
+      "GM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гамбия"
+      },
+      "GN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гвинея"
+      },
+      "GP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гваделупа"
+      },
+      "GQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Экваториальная Гвинея"
+      },
+      "GR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Греция"
+      },
+      "GS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Южная Джорджия и Южные Сандвичевы Острова"
+      },
+      "GT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гватемала"
+      },
+      "GU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гуам"
+      },
+      "GW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гвинея-Бисау"
+      },
+      "GY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гайана"
+      },
+      "HK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гонконг"
+      },
+      "HM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Остров Херд и острова Макдональд"
+      },
+      "HN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гондурас"
+      },
+      "HR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Хорватия"
+      },
+      "HT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гаити"
+      },
+      "HU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Венгрия"
+      },
+      "ID": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Индонезия"
+      },
+      "IE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ирландия"
+      },
+      "IL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Израиль"
+      },
+      "IM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Остров Мэн"
+      },
+      "IN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Индия"
+      },
+      "IO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Британская Территория в Индийском Океане"
+      },
+      "IQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ирак"
+      },
+      "IR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Иран"
+      },
+      "IS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Исландия"
+      },
+      "IT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Италия"
+      },
+      "JE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Джерси"
+      },
+      "JM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ямайка"
+      },
+      "JO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Иордания"
+      },
+      "JP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Япония"
+      },
+      "KE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кения"
+      },
+      "KG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Киргизия"
+      },
+      "KH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Камбоджа"
+      },
+      "KI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кирибати"
+      },
+      "KM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Коморы"
+      },
+      "KN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сент-Китс и Невис"
+      },
+      "KR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Корея"
+      },
+      "KW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Кувейт"
+      },
+      "KY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Острова Кайман"
+      },
+      "KZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Казахстан"
+      },
+      "LA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Лаосская Народно-Демократическая Республика"
+      },
+      "LB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ливан"
+      },
+      "LC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сент-Люсия"
+      },
+      "LI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Лихтенштейн"
+      },
+      "LK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Шри-Ланка"
+      },
+      "LR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Либерия"
+      },
+      "LS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Лесото"
+      },
+      "LT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Литва"
+      },
+      "LU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Люксембург"
+      },
+      "LV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Латвия"
+      },
+      "LY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ливия"
+      },
+      "MA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Марокко"
+      },
+      "MC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Монако"
+      },
+      "MD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Молдова"
+      },
+      "ME": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Черногория"
+      },
+      "MF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сен-Мартен"
+      },
+      "MG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мадагаскар"
+      },
+      "MH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Маршалловы Острова"
+      },
+      "MK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Македония"
+      },
+      "ML": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мали"
+      },
+      "MM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мьянма"
+      },
+      "MN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Монголия"
+      },
+      "MO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Макао"
+      },
+      "MP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Северные Марианские Острова"
+      },
+      "MQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мартиника"
+      },
+      "MR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мавритания"
+      },
+      "MS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Монтсеррат"
+      },
+      "MT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мальта"
+      },
+      "MU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Маврикий"
+      },
+      "MV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мальдивы"
+      },
+      "MW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Малави"
+      },
+      "MX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мексика"
+      },
+      "MY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Малайзия"
+      },
+      "MZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Мозамбик"
+      },
+      "NA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Намибия"
+      },
+      "NC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Новая Каледония"
+      },
+      "NE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Нигер"
+      },
+      "NF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Остров Норфолк"
+      },
+      "NG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Нигерия"
+      },
+      "NI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Никарагуа"
+      },
+      "NL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Нидерланды"
+      },
+      "NO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Норвегия"
+      },
+      "NP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Непал"
+      },
+      "NR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Науру"
+      },
+      "NU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ниуэ"
+      },
+      "NZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Новая Зеландия"
+      },
+      "OM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Оман"
+      },
+      "PA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Панама"
+      },
+      "PE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Перу"
+      },
+      "PF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Французская Полинезия"
+      },
+      "PG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Папуа — Новая Гвинея"
+      },
+      "PH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Филиппины"
+      },
+      "PK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Пакистан"
+      },
+      "PL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Польша"
+      },
+      "PM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сен-Пьер и Микелон"
+      },
+      "PN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Питкерн"
+      },
+      "PR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Пуэрто-Рико"
+      },
+      "PS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Палестинские территории, окупированные"
+      },
+      "PT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Португалия"
+      },
+      "PW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Палау"
+      },
+      "PY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Парагвай"
+      },
+      "QA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Катар"
+      },
+      "RE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Реюньон"
+      },
+      "RO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Румыния"
+      },
+      "RS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сербия"
+      },
+      "RU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Российская Федерация"
+      },
+      "RW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Руанда"
+      },
+      "SA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Саудовская Аравия"
+      },
+      "SB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Соломоновы Острова"
+      },
+      "SC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сейшелы"
+      },
+      "SD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Судан"
+      },
+      "SE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Швеция"
+      },
+      "SG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сингапур"
+      },
+      "SH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Святая Елена"
+      },
+      "SI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Словения"
+      },
+      "SJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Шпицберген и Ян-Майен"
+      },
+      "SK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Словакия"
+      },
+      "SL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сьерра-Леоне"
+      },
+      "SM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сан-Марино"
+      },
+      "SN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сенегал"
+      },
+      "SO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сомали"
+      },
+      "SR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Суринам"
+      },
+      "ST": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сан-Томе и Принсипи"
+      },
+      "SV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сальвадор"
+      },
+      "SY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Сирия"
+      },
+      "SZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Свазиленд"
+      },
+      "TC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Острова Теркс и Кайкос"
+      },
+      "TD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Чад"
+      },
+      "TF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Французские Южные территории"
+      },
+      "TG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Того"
+      },
+      "TH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Таиланд"
+      },
+      "TJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Таджикистан"
+      },
+      "TK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Токелау"
+      },
+      "TL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Восточный Тимор"
+      },
+      "TM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Туркменистан"
+      },
+      "TN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Тунис"
+      },
+      "TO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Тонга"
+      },
+      "TR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Турция"
+      },
+      "TT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Тринидад и Тобаго"
+      },
+      "TV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Тувалу"
+      },
+      "TW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Тайвань"
+      },
+      "TZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Танзания"
+      },
+      "UA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Украина"
+      },
+      "UG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Уганда"
+      },
+      "UM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Малые Тихоокеанские отдаленные острова Соединенных Штатов"
+      },
+      "US": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Соединенные Штаты"
+      },
+      "UY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Уругвай"
+      },
+      "UZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Узбекистан"
+      },
+      "VA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Папский Престол (Государство-город Ватикан)"
+      },
+      "VC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Гренадины"
+      },
+      "VE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Венесуэла"
+      },
+      "VG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Британские Виргинские острова"
+      },
+      "VI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Американские Виргинские острова"
+      },
+      "VN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Вьетнам"
+      },
+      "VU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Вануату"
+      },
+      "WF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Уоллис и Футуна"
+      },
+      "WS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Самоа"
+      },
+      "YE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Йемен"
+      },
+      "YT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Майотта"
+      },
+      "ZA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Южно-Африканская Республика"
+      },
+      "ZM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Замбия"
+      },
+      "ZW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Зимбабве"
+      }
+    },
+    "delete": {
+      "above_button": {
+        "comment": "No need to translate the link.",
+        "value": "Это относится ко <b>всем учетным записям ASICS</b>, включая ASICS Runkeeper, ASICS Studio и ASICS.com. Чтобы удалить определенные данные, перейдите в наш <a target='_blank' href='https://www.asics.com/privacy'>центр конфиденциальности</a>."
+      },
+      "below_button": {
+        "comment": "",
+        "value": "Вы здесь случайно? <a href='http://www.asics.com'>Перейти на ASICS.com</a>"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "Удалить все данные"
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "Следующий пользователь и связанные с ним данные будут удалены с наших серверов:"
+      },
+      "title": {
+        "comment": "",
+        "value": "Удаление учетной записи пользователя"
+      }
+    },
+    "footer": {
+      "cookie_policy": {
+        "comment": "",
+        "value": "Политика использования файлов cookie"
+      },
+      "cookie_settings": {
+        "comment": "",
+        "value": "Настройки файлов cookie"
+      },
+      "exit": {
+        "comment": "",
+        "value": "Выход"
+      },
+      "language_change": {
+        "comment": "",
+        "value": "Изменить"
+      },
+      "privacy_policy": {
+        "comment": "",
+        "value": "Политика конфиденциальности"
+      },
+      "terms_of_service": {
+        "comment": "",
+        "value": "Условия использования"
+      },
+      "aeg_outlet_instore": {
+        "terms-and-conditions": {
+          "comment": "",
+          "value": "Действуют условия. Дополнительные сведения <a href='https://outlet.asics.com/gb/en-gb/customer-service/faq-outlet-oneasics/faq-outlet-oneasics.html' target='_blank'>см. здесь.</a>"
+        }
+      }
+    },
+    "forgot-password": {
+      "email_field": {
+        "comment": "",
+        "value": "Электронный адрес"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Неправильный электронный адрес"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Пользователь не найден"
+      },
+      "forgot_password_button": {
+        "comment": "",
+        "value": "Отправить ссылку для сброса"
+      },
+      "success": {
+        "comment": "",
+        "value": "Готово! Срок действия этой временной ссылки закончится через 24 часа."
+      },
+      "title": {
+        "comment": "",
+        "value": "Забыли пароль?"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Введите электронный адрес, связанный с вашей учетной записью. Вы получите ссылку для сброса пароля."
+      }
+    },
+    "newsletter-opt-in": {
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "success": {
+        "comment": "",
+        "value": "Готово!"
+      },
+      "title": {
+        "comment": "",
+        "value": "Подписка на новостную рассылку"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Я хочу подписаться на рассылку с новостями и информацией о товарах, услугах и мероприятиях в соответствии с моими интересами и предпочтениями, как указано в Политике конфиденциальности."
+      },
+      "newsletter_opt_in_button": {
+        "comment": "",
+        "value": "Обновить"
+      }
+    },
+    "format_date": {
+      "comment": "Please format this date to match the localized standard (using '.', '/', '-', etc.). Keep the letters M, D, and Y as identifiers for month, day, and year.",
+      "value": "DD.MM.YYYY"
+    },
+    "gender_options": {
+      "male": {
+        "comment": "This is a gender option.",
+        "value": "Мужчина"
+      },
+      "female": {
+        "comment": "This is a gender option.",
+        "value": "Женщина"
+      },
+      "other": {
+        "comment": "This is a gender option.",
+        "value": "Другой вариант"
+      }
+    },
+    "lander": {
+      "already_have": {
+        "comment": "",
+        "value": "Уже есть учетная запись OneASICS?"
+      },
+      "alt_brand_family": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Логотипы всех брендов семейства ASICS: ASICS Tiger, Onitsuka Tiger, Häglofs, Runkeeper и ASICS Studio"
+      },
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Регистрация с помощью Facebook"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Регистрация с помощью Google"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Регистрация"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Регистрация"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "signup_email_button": {
+        "comment": "",
+        "value": "Регистрация с помощью электронного адреса"
+      },
+      "title": {
+        "comment": "",
+        "value": "Одна учетная запись."
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Один удобный ключ ко всем брендам семейства ASICS."
+      },
+      "asics_walking": {
+        "title": {
+          "comment": "",
+          "value": "Одна учетная запись"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Присоединяйся в два счета бесплатно."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_jp": {
+        "title": {
+          "comment": "",
+          "value": "Одна учетная запись"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Присоединяйся в два счета бесплатно."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "title": {
+          "comment": "",
+          "value": "Присоединяйся в два счета бесплатно."
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Регистрируйся уже сегодня и получай дополнительные преимущества от Onitsuka Tiger."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "Зарегистрируйся, чтобы получить бесплатную доставку всех заказов и возможность возврата товаров в течение 90 дней."
+        },
+        "alt_brand_family": {
+          "comment": "This is alt text on image for low vision / blind users",
+          "value": "Логотипы всех брендов семейства ASICS: ASICS, Runkeeper и ASICS Studio"
+        }
+      },
+      "asics_tiger_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "Зарегистрируйся, чтобы получить бесплатную доставку всех заказов и возможность возврата товаров в течение 90 дней."
+        }
+      },
+      "aeg_outlet_instore": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "Зарегистрируйся, чтобы получить скидку <strong>10&nbsp;% на первую покупку, бесплатную доставку всех заказов и бесплатную пробную подписку Runkeeper Go&trade; на 90&nbsp;дней.</strong>"
+        },
+        "already_have": {
+          "comment": "",
+          "value": "Твоя учетная запись OneASICS работает для всех брендов ASICS. Уже есть учетная запись OneASICS?"
+        }
+      }
+    },
+    "left_panel": {
+      "asics_studio_header": {
+        "comment": "",
+        "value": "Последняя деталь, прежде чем мы перейдем к тренировкам."
+      },
+      "asics_walking": {
+        "description": {
+          "comment": "",
+          "value": "Зарегистрируй бесплатную учетную запись OneASICS, чтобы получить дополнительные преимущества, в том числе:"
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "Действуют условия. Дополнительные сведения <a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>см. здесь</a>."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Скидка 10 % на каждый заказ до 31 марта 2019 г."
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Шанс выиграть бесплатный анализ занятий бегом"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "3 месяца бесплатного использования премиум-приложения Runkeeper Go&trade;"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Принимая участие, ты помогаешь фонду Right to Play"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Дополнительные преимущества для участников"
+        }
+      },
+      "aeg_outlet_instore": {
+        "description": {
+          "comment": "",
+          "value": "Зарегистрируйся, чтобы воспользоваться особыми бонусами при первой покупке:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Скидка 10 % на сумму покупки"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Бесплатная пробная подписка Runkeeper Go&trade; на 90&nbsp;дней"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Бесплатная доставка всех заказов"
+        }
+      },
+      "asics_perf_jp": {
+        "description": {
+          "comment": "",
+          "value": "Зарегистрируй бесплатную учетную запись OneASICS, чтобы получить дополнительные преимущества, в том числе:"
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "Действуют условия. Дополнительные сведения <a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>см. здесь</a>."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Скидка 10 % на каждый заказ до 31 марта 2019 г."
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Шанс выиграть бесплатный анализ занятий бегом"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "3 месяца бесплатного использования премиум-приложения Runkeeper Go&trade;"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Принимая участие, ты помогаешь фонду Right to Play"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Дополнительные преимущества для участников"
+        }
+      },
+      "asics_perf_uk": {
+        "description": {
+          "comment": "",
+          "value": "Зарегистрируй бесплатную учетную запись OneASICS, чтобы получить дополнительные преимущества, в том числе:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Бесплатная экспресс-доставка всех заказов"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Бесплатная 90-дневная пробная версия приложения Runkeeper Go&trade;"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90 дней, чтобы испробовать все кроссовки и одежду"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Эксклюзивный доступ к предложениям и мероприятиям"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Дополнительные преимущества для участников"
+        }
+      },
+      "raceroster_25": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "Введи свои данные, чтобы получить промокод на 25 $ по электронной почте. <br />А еще тебе в подарок бесплатная 2-дневная доставка товаров при заказе от 50 $."
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "Получи бонус в размере 25 $"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "* Бесплатно зарегистрируй учетную запись ONEASICS и получи скидку 25 $ при покупке на сумму от 100 $ на сайте ASICS.com. Действуют условия"
+        }
+      },
+      "raceroster_rkgo": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "Расскажи о себе, чтобы получить бесплатную пробную версию Runkeeper Go&trade; на 90 дней."
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "Активируй бесплатную пробную версию Runkeeper Go&trade;"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "* Действуют условия"
+        }
+      },
+      "asics_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "Зарегистрируй бесплатную учетную запись OneASICS, чтобы получить дополнительные преимущества, в том числе:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Бесплатная экспресс-доставка всех заказов"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Бесплатная 90-дневная пробная версия приложения Runkeeper Go&trade;"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90 дней, чтобы испробовать все кроссовки и одежду"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Эксклюзивный доступ к предложениям и мероприятиям"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Дополнительные преимущества для участников"
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "Зарегистрируй бесплатную учетную запись, чтобы получить дополнительные преимущества, в том числе:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Бесплатная доставка всех заказов"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Бесплатная 90-дневная пробная версия приложения Runkeeper Go&trade;"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90 дней, чтобы испробовать все кроссовки и одежду"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Эксклюзивный доступ к предложениям и мероприятиям"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Дополнительные преимущества для участников"
+        }
+      }
+    },
+    "logged-in": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Вход выполнен успешно."
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>Спасибо за вход в учетную запись OneASICS</b><br><br><b>Получи скидку 10%</b><br>Чтобы использовать ее, покажи это сообщение продавцу."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      },
+      "welcome_back": {
+        "comment": "",
+        "value": "С возвращением! "
+      }
+    },
+    "login": {
+      "alt_facebook": {
+        "comment": "",
+        "value": "Войти с помощью Facebook"
+      },
+      "alt_google": {
+        "comment": "",
+        "value": "Войти с помощью Google"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "Электронный адрес"
+      },
+      "error_account_locked": {
+        "comment": "",
+        "value": "Учетная запись заблокирована"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "Похоже, у тебя уже есть учетная запись. <a href='/forgot-password' data-show='forgot-password'>Нажми здесь</a>, чтобы сбросить пароль."
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "Не удалось получить данные пользователя"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Неправильный электронный адрес"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Неправильный электронный адрес или пароль"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Поле для ввода пароля не может быть пустым. <a href='/forgot-password' data-show='forgot-password'>Нажми здесь</a>, чтобы сбросить пароль."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "Войди, и тебя перенаправят к исходному запросу."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Пользователь не найден"
+      },
+      "error_wrong_account_type_fb": {
+        "comment": "",
+        "value": "Твоя учетная запись создана с помощью Facebook. Войди с помощью Facebook."
+      },
+      "error_wrong_account_type_google": {
+        "comment": "",
+        "value": "Твоя учетная запись создана с помощью Google. Войди с помощью Google."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Забыли пароль?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "login_button": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "message_password_changed": {
+        "comment": "",
+        "value": "Пароль успешно изменен. Войди в аккаунт ниже с помощью нового пароля."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "Нужна учетная запись?"
+      },
+      "or": {
+        "comment": "",
+        "value": "Или"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Пароль"
+      },
+      "remember_me_checkbox": {
+        "comment": "",
+        "value": "Запомнить меня"
+      },
+      "sign_up": {
+        "comment": "",
+        "value": "Регистрация"
+      },
+      "title": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "runkeeper": {
+        "top_details": {
+          "comment": "",
+          "value": "Чтобы начать пользоваться Runkeeper, войди в учетную запись OneASICS"
+        }
+      }
+    },
+    "logout": {
+      "leadin_text": {
+        "comment": "",
+        "value": "Выполнен выход из учетной записи OneASICS."
+      }
+    },
+    "modal_cookie_policy": {
+      "close_button": {
+        "comment": "",
+        "value": "Закрыть"
+      },
+      "title": {
+        "comment": "",
+        "value": "Политика использования файлов cookie"
+      }
+    },
+    "modal_delete_confirm": {
+      "close_button": {
+        "comment": "",
+        "value": "Отмена"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "Удалить учетную запись"
+      },
+      "delete_confirm_final": {
+        "comment": "",
+        "value": "Все ваши данные в этих учетных записях будут удалены. Обрати внимание, что удаление может занять до двух недель. Благодарим за терпение."
+      },
+      "delete_confirm_leadin": {
+        "comment": "",
+        "value": "У вас не будет доступа к следующим сервисам:"
+      },
+      "delete_confirm_services": {
+        "comment": "No need to translate this, brand stays the same",
+        "value": "<ul><li>ASICS</li><li>ASICS Tiger</li><li>Onitsuka Tiger</li><li>OneASICS</li><li>ASICS Studio</li><li>ASICS Runkeeper</li><li>Pace Your Race</li><li>Frontrunners</li></ul>"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "success": {
+        "comment": "",
+        "value": "Ваша учетная запись удалена. Вы будете перенаправлены."
+      },
+      "title": {
+        "comment": "",
+        "value": "Подтверждение удаления учетной записи"
+      }
+    },
+    "profile": {
+      "already_have": {
+        "comment": "",
+        "value": "Уже есть учетная запись OneASICS?"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Выбрать"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Страна проживания"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Дата рождения"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Убедись, что дата рождения указана правильно."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Ты не соответствуешь требованиям для регистрации в OneASICS."
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "Недопустимый символ"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Недопустимая дата"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Обязательное поле"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Имя"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Укажите пол"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Спортивная экипировка и услуги:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Фамилия"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Я хочу подписаться на рассылку с новостями и информацией о товарах, услугах и мероприятиях в соответствии с моими интересами и предпочтениями, как указано в Политике конфиденциальности."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "Далее"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic First Name"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic Last Name"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "Пол"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "Я хочу подписаться на электронную рассылку с новостями и информацией о товарах, услугах и мероприятиях, как указано в Политике конфиденциальности."
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "Сохранить"
+      },
+      "success": {
+        "comment": "",
+        "value": "Ваш профиль обновлен."
+      },
+      "title": {
+        "comment": "",
+        "value": "Редактировать профиль"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Расскажите о себе, чтобы мы могли подобрать вам лучшие товары и услуги."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Создавая учетную запись ASICS, я подтверждаю, что прочитал(-а) и принимаю действующую <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Политику конфиденциальности</a>."
+      }
+    },
+    "complete-profile": {
+      "complete_profile_required": {
+        "comment": "",
+        "value": "Нам потребуется чуть больше информации, чтобы продолжить."
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Выбрать"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Страна проживания"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Дата рождения"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Убедись, что дата рождения указана правильно."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Ты не соответствуешь требованиям для регистрации в OneASICS."
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Недопустимая дата"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Обязательное поле"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Имя"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Укажите пол"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Спортивная экипировка и услуги:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Фамилия"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Я хочу подписаться на рассылку с новостями и информацией о товарах, услугах и мероприятиях в соответствии с моими интересами и предпочтениями, как указано в Политике конфиденциальности."
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic First Name"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic Last Name"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "Пол"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "Я хочу подписаться на электронную рассылку с новостями и информацией о товарах, услугах и мероприятиях, как указано в Политике конфиденциальности."
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "Продолжить"
+      },
+      "title": {
+        "comment": "",
+        "value": "Заполни профиль"
+      },
+      "skip_for_now_link": {
+        "comment": "",
+        "value": "Пропустить"
+      }
+    },
+    "register": {
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Регистрация с помощью Facebook"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Регистрация с помощью Google"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "already_have": {
+        "comment": "",
+        "value": "Уже есть учетная запись OneASICS?"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Регистрация"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Регистрация"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Выбрать"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Страна проживания"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Дата рождения"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "Электронный адрес"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "Похоже, у тебя уже есть учетная запись. <a href='/forgot-password' data-show='forgot-password'>Нажми здесь</a>, чтобы сбросить пароль."
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Убедись, что дата рождения указана правильно."
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "Не удалось получить данные пользователя"
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Ты не соответствуешь требованиям для регистрации в OneASICS."
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "Похоже, у тебя уже есть учетная запись. <a href='index.html#login' data-show='login'>Войди</a> в систему."
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "Недопустимый символ"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Недопустимая дата"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Неправильный электронный адрес"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "Неправильный электронный адрес"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "Войдите, и вы будете перенаправлены к исходному запросу."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Обязательное поле"
+      },
+      "error_invalid_name": {
+        "comment": "",
+        "value": "Используйте не более 50 знаков или специальных символов."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "finish_button": {
+        "comment": "",
+        "value": "Готово"
+      },
+      "finish_button_facebook": {
+        "comment": "",
+        "value": "Регистрация с помощью Facebook"
+      },
+      "finish_button_google": {
+        "comment": "",
+        "value": "Регистрация с помощью Google"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Имя"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Укажите пол"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Спортивная экипировка и услуги:"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Фамилия"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Я хочу подписаться на рассылку с новостями и информацией о товарах, услугах и мероприятиях в соответствии с моими интересами и предпочтениями, как указано в Политике конфиденциальности."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "Далее"
+      },
+      "or": {
+        "comment": "",
+        "value": "Или"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Пароль"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic First Name"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic Last Name"
+      },
+      "runkeeper": {
+        "finish_button": {
+          "comment": "",
+          "value": "Создать учетную запись"
+        },
+        "gender_field_above": {
+          "comment": "",
+          "value": "Пол"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Чтобы зарегистрироваться в Runkeeper, создай учетную запись OneASICS"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "Я хочу подписаться на электронную рассылку с новостями и информацией о товарах, услугах и мероприятиях, как указано в Политике конфиденциальности."
+        }
+      },
+      "success": {
+        "comment": "",
+        "value": "Готово! Ваша учетная запись создана. Вы можете войти."
+      },
+      "title": {
+        "comment": "",
+        "value": "Создание учетной записи"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Расскажите о себе, чтобы мы могли подобрать вам лучшие товары и услуги."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Создавая учетную запись ASICS, я подтверждаю, что прочитал(-а) и принимаю действующую <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Политику конфиденциальности</a>."
+      },
+      "asics_studio": {
+        "error_email_exists": {
+          "comment": "",
+          "value": "У тебя уже есть учетная запись OneASICS или Runkeeper. <br>Войди в эту <a href='/login' data-show='login'>учетную запись</a>."
+        },
+        "error_account_without_password": {
+          "comment": "User who has signed up but needs to click reset password email.",
+          "value": "У тебя уже есть учетная запись OneASICS или Runkeeper. <br><a href='/forgot-password' data-show='forgot-password'>Нажми здесь</a>, чтобы сбросить пароль."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "error_email_exists": {
+          "comment": "OT is separate from other brands but users still need to know their account is the same.",
+          "value": "Похоже, у тебя уже есть учетная запись. <a href='index.html#login' data-show='login'>Войди</a> в систему."
+        }
+      }
+    },
+    "register-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Благодарим за подтверждение электронного адреса"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Войти"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      }
+    },
+    "reset-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "Показать/скрыть пароль"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Ошибка сервера. Повторите попытку."
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "Срок действия этой временной ссылки истек. Ты можешь повторно сбросить пароль <a href='/forgot-password' data-show='forgot-password'>здесь</a>"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Пароль должен содержать не менее 8 символов."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Пароль"
+      },
+      "reset_password_button": {
+        "comment": "",
+        "value": "Установить пароль"
+      },
+      "success": {
+        "comment": "",
+        "value": "Готово!"
+      },
+      "title": {
+        "comment": "",
+        "value": "Сброс пароля"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Укажите новый пароль ниже."
+      }
+    },
+    "register-success": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Вы вошли в новую учетную запись OneASICS."
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>Приветствуем в програме участников OneASICS </b><br>Теперь у тебя есть экслюзивные преимущества, которые можно использовать в магазинах&nbsp;— как оффлайн, так и онлайн.<br><br><b>Получи скидку 10%</b><br>Чтобы использовать ее, покажи это сообщение продавцу."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      },
+      "thanks_for_signing_up": {
+        "comment": "",
+        "value": "Благодарим за регистрацию "
+      }
+    }
+  }
+}

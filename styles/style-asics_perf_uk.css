@@ -1,0 +1,69 @@
+/* CONFIGURABLE */
+a {color: #02c3e6; text-decoration: underline; font-weight: 600;}
+a:hover {text-decoration: none}
+aside {background: #02c3e6}
+aside .leftback {background: url(../images/asics_perf_uk/asics_perf_uk-bg_1.jpg) no-repeat center center transparent; background-size: cover;}
+aside .leftfront {font-weight: 500; color: #001e63}
+	aside .leftfront .subtitle {text-transform: uppercase; font-size: 1.4em;}
+	aside .leftfront .description {padding-top: 2em; padding-bottom: 2em}
+	aside .leftfront .disclaimer {padding-top: 5em}
+main {background: #ffffff}
+.logo-wrapper {display: table; margin: 0px; height: 100%; margin-left: 15%; margin-right: 15%;width: 70%; position: absolute;}
+main #main_inside {display: table; overflow-y: hidden;}
+main #main_inside section .brand_family img {padding-top: 10%; background: url(../images/new-brand_family_blue.svg) no-repeat transparent center center;}
+#lander .title {display: none;}
+main #main_inside .screen {vertical-align: middle;}
+main #main_inside section .brand_family {width: 90%; position: relative; text-align: center; display: inline-block; bottom: 20px; padding-top: 20px;}
+.toplogo {display: table-cell; vertical-align: middle; width: 70%;}
+.toplogo figure {background-image: url(../images/new-one-asics-logo-white.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */}
+.toplogo.blue figure {background-image: url(../images/new-one-asics-logo-blue.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */}
+main #main_inside section {color: #001e63; position: relative;}
+main #main_inside section .app_logo {width: 25%}
+main #main_inside section .app_logo figure {background-image: url(../images/default-app_logo_blue.svg); padding-top: 100%}
+
+.input_outer_container .input_container .inputText {color: #001e63;}
+.input_outer_container .input_container .required_mark {color: #001e63;}
+.input_outer_container .input_container select:focus {border-color: #00c3e6;}
+.input_outer_container:not(.invalid).focus .floating-label {color: #02c3e6}
+.input_outer_container .floating-label {color: #001e63}
+.input_outer_container:not(.invalid) .input_underline {background: #4a4a4a;}
+.input_outer_container:not(.invalid).focus .input_underline {background: #02c3e6;}
+.input_outer_container .subtext_box {color: #001e63;}
+
+.checkbox_box input[type=checkbox]:checked+label:before {background-color: #001e63; border-color: #001e63;}
+.checkbox_box label:before {border: 1px solid #001e63;}
+
+.modal {color: #001e63}
+.modal-header .modal-close:hover {fill: #001e63;}
+
+button, input[type=submit], .action_div {background: #02C3E6; color: #001e63;}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #57ddf5;}
+button.white {border: 1px solid #001e63}
+	button.white:hover {background: #d8d8d8}
+button.gray {background: #d0d0d0; color: #ffffff}
+	button.gray:hover {background: #d8d8d8}
+
+@keyframes colorTint{
+	0% {background: #02c3e6;}
+	100% {background: #d8d8d8;}
+}
+
+/* one asics marketing */
+.responsive_hide.oneasics_content {display: none;}
+
+@media screen and (max-width: 800px) {
+    .responsive_show.oneasics_content {display: none;}
+    .toplogo {display: block; position: relative; top: 10px; padding-top: 24px; padding-bottom: 0px;}
+    .toplogo figure {background-image: url(../images/new-one-asics-logo-blue.svg);}
+    .logo-wrapper {position: relative;}
+    main #main_inside section {top: 0px;}
+    aside {background-color: #fff;}
+		aside .leftfront .description {padding-top: 0px; padding-bottom: 1em}
+		#lander {margin-top: -20px}
+		#lander .title, #lander .title + .top_details, #lander {display: none}
+}
+
+/* END CONFIGURABLE */
+
+/* unhide after css overrides applied */
+#loading_overlay {display: none !important;} 

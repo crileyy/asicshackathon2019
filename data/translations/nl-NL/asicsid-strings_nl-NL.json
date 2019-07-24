@@ -1,0 +1,2586 @@
+{
+  "nl-nl": {
+    "change-email": {
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "change_email_button": {
+        "comment": "",
+        "value": "E-mailadres wijzigen"
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "Dat e-mailadres is al geregistreerd voor een account"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "Nieuw e-mailadres"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Ongeldig e-mailadres"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "E-mailadres of wachtwoord is onjuist"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "Ongeldig e-mailadres"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_password_required": {
+        "comment": "",
+        "value": "Vul je wachtwoord in"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Gebruiker niet gevonden"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Je kunt je e-mailadres of wachtwoord niet wijzigen omdat je bent geregistreerd met een Facebook of Google-account."
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Wachtwoord"
+      },
+      "title": {
+        "comment": "",
+        "value": "E-mailadres voor account bijwerken"
+      }
+    },
+    "change-email-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "E-mailadres bijgewerkt"
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "Ongeldige token"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "We hebben je e-mailadres bijgewerkt naar het nieuwe e-mailadres."
+      },
+      "leadin_text2": {
+        "comment": "",
+        "value": "Let erop dat je vanaf nu inlogt met je nieuwe e-mailadres."
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Door een ASICS-account te maken, bevestig ik dat ik het toepasselijke <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Privacybeleid</a> heb gelezen en begrepen."
+      }
+    },
+    "change-email-done": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "Bevestig"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Er is een bevestigingsmail verzonden naar "
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      }
+    },
+    "change-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "change_password_button": {
+        "comment": "",
+        "value": "Wachtwoord wijzigen"
+      },
+      "current_password_field": {
+        "comment": "",
+        "value": "Huidig wachtwoord"
+      },
+      "error_invalid_current_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "Huidig wachtwoord is onjuist"
+      },
+      "error_invalid_new_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_matching_passwords": {
+        "comment": "",
+        "value": "Wachtwoorden moeten verschillend zijn."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "Je kunt je e-mailadres of wachtwoord niet wijzigen omdat je bent geregistreerd met een Facebook of Google-account."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Wachtwoord vergeten?"
+      },
+      "helptext_current_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "helptext_new_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "Account aanmaken?"
+      },
+      "new_password_field": {
+        "comment": "",
+        "value": "Nieuw wachtwoord"
+      },
+      "success": {
+        "comment": "",
+        "value": "Voltooid"
+      },
+      "title": {
+        "comment": "",
+        "value": "Wachtwoord wijzigen"
+      }
+    },
+    "connect-facebook": {
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "connect_facebook_button": {
+        "comment": "",
+        "value": "Koppelen aan Facebook"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "E-mailadres of wachtwoord is onjuist"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Wachtwoord vergeten?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Wachtwoord"
+      },
+      "title": {
+        "comment": "",
+        "value": "Account koppelen aan Facebook"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Dit e-mailadres is al gekoppeld aan een wachtwoord. Bevestig je wachtwoord om je account te koppelen aan Facebook."
+      }
+    },
+    "connect-google": {
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "connect_google_button": {
+        "comment": "",
+        "value": "Koppelen aan Google"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "E-mailadres of wachtwoord is onjuist"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Wachtwoord vergeten?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Wachtwoord"
+      },
+      "title": {
+        "comment": "",
+        "value": "Koppelen account aan Google"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Dit e-mailadres is al gekoppeld aan een wachtwoord. Bevestig je wachtwoord om je account te koppelen aan Google."
+      }
+    },
+    "continue": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "continue_button": {
+        "comment": "",
+        "value": "Verder"
+      },
+      "disclaimer_text": {
+        "comment": "",
+        "value": "Ik heb het toepasselijke <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Privacybeleid</a> gelezen en begrepen, en ik ga akkoord met de <a href='terms' class='dynamic_link_terms' target='_blank'>Algemene voorwaarden</a>."
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "ASICS wil graag toegang tot de gegevens van jouw OneASICS-account:"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "or": {
+        "comment": "",
+        "value": "Of"
+      },
+      "register_cta": {
+        "comment": "",
+        "value": "Maak een nieuw OneASICS-account aan"
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      }
+    },
+    "country_options": {
+      "AD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Andorra"
+      },
+      "AE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Verenigde Arabische Emiraten"
+      },
+      "AF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Afghanistan"
+      },
+      "AG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Antigua en Barbuda"
+      },
+      "AI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Anguilla"
+      },
+      "AL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Albanië"
+      },
+      "AM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Armenië"
+      },
+      "AN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nederlandse Antillen"
+      },
+      "AO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Angola"
+      },
+      "AQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Antarctica"
+      },
+      "AR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Argentinië"
+      },
+      "AS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Amerikaans-Samoa"
+      },
+      "AT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oostenrijk"
+      },
+      "AU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Australië"
+      },
+      "AW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Aruba"
+      },
+      "AX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ålandseilanden"
+      },
+      "AZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Azerbeidzjan"
+      },
+      "BA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bosnië en Herzegovina"
+      },
+      "BB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Barbados"
+      },
+      "BD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bangladesh"
+      },
+      "BE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "België"
+      },
+      "BF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Burkina Faso"
+      },
+      "BG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bulgarije"
+      },
+      "BH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bahrein"
+      },
+      "BI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Burundi"
+      },
+      "BJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Benin"
+      },
+      "BL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint-Barthélemy"
+      },
+      "BM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bermuda"
+      },
+      "BN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brunei"
+      },
+      "BO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bolivia"
+      },
+      "BR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brazilië"
+      },
+      "BS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bahama's"
+      },
+      "BT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bhutan"
+      },
+      "BV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Bouveteiland"
+      },
+      "BW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Botswana"
+      },
+      "BY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wit-Rusland"
+      },
+      "BZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Belize"
+      },
+      "CA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Canada"
+      },
+      "CC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Cocoseilanden"
+      },
+      "CD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Congo"
+      },
+      "CF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Centraal-Afrikaanse Republiek"
+      },
+      "CG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Congo"
+      },
+      "CH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zwitserland"
+      },
+      "CI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ivoorkust"
+      },
+      "CK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Cookeilanden"
+      },
+      "CL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Chili"
+      },
+      "CM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kameroen"
+      },
+      "CN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "China"
+      },
+      "CO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Colombia"
+      },
+      "CR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Costa Rica"
+      },
+      "CU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Cuba"
+      },
+      "CV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kaapverdië"
+      },
+      "CX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Christmaseiland"
+      },
+      "CY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Cyprus"
+      },
+      "CZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tsjechië"
+      },
+      "DE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Duitsland"
+      },
+      "DJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Djibouti"
+      },
+      "DK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Denemarken"
+      },
+      "DM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dominica"
+      },
+      "DO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Dominicaanse Republiek"
+      },
+      "DZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Algerije"
+      },
+      "EC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ecuador"
+      },
+      "EE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Estland"
+      },
+      "EG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Egypte"
+      },
+      "EH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Westelijke Sahara"
+      },
+      "ER": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Eritrea"
+      },
+      "ES": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Spanje"
+      },
+      "ET": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ethiopië"
+      },
+      "FI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Finland"
+      },
+      "FJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Fiji"
+      },
+      "FK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Falklandeilanden (Islas Malvinas)"
+      },
+      "FM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Micronesia"
+      },
+      "FO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Faeröer"
+      },
+      "FR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Frankrijk"
+      },
+      "GA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gabon"
+      },
+      "GB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Verenigd Koninkrijk"
+      },
+      "GD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Grenada"
+      },
+      "GE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Georgië"
+      },
+      "GF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Frans-Guyana"
+      },
+      "GG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guernsey"
+      },
+      "GH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ghana"
+      },
+      "GI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gibraltar"
+      },
+      "GL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Groenland"
+      },
+      "GM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Gambia"
+      },
+      "GN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guinee"
+      },
+      "GP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guadeloupe"
+      },
+      "GQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Equatoriaal-Guinea"
+      },
+      "GR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Griekenland"
+      },
+      "GS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zuid-Georgia en de Zuidelijke Sandwicheilanden"
+      },
+      "GT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guatemala"
+      },
+      "GU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guam"
+      },
+      "GW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guinee-Bissau"
+      },
+      "GY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Guyana"
+      },
+      "HK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Hongkong"
+      },
+      "HM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Heard en McDonaldeilanden"
+      },
+      "HN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Honduras"
+      },
+      "HR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kroatië"
+      },
+      "HT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Haïti"
+      },
+      "HU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Hongarije"
+      },
+      "ID": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Indonesië"
+      },
+      "IE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Ierland"
+      },
+      "IL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Israël"
+      },
+      "IM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Man"
+      },
+      "IN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "India"
+      },
+      "IO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Brits Indische Oceaanterritorium"
+      },
+      "IQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Irak"
+      },
+      "IR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Iran"
+      },
+      "IS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "IJsland"
+      },
+      "IT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Italië"
+      },
+      "JE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jersey"
+      },
+      "JM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jamaica"
+      },
+      "JO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jordanië"
+      },
+      "JP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Japan"
+      },
+      "KE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kenia"
+      },
+      "KG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kirgizië"
+      },
+      "KH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Cambodja"
+      },
+      "KI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kiribati"
+      },
+      "KM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Comoren"
+      },
+      "KN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint Kitts en Nevis"
+      },
+      "KR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Korea"
+      },
+      "KW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Koeweit"
+      },
+      "KY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kaaimaneilanden"
+      },
+      "KZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kazachstan"
+      },
+      "LA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Laos"
+      },
+      "LB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Libanon"
+      },
+      "LC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint Lucia"
+      },
+      "LI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Liechtenstein"
+      },
+      "LK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sri Lanka"
+      },
+      "LR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Liberia"
+      },
+      "LS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Lesotho"
+      },
+      "LT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Litouwen"
+      },
+      "LU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Luxemburg"
+      },
+      "LV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Letland"
+      },
+      "LY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Libië"
+      },
+      "MA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Marokko"
+      },
+      "MC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Monaco"
+      },
+      "MD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Moldavië"
+      },
+      "ME": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Montenegro"
+      },
+      "MF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sint Maarten"
+      },
+      "MG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Madagaskar"
+      },
+      "MH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Marshalleilanden"
+      },
+      "MK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Macedonië"
+      },
+      "ML": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mali"
+      },
+      "MM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Myanmar"
+      },
+      "MN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mongolië"
+      },
+      "MO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Macau"
+      },
+      "MP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Noordelijke Marianen"
+      },
+      "MQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Martinique"
+      },
+      "MR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mauritanië"
+      },
+      "MS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Montserrat"
+      },
+      "MT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malta"
+      },
+      "MU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mauritius"
+      },
+      "MV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malediven"
+      },
+      "MW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Malawi"
+      },
+      "MX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mexico"
+      },
+      "MY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Maleisië"
+      },
+      "MZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mozambique"
+      },
+      "NA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Namibië"
+      },
+      "NC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nieuw-Caledonië"
+      },
+      "NE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Niger"
+      },
+      "NF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Norfolk"
+      },
+      "NG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nigeria"
+      },
+      "NI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nicaragua"
+      },
+      "NL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nederland"
+      },
+      "NO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Noorwegen"
+      },
+      "NP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nepal"
+      },
+      "NR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nauru"
+      },
+      "NU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Niue"
+      },
+      "NZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Nieuw-Zeeland"
+      },
+      "OM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oman"
+      },
+      "PA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Panama"
+      },
+      "PE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Peru"
+      },
+      "PF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Frans-Polynesië"
+      },
+      "PG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Papoea-Nieuw-Guinea"
+      },
+      "PH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Filipijnen"
+      },
+      "PK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Pakistan"
+      },
+      "PL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Polen"
+      },
+      "PM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint-Pierre en Miquelon"
+      },
+      "PN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Pitcairn"
+      },
+      "PR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Puerto Rico"
+      },
+      "PS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Palestijnse territoria"
+      },
+      "PT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Portugal"
+      },
+      "PW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Palau"
+      },
+      "PY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Paraguay"
+      },
+      "QA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Qatar"
+      },
+      "RE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Réunion"
+      },
+      "RO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Roemenië"
+      },
+      "RS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Servië"
+      },
+      "RU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Rusland"
+      },
+      "RW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Rwanda"
+      },
+      "SA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saoedi-Arabië"
+      },
+      "SB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Salomonseilanden"
+      },
+      "SC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Seychellen"
+      },
+      "SD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Soedan"
+      },
+      "SE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zweden"
+      },
+      "SG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Singapore"
+      },
+      "SH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sint-Helena"
+      },
+      "SI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Slovenië"
+      },
+      "SJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Spitsbergen en Jan Mayen"
+      },
+      "SK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Slowakije"
+      },
+      "SL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sierra Leone"
+      },
+      "SM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "San Marino"
+      },
+      "SN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Senegal"
+      },
+      "SO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Somalië"
+      },
+      "SR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Suriname"
+      },
+      "ST": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Sao Tomé en Principe"
+      },
+      "SV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "El Salvador"
+      },
+      "SY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Syrië"
+      },
+      "SZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Swaziland"
+      },
+      "TC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Turks- en Caicoseilanden"
+      },
+      "TD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tsjaad"
+      },
+      "TF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Franse Zuidelijke en Antarctische Gebieden"
+      },
+      "TG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Togo"
+      },
+      "TH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tailand"
+      },
+      "TJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tadzjikistan"
+      },
+      "TK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tokelau"
+      },
+      "TL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oost-Timor"
+      },
+      "TM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Turkmenistan"
+      },
+      "TN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tunesië"
+      },
+      "TO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tonga"
+      },
+      "TR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Turkije"
+      },
+      "TT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Trinidad en Tobago"
+      },
+      "TV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tuvalu"
+      },
+      "TW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Taiwan"
+      },
+      "TZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Tanzania"
+      },
+      "UA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oekraïne"
+      },
+      "UG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oeganda"
+      },
+      "UM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Kleine afgelegen eilanden van de Verenigde Staten"
+      },
+      "US": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Verenigde Staten"
+      },
+      "UY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Uruguay"
+      },
+      "UZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Oezbekistan"
+      },
+      "VA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "De Heilige Stoel (Vaticaanstad)"
+      },
+      "VC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Saint Vincent en de Grenadines"
+      },
+      "VE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Venezuela"
+      },
+      "VG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Britse Maagdeneilanden"
+      },
+      "VI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Amerikaanse Maagdeneilanden"
+      },
+      "VN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Vietnam"
+      },
+      "VU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Vanuatu"
+      },
+      "WF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Wallis en Futuna"
+      },
+      "WS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Samoa"
+      },
+      "YE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Jemen"
+      },
+      "YT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Mayotte"
+      },
+      "ZA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zuid-Afrika"
+      },
+      "ZM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zambia"
+      },
+      "ZW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "Zimbabwe"
+      }
+    },
+    "delete": {
+      "above_button": {
+        "comment": "No need to translate the link.",
+        "value": "Dit is van toepassing op <b>alle ASICS</b>-accounts, inclusief ASICS Runkeeper, ASICS Studio en ASICS.com. Ga naar onze <a target='_blank' href='https://www.asics.com/privacy'>privacyhub</a> om specifieke gegevens te verwijderen."
+      },
+      "below_button": {
+        "comment": "",
+        "value": "Ben je hier toevallig? <a href='http://www.asics.com'>Ga naar ASICS.com</a>"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "Alle gegevens verwijderen"
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "De volgende gebruiker en de gekoppelde gegevens worden verwijderd van onze servers:"
+      },
+      "title": {
+        "comment": "",
+        "value": "Gebruikersaccount verwijderen"
+      }
+    },
+    "footer": {
+      "cookie_policy": {
+        "comment": "",
+        "value": "Cookiebeleid"
+      },
+      "cookie_settings": {
+        "comment": "",
+        "value": "Cookie-instellingen"
+      },
+      "exit": {
+        "comment": "",
+        "value": "Afsluiten"
+      },
+      "language_change": {
+        "comment": "",
+        "value": "Wijzigen"
+      },
+      "privacy_policy": {
+        "comment": "",
+        "value": "Privacybeleid"
+      },
+      "terms_of_service": {
+        "comment": "",
+        "value": "Servicevoorwaarden"
+      },
+      "aeg_outlet_instore": {
+        "terms-and-conditions": {
+          "comment": "",
+          "value": "Er zijn voorwaarden van toepassing. Kijk <a href='https://outlet.asics.com/gb/en-gb/customer-service/faq-outlet-oneasics/faq-outlet-oneasics.html' target='_blank'>hier</a> voor meer informatie."
+        }
+      }
+    },
+    "forgot-password": {
+      "email_field": {
+        "comment": "",
+        "value": "E-mailadres"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Ongeldig e-mailadres"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Gebruiker niet gevonden"
+      },
+      "forgot_password_button": {
+        "comment": "",
+        "value": "Link voor nieuw wachtwoord verzenden"
+      },
+      "success": {
+        "comment": "",
+        "value": "Voltooid. Deze link is tijdelijk en verloopt na 24 uur."
+      },
+      "title": {
+        "comment": "",
+        "value": "Wachtwoord vergeten?"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Voer hieronder het e-mailadres in dat is gekoppeld aan je account. Je ontvangt een link om je wachtwoord opnieuw in te stellen."
+      }
+    },
+    "newsletter-opt-in": {
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "success": {
+        "comment": "",
+        "value": "Voltooid"
+      },
+      "title": {
+        "comment": "",
+        "value": "Nieuwsbriefopt-in"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, aangepast aan mijn interesses en voorkeuren zoals beschreven in het Privacybeleid."
+      },
+      "newsletter_opt_in_button": {
+        "comment": "",
+        "value": "Updaten"
+      }
+    },
+    "format_date": {
+      "comment": "Please format this date to match the localized standard (using '.', '/', '-', etc.). Keep the letters M, D, and Y as identifiers for month, day, and year.",
+      "value": "DD-MM-YYYY"
+    },
+    "gender_options": {
+      "male": {
+        "comment": "This is a gender option.",
+        "value": "Heren"
+      },
+      "female": {
+        "comment": "This is a gender option.",
+        "value": "Dames"
+      },
+      "other": {
+        "comment": "This is a gender option.",
+        "value": "Anders"
+      }
+    },
+    "lander": {
+      "already_have": {
+        "comment": "",
+        "value": "Heb je al een OneASICS-account?"
+      },
+      "alt_brand_family": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Logo's van alle merken binnen de ASICS familie: ASICS Tiger, Onitsuka Tiger, Häglofs, Runkeeper en ASICS Studio"
+      },
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Aanmelden met Facebook"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Aanmelden met Google"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Aanmelden"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Aanmelden"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Inloggen"
+      },
+      "signup_email_button": {
+        "comment": "",
+        "value": "Aanmelden met je e-mailadres"
+      },
+      "title": {
+        "comment": "",
+        "value": "Eén account."
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Eén eenvoudige manier om je te bewegen binnen de gehele ASICS-familie."
+      },
+      "asics_walking": {
+        "title": {
+          "comment": "",
+          "value": "Een account"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Meedoen is makkelijk en gratis."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_jp": {
+        "title": {
+          "comment": "",
+          "value": "Een account"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Meedoen is makkelijk en gratis."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "title": {
+          "comment": "",
+          "value": "Meedoen is makkelijk en gratis."
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Meld je vandaag nog aan om speciale voordelen van Onitsuka Tiger te krijgen."
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "Meld je aan voor gratis verzending op alle bestellingen en alles wat je koopt 90 dagen op proef."
+        },
+        "alt_brand_family": {
+          "comment": "This is alt text on image for low vision / blind users",
+          "value": "Logo's van alle merken binnen de ASICS familie: ASICS, Runkeeper en ASICS Studio"
+        }
+      },
+      "asics_tiger_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "Meld je aan voor gratis verzending op alle bestellingen en alles wat je koopt 90 dagen op proef."
+        }
+      },
+      "aeg_outlet_instore": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "Meld je aan voor <strong>10% korting op je eerste aankoop, gratis verzending voor alle bestellingen en een gratis proefabonnement van 90 dagen op Runkeeper Go&trade;.</strong>"
+        },
+        "already_have": {
+          "comment": "",
+          "value": "Je OneASICS-account werkt voor alle ASICS-merken. Heb je al een OneASICS-account?"
+        }
+      }
+    },
+    "left_panel": {
+      "asics_studio_header": {
+        "comment": "",
+        "value": "Eén account, één eenvoudige manier om je te bewegen binnen de gehele ASICS familie."
+      },
+      "asics_walking": {
+        "description": {
+          "comment": "",
+          "value": "Registreer voor een gratis OneASICS-account voor toegang tot speciale voordelen, waaronder:"
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "Er zijn voorwaarden van toepassing. Kijk <a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>hier</a> voor meer informatie."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "10% korting op elke bestelling tot 31 maart 2019"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Maak kans op een gratis hardloopanalyse"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "3 maanden gratis Runkeeper Go&trade; premium-app"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Met jouw lidmaatschap draag je bij aan de Right to Play Foundation"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Leden krijgen meer"
+        }
+      },
+      "aeg_outlet_instore": {
+        "description": {
+          "comment": "",
+          "value": "Meld je aan voor speciale voordelen bij je eerste aankoop:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "10% korting op je aankoop"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Een proefabonnement van 90 dagen op Runkeeper Go&trade;"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Gratis expresbezorging voor alle bestellingen"
+        }
+      },
+      "asics_perf_jp": {
+        "description": {
+          "comment": "",
+          "value": "Registreer voor een gratis OneASICS-account voor toegang tot speciale voordelen, waaronder:"
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "Er zijn voorwaarden van toepassing. Kijk <a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>hier</a> voor meer informatie."
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "10% korting op elke bestelling tot 31 maart 2019"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Maak kans op een gratis hardloopanalyse"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "3 maanden gratis Runkeeper Go&trade; premium-app"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Met jouw lidmaatschap draag je bij aan de Right to Play Foundation"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Leden krijgen meer"
+        }
+      },
+      "asics_perf_uk": {
+        "description": {
+          "comment": "",
+          "value": "Registreer voor een gratis OneASICS-account voor toegang tot speciale voordelen, waaronder:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Gratis expresbezorging voor alle bestellingen"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "De Runkeeper Go&trade;-app 90 dagen gratis op proef"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90 dagen om alle schoenen en kleding te proberen"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Exclusieve toegang tot aanbiedingen en evenementen"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Leden krijgen meer"
+        }
+      },
+      "raceroster_25": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "Voer je gegevens in om via de e-mail je code te ontvangen voor $ 25 korting. <br />Bovendien krijg je bij bestelling van boven de $ 50 gratis verzending binnen twee dagen."
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "Je korting van $ 25 ophalen"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "*Meld je aan voor een gratis ONEASICS-account en ontvang $ 25 korting bij besteding van meer dan $ 100 op ASICS.com. Er zijn voorwaarden van toepassing"
+        }
+      },
+      "raceroster_rkgo": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "Geef je gegevens op voor een gratis proefabonnement voor 90 dagen op Runkeeper Go&trade;."
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "Je gratis proefabonnement op Runkeeper Go&trade; activeren"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "*Er zijn voorwaarden van toepassing."
+        }
+      },
+      "asics_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "Registreer voor een gratis OneASICS-account voor toegang tot speciale voordelen, waaronder:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Gratis expresbezorging voor alle bestellingen"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "De Runkeeper Go&trade;-app 90 dagen gratis op proef"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90 dagen om alle schoenen en kleding te proberen"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Exclusieve toegang tot aanbiedingen en evenementen"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Leden krijgen meer"
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "Registreer voor een gratis account om speciale voordelen te ontgrendelen, waaronder:"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "Gratis expresbezorging voor alle bestellingen"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "De Runkeeper Go&trade;-app 90 dagen gratis op proef"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "90 dagen om alle schoenen en kleding te proberen"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "Exclusieve toegang tot aanbiedingen en evenementen"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "Leden krijgen meer"
+        }
+      }
+    },
+    "logged-in": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Je bent aangemeld."
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>Thank you for logging in to your OneASICS Account</b><br><br><b>Get Started with 10% Off</b><br>Show this screen to a sales associate to redeem."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      },
+      "welcome_back": {
+        "comment": "",
+        "value": "Welkom terug "
+      }
+    },
+    "login": {
+      "alt_facebook": {
+        "comment": "",
+        "value": "Meld je aan met Facebook"
+      },
+      "alt_google": {
+        "comment": "",
+        "value": "Meld je aan met Google"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Meld je aan"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Meld je aan"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "E-mailadres"
+      },
+      "error_account_locked": {
+        "comment": "",
+        "value": "Account vergrendeld"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "Het lijkt er op dat u al een account hebt aangemaakt. <a href='/forgot-password' data-show='forgot-password'>Klik hier</a> om je wachtwoord te resetten."
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "Gebruikersgegevens ophalen is mislukt"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Ongeldig e-mailadres"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "E-mailadres of wachtwoord is onjuist"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoordveld is leeg. <a href='/forgot-password' data-show='forgot-password'>Klik hier</a> om je wachtwoord te resetten."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "Als je je aanmeldt, word je omgeleid naar je oorspronkelijke verzoek."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "Gebruiker niet gevonden"
+      },
+      "error_wrong_account_type_fb": {
+        "comment": "",
+        "value": "Je hebt je account met Facebook aangemaakt. Meld je aan met Facebook."
+      },
+      "error_wrong_account_type_google": {
+        "comment": "",
+        "value": "Je hebt je account met Google aangemaakt. Meld je aan met Google."
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "Wachtwoord vergeten?"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "login_button": {
+        "comment": "",
+        "value": "Meld je aan"
+      },
+      "message_password_changed": {
+        "comment": "",
+        "value": "Je wachtwoord is gewijzigd. Log hieronder in met je nieuwe wachtwoord."
+      },
+      "need_account": {
+        "comment": "",
+        "value": "Account aanmaken?"
+      },
+      "or": {
+        "comment": "",
+        "value": "Of"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Wachtwoord"
+      },
+      "remember_me_checkbox": {
+        "comment": "",
+        "value": "Mij onthouden"
+      },
+      "sign_up": {
+        "comment": "",
+        "value": "Aanmelden"
+      },
+      "title": {
+        "comment": "",
+        "value": "Meld je aan"
+      },
+      "runkeeper": {
+        "top_details": {
+          "comment": "",
+          "value": "Meld je aan met je OneASICS account om aan de slag te gaan met Runkeeper"
+        }
+      }
+    },
+    "logout": {
+      "leadin_text": {
+        "comment": "",
+        "value": "Je bent nu afgemeld uit je OneASICS account."
+      }
+    },
+    "modal_cookie_policy": {
+      "close_button": {
+        "comment": "",
+        "value": "Sluiten"
+      },
+      "title": {
+        "comment": "",
+        "value": "Cookiebeleid"
+      }
+    },
+    "modal_delete_confirm": {
+      "close_button": {
+        "comment": "",
+        "value": "Annuleren"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "Account verwijderen"
+      },
+      "delete_confirm_final": {
+        "comment": "",
+        "value": "Alle gegevens van deze accounts worden verwijderd. Dit kan tot twee weken duren. We waarderen je geduld."
+      },
+      "delete_confirm_leadin": {
+        "comment": "",
+        "value": "Je verliest toegang tot de volgende services:"
+      },
+      "delete_confirm_services": {
+        "comment": "No need to translate this, brand stays the same",
+        "value": "<ul><li>ASICS</li><li>ASICS Tiger</li><li>Onitsuka Tiger</li><li>OneASICS</li><li>ASICS Studio</li><li>ASICS Runkeeper</li><li>Pace Your Race</li><li>Frontrunners</li></ul>"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "success": {
+        "comment": "",
+        "value": "Je account is verwijderd. Je wordt nu omgeleid."
+      },
+      "title": {
+        "comment": "",
+        "value": "Accountverwijdering bevestigen"
+      }
+    },
+    "profile": {
+      "already_have": {
+        "comment": "",
+        "value": "Heb je al een OneASICS-account?"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Selecteren"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Land van verblijf"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Geboortedatum"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Controleer of je je geboortedatum juist hebt ingevoerd."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Je komt niet in aanmerking om je te registreren bij OneASICS."
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "Ongeldig teken"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Ongeldige datum"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Verplicht veld"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Voornaam"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Selecteer je geslacht"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Sportuitrusting en diensten aanpassen voor:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Achternaam"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, aangepast aan mijn interesses en voorkeuren zoals beschreven in het Privacybeleid."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "Volgende"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic First Name"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic Last Name"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "Geslacht"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, zoals beschreven in het Privacybeleid."
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "Opslaan"
+      },
+      "success": {
+        "comment": "",
+        "value": "Je profiel is bijgewerkt."
+      },
+      "title": {
+        "comment": "",
+        "value": "Profiel bijwerken"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Geef je gegevens op zodat wij diensten en sportuitrustingen speciaal op jou kunnen afstemmen."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Door een ASICS-account te maken, bevestig ik dat ik het toepasselijke <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Privacybeleid</a> heb gelezen en begrepen."
+      }
+    },
+    "complete-profile": {
+      "complete_profile_required": {
+        "comment": "",
+        "value": "We hebben wat meer informatie nodig voordat je verder kunt gaan."
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Selecteren"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Land van verblijf"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Geboortedatum"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Controleer of je je geboortedatum juist hebt ingevoerd."
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Je komt niet in aanmerking om je te registreren bij OneASICS."
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Ongeldige datum"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Verplicht veld"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Voornaam"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Selecteer je geslacht"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Sportuitrusting en diensten aanpassen voor:"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Achternaam"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, aangepast aan mijn interesses en voorkeuren zoals beschreven in het Privacybeleid."
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic First Name"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic Last Name"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "Geslacht"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, zoals beschreven in het Privacybeleid."
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "Doorgaan"
+      },
+      "title": {
+        "comment": "",
+        "value": "Je profiel voltooien"
+      },
+      "skip_for_now_link": {
+        "comment": "",
+        "value": "Nu overslaan"
+      }
+    },
+    "register": {
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Aanmelden met Facebook"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Aanmelden met Google"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "already_have": {
+        "comment": "",
+        "value": "Heb je al een OneASICS-account?"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "Aanmelden"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "Aanmelden"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "Selecteren"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "Land van verblijf"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "Geboortedatum"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "E-mailadres"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "Het lijkt er op dat u al een account hebt aangemaakt. <a href='/forgot-password' data-show='forgot-password'>Klik hier</a> om je wachtwoord te resetten."
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "Controleer of je je geboortedatum juist hebt ingevoerd."
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "Gebruikersgegevens ophalen is mislukt"
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "Je komt niet in aanmerking om je te registreren bij OneASICS."
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "Het lijkt erop dat je al een account bij ons hebt, meld <a href='index.html#login' data-show='login'>je</a> aan."
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "Ongeldig teken"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "Ongeldige datum"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "Ongeldig e-mailadres"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "Ongeldig e-mailadres"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "Als je een account hebt aangemaakt, word je omgeleid naar je oorspronkelijke verzoek."
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "Verplicht veld"
+      },
+      "error_invalid_name": {
+        "comment": "",
+        "value": "Gebruik niet meer dan 50 tekens of speciale symbolen"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "finish_button": {
+        "comment": "",
+        "value": "Voltooien"
+      },
+      "finish_button_facebook": {
+        "comment": "",
+        "value": "Aanmelden met Facebook"
+      },
+      "finish_button_google": {
+        "comment": "",
+        "value": "Aanmelden met Google"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "Voornaam"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "Selecteer je geslacht"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "Sportuitrusting en diensten aanpassen voor:"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "Achternaam"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Inloggen"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, aangepast aan mijn interesses en voorkeuren zoals beschreven in het Privacybeleid."
+      },
+      "next_button": {
+        "comment": "",
+        "value": "Volgende"
+      },
+      "or": {
+        "comment": "",
+        "value": "Of"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Wachtwoord"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic First Name"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "Phonetic Last Name"
+      },
+      "runkeeper": {
+        "finish_button": {
+          "comment": "",
+          "value": "Account aanmaken"
+        },
+        "gender_field_above": {
+          "comment": "",
+          "value": "Geslacht"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "Maak een OneASICS-account om je aan te melden bij Runkeeper"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "Ik wil graag nieuwsbrieven en informatie over producten, diensten en evenementen per e-mail ontvangen, zoals beschreven in het Privacybeleid."
+        }
+      },
+      "success": {
+        "comment": "",
+        "value": "Voltooid. Je account is aangemaakt en je bent nu ingelogd."
+      },
+      "title": {
+        "comment": "",
+        "value": "Account aanmaken"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Geef je gegevens op zodat wij diensten en sportuitrustingen speciaal op jou kunnen afstemmen."
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "Door een ASICS-account te maken, bevestig ik dat ik het toepasselijke <a href='privacy_policy' class='dynamic_link_pp' target='_blank'>Privacybeleid</a> heb gelezen en begrepen."
+      },
+      "asics_studio": {
+        "error_email_exists": {
+          "comment": "",
+          "value": "Je hebt al een OneASICS- of Runkeeper-account. <br>Graag hier <a href='/login' data-show='login'>inloggen</a>."
+        },
+        "error_account_without_password": {
+          "comment": "User who has signed up but needs to click reset password email.",
+          "value": "Je hebt al een OneASICS- of Runkeeper-account. <br><a href='/forgot-password' data-show='forgot-password'>Klik hier</a> om je wachtwoord te resetten."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "error_email_exists": {
+          "comment": "OT is separate from other brands but users still need to know their account is the same.",
+          "value": "Het lijkt erop dat je al een account bij ons hebt, meld <a href='index.html#login' data-show='login'>je</a> aan."
+        }
+      }
+    },
+    "register-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Bedankt voor het bevestigen van je e-mailadres."
+      },
+      "log_in": {
+        "comment": "",
+        "value": "Inloggen"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      }
+    },
+    "reset-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "Wachtwoord verbergen/weergeven"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "error_server": {
+        "comment": "",
+        "value": "Serverfout. Probeer het opnieuw"
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "De tijdelijke link is verlopen. Reset je wachtwoord <a href='/forgot-password' data-show='forgot-password'>hier</a>"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "Het wachtwoord moet uit minimaal 8 tekens bestaan."
+      },
+      "password_field": {
+        "comment": "",
+        "value": "Wachtwoord"
+      },
+      "reset_password_button": {
+        "comment": "",
+        "value": "Wachtwoord instellen"
+      },
+      "success": {
+        "comment": "",
+        "value": "Voltooid"
+      },
+      "title": {
+        "comment": "",
+        "value": "Nieuw wachtwoord instellen"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "Stel je nieuwe wachtwoord hieronder in."
+      }
+    },
+    "register-success": {
+      "alt_logo": {
+        "comment": "",
+        "value": "asics"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "asics tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "Je bent nu aangemeld bij je nieuwe OneASICS-account."
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>Welcome to the OneASICS Membership Program</b><br>You've just unlocked exclusive benefits that you can use in-store and online.<br><br><b>Get Started with 10% Off</b><br>Show this screen to a sales associate to redeem."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "onitsuka tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "runkeeper"
+        }
+      },
+      "thanks_for_signing_up": {
+        "comment": "",
+        "value": "Bedankt voor je inschrijving "
+      }
+    }
+  }
+}

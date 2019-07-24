@@ -1,0 +1,363 @@
+/* baseline styles and formatting */
+html, body {font-size: 16px; font-size: 100%; line-height: 130%; font-family: 'Graphik', arial, sans-serif; height: 100%}
+.asics {font-family: "ASICS"; text-transform: uppercase; font-size: 75%}
+.asics img.logo {animation: move .1s infinite linear}
+
+body {margin: 0px;}
+  @media (pointer: coarse){body {-webkit-user-select: none; -moz-user-select: -moz-none; -ms-user-select: none; user-select: none;}} /* disable selecting text via touch */
+img, figure {border: 0px; margin: 0px; padding: 0px; max-width: 100%;}
+a {color: #02c3e6; text-decoration: underline}
+a:hover {text-decoration: none}
+
+#loading_overlay {display: block; position: fixed; z-index: 101; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff;}
+.packaging {display: table; height: 100%; width: 100%}
+main, aside {display: table-cell; width: 50%; min-height: 100%}
+aside {background: #ffffff}
+  aside .leftback {position: fixed; width: inherit; height: 100%; background-size: cover; background-color: transparent}
+  aside .leftfront {position: relative; text-align: center; z-index: 11}
+  
+/* chrome bugfix for background cover 1px right line */
+aside .leftback {width: calc(50% + 1px); z-index: 10}
+main footer {z-index: 9}
+
+.error {display: none; color: #f8485e; margin: auto; margin-bottom: 20px; clear: both}
+.warning_button, .warning_button:hover {background: #f8485e; color: #ffffff}
+.success, .message {display: none; color: #00c3e6; margin: auto; margin-bottom: 20px; clear: both}
+.color_inherit {color: inherit}
+.login_required {display: none; color: #f8485e; margin: auto; margin-bottom: 20px; clear: both}
+.complete_profile_required {color: #f8485e; margin: auto; margin-bottom: 20px; clear: both}
+.loading {text-align: center; animation: fadeIn 1s infinite alternate; font-family: "ASICS"}
+.in_progress, .in_progress:hover {background: transparent; animation: colorTint 1s infinite alternate; cursor: default}
+.bold {font-weight: bold}
+.breakall {word-break: break-word}
+.responsive_show {display: none}
+.responsive_hide {display: block}
+
+main #main_inside section { -webkit-tap-highlight-color:rgba(0,0,0,0); } /* ipad remove screen flickering during touch */
+/* main is the right side (landscape) and visible area (portrait) */
+main {vertical-align: top; vertical-align: top; background: #ffffff}
+  main > div {height: 100%;}
+    @supports (display: flex) {main > div {display: flex; flex-direction: column}} /* ie doesn't contain flex within container */
+  main #main_inside {text-align: center; padding: 20px; padding-bottom: 5em; width: 75%; margin: auto;}
+    @supports (display: flex) {main #main_inside {flex: 1}}
+  main #main_inside section {border: none; color: #001e62; display: none; text-align: center}
+    main #main_inside section h2 {font-weight: 600; font-size: 1.1em; padding: 0px; margin: 0px auto; line-height: 110%}
+    main #main_inside section .brand_family {margin: auto; padding-top: 10px; padding-bottom: 10px;}
+    main #main_inside section .brand_family figure {width: 100%; display: block; background: transparent no-repeat center center; background-size: contain; height: 0;}
+    main #main_inside section .app_logo {margin: auto;}
+    main #main_inside section .app_logo figure {width: 100%; display: block; background: transparent no-repeat center center; background-size: contain; height: 0;}
+    main #main_inside section .section_block, .modal .section_block {margin: 0px auto; margin-top: 20px;}
+    main #main_inside section .section_block:last-of-type, .modal .section_block:last-of-type {margin-bottom: 20px}
+    main #main_inside section .extra_top {margin-top: 20px}
+    main #main_inside section .extra_bottom {margin-bottom: 20px}
+    main #main_inside section .top_details {margin-top: 20px; margin-bottom: 20px}
+    main #main_inside section .bottom_details_text  {margin: 0px auto}
+    main #main_inside section .bottom_details {height: inherit}
+    main #main_inside section .bottom_details button {margin-top: 0px}
+    main #main_inside section .bottom_cta, main #main_inside section .bottom_cta a {font-weight: 600}
+    main #main_inside section .bottom_cta a[data-show=login] {white-space: nowrap}
+    main #main_inside section .barcode {padding: 30px 0px 30px 0px; max-width: 350px; margin: auto}
+    main #main_inside section .small_text {font-size: .8em; text-align: left; line-height: 110%}
+      main #main_inside section .small_text:last-of-type {padding-bottom: 10px}
+    main #main_inside section .small_gray {font-size: .8em; text-align: left; color: #7A7A7A; line-height: 110%; padding-top: 20px}
+    main #main_inside section .small_gray.checkbox_box {padding-top: 10px}
+    main #main_inside section .small_list ul, .modal .small_list ul {padding: 0px; padding-left: 5%; margin: 0px; margin: auto; list-style-type: square; width: 60%;}
+      main #main_inside section .small_list li, .modal .small_list li {padding: 0px; margin: 0px; text-align: left; font-size: .9em}
+    main #main_inside section .delete_confirm {display: none; color: #f8485e}
+  main footer {position: fixed; bottom: 0; text-align: right; width: inherit; background: #ffffff; font-size: 12px}
+    main footer .footer-wrapper a, select {color: #7a7a7a; font-weight: normal}
+    main .footer-wrapper {border-top: 1px solid #d8d8d8;}
+    main .terms-and-conditions {color: #001e63; font-size: 14px; font-weight: normal; text-align: center; padding-top: 10px; padding-bottom: 10px;}
+    main footer .terms-and-conditions a {color: inherit;}
+    main footer > div {text-align: right; display: table; width: 100%}
+    main footer > div .footer_left, main footer > div .footer_right {display: table-cell; padding: .5em 1em .5em 1em}
+    main footer > div .footer_left {text-align: left; width: 99%}
+    main footer > div .footer_left ul, main footer > div .footer_right ul {list-style-type: none; padding: 0px; margin: 0px}
+    main footer > div .footer_left ul li, main footer > div .footer_right ul li {list-style-type: none; padding: 0px; margin: 0px; padding-left: .5em; padding-right: .5em; display: inline-block}
+    main footer > div .footer_right {text-align: right;}
+    main footer > div .footer_right .footer-locale-select {font-size: 12px; height: 1.5em; margin: 0px; -webkit-appearance: none; -moz-appearance: none; border: none; outline: 0px; background: transparent url(../images/icon-triangle.svg) no-repeat 95% 50%; padding: 0px; padding-right: 20px; text-decoration: underline; cursor: pointer; display: none}
+    main footer > div .footer_right .footer-locale-select option {text-decoration: none}
+.toplogo {margin: auto; text-align: center; padding-top: 20px; padding-bottom: 20px; display: block}
+.toplogo figure {width: 100%; margin: auto; display: block; background: transparent no-repeat center center; background-size: contain; width: 100%; height: 0; padding-top: 32.6%}
+
+/* form stuff */
+form {display: inline}
+input, button, select {font-family: 'Graphik', arial, sans-serif; border: none; display: block; margin-top: 1em; margin-bottom: 1em; height: 42px; background: transparent; font-size: 1.1em; outline: 0}
+select::-ms-expand {display: none;}
+button, input[type=submit], .action_div {height: auto; min-height: 42px; cursor: pointer; background: #02C3E6; color: #001E62; padding: .5em; text-transform: uppercase; font-weight: 600; font-size: .9em; margin-left: auto; margin-right: auto; text-align: center; width: 100%; border-radius: 0px; transition: background .2s; box-shadow: 1px 1px 2px #cacaca}
+button:hover, input[type=submit]:hover, .action_div:hover {background: #57ddf5;}
+button[disabled], input[type=submit][disabled], button[disabled]:hover, input[disabled][type=submit]:hover {background: #d8d8d8; color: #ffffff; cursor: default}
+button.extra_top, input.extra_top {margin-top: 2em}
+button.no_top, input.no_top {margin-top: 0px}
+button.white {color: #001e62; background: #ffffff; border: 1px solid #001e62}
+  button.white:hover {background: #d8d8d8}
+button.gray {background: #d0d0d0; color: #ffffff}
+  button.gray:hover {background: #d8d8d8}
+.two_col_box button, .two_col_box span, .two_col_box div, .one_col_box button, .one_col_box span, .one_col_box div {display: inline-block; text-align: center;}
+  .two_col_box > span, .two_col_box > div, .one_col_box > span, .one_col_box > div {font-size: .9em}
+.two_col_box > button, .two_col_box > span, .two_col_box > div {width: 48%;}
+.two_col_box .align_left, .one_col_box .align_left, .one_col_box.align_left {text-align: left}
+.two_col_box .align_right, .one_col_box .align_right, .one_col_box.align_right {text-align: right}  
+.two_col_box > .right {float: right; margin-left: 4%;}
+button.facebook, button.facebook:hover {background: #3b5998; color: #ffffff}
+button.google, button.google:hover {background: #ffffff; color: #001e63; border: 1px solid #cacaca}
+button.facebook > img, button.google > img {height: 24px; vertical-align: middle; margin-right: 10px;}
+button.facebook > span, button.google > span {vertical-align: middle}
+[type=submit].facebook_create, [type=submit].google_create {display: none}
+.two_col_box button.facebook, .two_col_box button.google {margin-top: .5em; margin-bottom: .5em}
+input[type=text] {color: #4a4a4a; border-bottom: 1px solid #4a4a4a; width: 100%}
+
+input, input[type=text], input[type=password], input[type=date] {-webkit-appearance: none; -moz-appearance: none; padding: 0px;}
+
+.checkbox_box {position: relative}
+.checkbox_box input[type=checkbox] {width: 30px; height: 30px; display: inline; margin: 0px; padding: 0px; float: left; cursor: pointer; -webkit-appearance: checkbox; -moz-appearance: checkbox; opacity: 0; position:relative; z-index: 1}
+.checkbox_box input[type=checkbox]:checked+label:before {background-color: #02c3e6; border-color: #02c3e6; content: "\2713";}
+.checkbox_box label{cursor:pointer; }
+.checkbox_box label:before {content: ""; color: #ffffff; height: 18px; font-size: 18px; line-height: 100%; font-weight: bold; width: 18px; cursor:pointer; display: inline-block; text-align: center; position: absolute; left: 2px; top: 2px; z-index: 0; border: 1px solid #4a4a4a; background-color: #ffffff; transition: background-color 0.3s linear}
+
+input:-webkit-autofill, input[type=text]:-webkit-autofill, input[type=password]:-webkit-autofill, input[type=date]:-webkit-autofill {-webkit-box-shadow: inset 0 0 0px 9999px white;}
+input:invalid, input[type=text]:invalid, input[type=password]:invalid, input[type=date]:invalid {box-shadow: none;}
+
+.input_outer_container {position: relative; text-align: left; padding-top: 15px}
+.input_outer_container div {position: relative;}
+.input_outer_container .input_container {display: block; margin: 0px}
+.input_outer_container .input_container .inputText {border: none; font-weight: 500; color: #4a4a4a; outline: none !important; display: block; width: 100%; margin: 0px;}
+.input_outer_container .input_container select {-webkit-appearance: none; -moz-appearance: none; background: transparent url(../images/icon-triangle.svg) no-repeat 95% 50%; height: 42px; line-height: 45px; min-width: 92px; width: 100%; transition: border-color .3s ease; padding: 0px; padding-right: 30px}
+.input_outer_container .input_container select option {width: 100%;}
+.input_outer_container .input_container select:focus {outline: none; border-color: #00c3e6;}
+.input_outer_container .input_container .eye_text {display: block; position: absolute; top: 0; right: 0; flex:0 0 auto; vertical-align:middle; cursor:pointer; height:42px; width:42px; background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjVweCIgaGVpZ2h0PSIxN3B4IiB2aWV3Qm94PSIwIDAgMjUgMTciIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ2LjIgKDQ0NDk2KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5leWUtZW5hYmxlPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9ImZpbmFscy0tLXNwZWNzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaW5wdXQtZmllbGQtZXhhbXBsZXMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yODAuMDAwMDAwLCAtMjkwLjAwMDAwMCkiIGZpbGw9IiM5QjlCOUIiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtQ29weS00IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNS4wMDAwMDAsIDQ0LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9ImV5ZXMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI2NC4wMDAwMDAsIDI0My4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iZXllLWVuYWJsZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMS4wMDAwMDAsIDMuNzY4MDIxKSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik04LjIyMjU3MjQ2LDcuOTI2MzU3ODkgQzguMjIyNTcyNDYsNS42MjM3MjYzMiAxMC4wNjQ2MDE0LDMuNzUwMzA1MjYgMTIuMzI5MDk0MiwzLjc1MDMwNTI2IEMxNC41OTM1ODcsMy43NTAzMDUyNiAxNi40MzU5NzgzLDUuNjIzNzI2MzIgMTYuNDM1OTc4Myw3LjkyNjM1Nzg5IEMxNi40MzU5NzgzLDEwLjIyODk4OTUgMTQuNTkzNTg3LDEyLjEwMjA0MjEgMTIuMzI5MDk0MiwxMi4xMDIwNDIxIEMxMC4wNjQ2MDE0LDEyLjEwMjA0MjEgOC4yMjI1NzI0NiwxMC4yMjg5ODk1IDguMjIyNTcyNDYsNy45MjYzNTc4OSBaIE03LjEzNTYxNTk0LDcuOTI2MzU3ODkgQzcuMTM1NjE1OTQsMTAuODM3OTg5NSA5LjQ2NTY4ODQxLDEzLjIwNzMwNTMgMTIuMzI5MDk0MiwxMy4yMDczMDUzIEMxNS4xOTI4NjIzLDEzLjIwNzMwNTMgMTcuNTIyOTM0OCwxMC44Mzc5ODk1IDE3LjUyMjkzNDgsNy45MjYzNTc4OSBDMTcuNTIyOTM0OCw1LjAxNDM1Nzg5IDE1LjE5Mjg2MjMsMi42NDUwNDIxMSAxMi4zMjkwOTQyLDIuNjQ1MDQyMTEgQzkuNDY1Njg4NDEsMi42NDUwNDIxMSA3LjEzNTYxNTk0LDUuMDE0MzU3ODkgNy4xMzU2MTU5NCw3LjkyNjM1Nzg5IFoiIGlkPSJGaWxsLTEiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTEuMjI2OTU2NTIsNy45NTI5MjEwNSBDMS45ODgxODg0MSw2LjcyNDk3MzY4IDUuNzUxNTk0MiwxLjI0ODc2MzE2IDEyLjI4MjAyOSwxLjI0ODc2MzE2IEMxOC43OTI1MzYyLDEuMjQ4NzYzMTYgMjIuNjQsNi43MTUwMjYzMiAyMy40Mjc2ODEyLDcuOTUzMjg5NDcgQzIyLjc1MjY4MTIsOS4yMzAyMzY4NCAxOS40ODM4NDA2LDE0LjYwNDAyNjMgMTIuMjgyMDI5LDE0LjYwNDAyNjMgQzUuMDcyNjA4NywxNC42MDQwMjYzIDEuODc3MzE4ODQsOS4yMTczNDIxMSAxLjIyNjk1NjUyLDcuOTUyOTIxMDUgWiBNMjQuNTIyOTcxLDcuNjUzMDI2MzIgQzI0LjM1MTU5NDIsNy4zNDY1IDIwLjIyOTQ5MjgsMC4xNDM1IDEyLjI4MjAyOSwwLjE0MzUgQzQuMzMxNjY2NjcsMC4xNDM1IDAuMzAwNTA3MjQ2LDcuMzUwOTIxMDUgMC4xMzI3NTM2MjMsNy42NTc4MTU3OSBMMC4wMDAxNDQ5Mjc1MzYsNy45MDA5NzM2OCBMMC4xMTI0NjM3NjgsOC4xNTQwNzg5NSBDMC4xNDYxNTk0Miw4LjIyOTIzNjg0IDMuNTcwNzk3MSwxNS43MDkyODk1IDEyLjI4MjAyOSwxNS43MDkyODk1IEMyMC45ODg5MTMsMTUuNzA5Mjg5NSAyNC41MDg4NDA2LDguMjM1MTMxNTggMjQuNTQzNjIzMiw4LjE1OTYwNTI2IEwyNC42NjE3MzkxLDcuOTAwOTczNjggTDI0LjUyMjk3MSw3LjY1MzAyNjMyIFoiIGlkPSJGaWxsLTMiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) 50% no-repeat scroll}
+.input_outer_container .input_container .eye_password {display: block; position: absolute; top: 0; right: 0; vertical-align:middle;cursor:pointer;height:42px;width:42px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjVweCIgaGVpZ2h0PSIyMXB4IiB2aWV3Qm94PSIwIDAgMjUgMjEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ2LjIgKDQ0NDk2KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5leWUtZGlzYWJsZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJmaW5hbHMtLS1zcGVjcyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9ImlucHV0LWZpZWxkLWV4YW1wbGVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjgwLjAwMDAwMCwgLTI4OC4wMDAwMDApIiBmaWxsPSIjOUI5QjlCIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLUNvcHktNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUuMDAwMDAwLCA0NC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJleWVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNjQuMDAwMDAwLCAyNDMuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImV5ZS1kaXNhYmxlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjI0NjM3NywgMC45Nzg1NDcpIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTI1LjI3NjY2NjcsMTAuNDQyNDI2MyBDMjUuMTY4MzMzMywxMC4yNDkwMDUzIDIzLjQ4MDI4OTksNy4zMDIzNzM2OCAyMC4yNDg3NjgxLDUuMTU4NTMxNTggTDE5LjQ0MjYwODcsNS45NzgyNjg0MiBDMjIuMDkyMjQ2NCw3LjY3Nzc5NDc0IDIzLjcwMjM5MTMsOS45OTAwMDUyNiAyNC4xODEzNzY4LDEwLjc0MjY4OTUgQzIzLjUwNjM3NjgsMTIuMDE5NjM2OCAyMC4yMzc1MzYyLDE3LjM5MzQyNjMgMTMuMDM1NzI0NiwxNy4zOTM0MjYzIEMxMS40NjMyNjA5LDE3LjM5MzQyNjMgMTAuMDgxNzM5MSwxNy4xMzcwMDUzIDguODc1OTQyMDMsMTYuNzIzMjY4NCBMOC4wNDAwNzI0NiwxNy41NzI4NDc0IEM5LjQ2MzI2MDg3LDE4LjEzNzYzNjggMTEuMTIxOTU2NSwxOC40OTg2ODk1IDEzLjAzNTcyNDYsMTguNDk4Njg5NSBDMjEuNzQyNjA4NywxOC40OTg2ODk1IDI1LjI2MjUzNjIsMTEuMDI0NTMxNiAyNS4yOTczMTg4LDEwLjk0OTAwNTMgTDI1LjQxNTQzNDgsMTAuNjkwMzczNyBMMjUuMjc2NjY2NywxMC40NDI0MjYzIFoiIGlkPSJGaWxsLTYiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTExLjE1ODA3OTcsMTQuNDAyNjIxMSBMMTAuMzY1Njg4NCwxNS4yMDc5ODk1IEMxMS4xNTc3MTc0LDE1LjcwNDk4OTUgMTIuMDg1OTc4MywxNS45OTcxNDc0IDEzLjA4MjcxNzQsMTUuOTk3MTQ3NCBDMTUuOTQ2NDg1NSwxNS45OTcxNDc0IDE4LjI3NjU1OCwxMy42Mjc4MzE2IDE4LjI3NjU1OCwxMC43MTU4MzE2IEMxOC4yNzY1NTgsOS43MDIzMDUyNiAxNy45ODkyMzkxLDguNzU4MDQyMTEgMTcuNTAwNDcxLDcuOTUzMDQyMTEgTDE2LjcwODQ0Miw4Ljc1OTE0NzM3IEMxNy4wMTQ2MDE0LDkuMzQzMDk0NzQgMTcuMTg5NjAxNCwxMC4wMDg4MzE2IDE3LjE4OTYwMTQsMTAuNzE1ODMxNiBDMTcuMTg5NjAxNCwxMy4wMTg0NjMyIDE1LjM0NzIxMDEsMTQuODkxODg0MiAxMy4wODI3MTc0LDE0Ljg5MTg4NDIgQzEyLjM4NzQyNzUsMTQuODkxODg0MiAxMS43MzI3MTc0LDE0LjcxMzkzNjggMTEuMTU4MDc5NywxNC40MDI2MjExIFoiIGlkPSJGaWxsLTkiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuNTgxMjY4MTIsMTIuODgxNzc4OSBDOS4yMDAxMDg3LDEyLjI0OTU2ODQgOC45NzYxOTU2NSwxMS41MTAxNDc0IDguOTc2MTk1NjUsMTAuNzE1ODMxNiBDOC45NzYxOTU2NSw4LjQxMzIgMTAuODE4MjI0Niw2LjUzOTc3ODk1IDEzLjA4MjcxNzQsNi41Mzk3Nzg5NSBDMTMuODYzNTE0NSw2LjUzOTc3ODk1IDE0LjU5MDMyNjEsNi43Njc0NjMxNiAxNS4yMTE3MDI5LDcuMTU0MzA1MjYgTDkuNTgxMjY4MTIsMTIuODgxNzc4OSBaIE0xMy4wMzU2MTU5LDQuMDM4MiBDMTQuNjY0MjM5MSw0LjAzODIgMTYuMTIzMjk3MSw0LjM4Mzc3ODk1IDE3LjQxMTcwMjksNC45MTY1MTU3OSBMMTUuOTk3OTM0OCw2LjM1NDQ2MzE2IEMxNS4xNjY0MTMsNS43NzY0MTA1MyAxNC4xNjQyMzkxLDUuNDM0NTE1NzkgMTMuMDgyNzE3NCw1LjQzNDUxNTc5IEMxMC4yMTkzMTE2LDUuNDM0NTE1NzkgNy44ODkyMzkxMyw3LjgwMzgzMTU4IDcuODg5MjM5MTMsMTAuNzE1ODMxNiBDNy44ODkyMzkxMywxMS44MTU5MzY4IDguMjI1ODMzMzMsMTIuODM1NzI2MyA4Ljc5NDY3MzkxLDEzLjY4MTYyMTEgTDYuNzYzODc2ODEsMTUuNzQ3NzI2MyBDMy44NjcxMzc2OCwxNC4wNTQ0NjMyIDIuMzk3NTcyNDYsMTEuNTUzMjUyNiAxLjk4MDU0MzQ4LDEwLjc0MjM1NzkgQzIuNzQxNzc1MzYsOS41MTQ0MTA1MyA2LjUwNTE4MTE2LDQuMDM4MiAxMy4wMzU2MTU5LDQuMDM4MiBaIE0xNi44MzE2MzA0LDcuMDcwNjczNjggQzE2LjgzMTYzMDQsNy4wNzA2NzM2OCAxNy4zNzYzMTY0LDYuNTE2NDQ1NjEgMTguNDY1Njg4NCw1LjQwNzk4OTQ3IEMxOC40NjU2ODg0LDUuNDA3OTg5NDcgMTguNzM5NjAxNCw1LjEyOTcwODc3IDE5LjI4NzQyNzUsNC41NzMxNDczNyBDMTkuMjg3MTg2LDQuNTcyOTAxNzUgMjAuNTIyMzMwOSwzLjMxNjIxNzU0IDIyLjk5Mjg2MjMsMC44MDMwOTQ3MzcgTDIyLjIyNDM4NDEsMC4wMjE2NzM2ODQyIEwxOC4yNTM3MzE5LDQuMDYwMzA1MjYgQzE2Ljc1MTE5NTcsMy4zODQ2MjEwNSAxNS4wMTQ2MDE0LDIuOTMyOTM2ODQgMTMuMDM1NjE1OSwyLjkzMjkzNjg0IEM1LjA4NTI1MzYyLDIuOTMyOTM2ODQgMS4wNTQwOTQyLDEwLjE0MDcyNjMgMC44ODYzNDA1OCwxMC40NDc2MjExIEwwLjc1MzczMTg4NCwxMC42OTA0MTA1IEwwLjg2NjA1MDcyNSwxMC45NDM1MTU4IEMwLjg4ODUxNDQ5MywxMC45OTM2MjExIDIuNDEyNDI3NTQsMTQuMzEzODMxNiA1Ljk4ODg3NjgxLDE2LjUzNTQxMDUgTDIuNTIzNjU5NDIsMjAuMDYwNDYzMiBMMy4yOTIxMzc2OCwyMC44NDE4ODQyIEwxNi4wNjMxNTIyLDcuODUxNzI2MzIgTDE2LjgzMTYzMDQsNy4wNzA2NzM2OCBaIiBpZD0iRmlsbC0xMSI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+) 50% no-repeat scroll}
+.input_outer_container .input_container .required_mark {color: #001e63; display: none}
+.input_outer_container .input_container.required_field .required_mark, .input_outer_container.email .input_container .required_mark, .input_outer_container.password .input_container .required_mark {display: inline}
+.input_outer_container.valid .floating-label {}
+.input_outer_container.focus .floating-label {color: #02c3e6}
+.input_outer_container.invalid .floating-label {color: #f8485e}
+.input_outer_container.excluded {display: none;}
+.input_outer_container .floating-label {display: block; position: absolute; pointer-events: none; left: 0; bottom: 10px; transition: 0.2s ease all; color: #4a4a4a; line-height: 110%}
+.input_outer_container.valid .floating-label, .input_outer_container.invalid.focus .floating-label, .input_outer_container.focus .floating-label, .input_outer_container .floating-label.always_above {bottom: 36px; left: 0; font-size: .8em;}
+.input_outer_container .input_underline {position: absolute; bottom: 0; left: 0; height: 2px; width: 100%;}
+.input_outer_container:not(.invalid) .input_underline {background: #4a4a4a;}
+.input_outer_container:not(.invalid).focus .input_underline {background: #02c3e6;}
+.input_outer_container.invalid .input_underline {background: #f8485e;}
+.input_outer_container .subtext_box {font-size: .8em; color: #d0d0d0; min-height: 15px; line-height: 110%; padding-top: 3px}
+  .input_outer_container .subtext_box .error, .input_outer_container .subtext_box .helptext {display: none; margin: 0px; text-align: left}
+  .input_outer_container .subtext_box .error {color: #f8485e;}
+  /*.input_outer_container.invalid .subtext_box .error {display: inline;}*/
+  .input_outer_container:not(.invalid):not(.valid).focus .subtext_box .helptext {display: inline;}
+
+
+/* override of form styles */
+main #main_inside section .small_gray.checkbox_box input[type=checkbox] {width: 40px; height: 42px}
+
+/* modal stuff */
+.modal {position: fixed; z-index: -1; top: 0; left: 0; display: block; overflow: hidden; opacity: 0; width: 100%; height: 100%; color: #001e62;}
+.modal .modal-overlay {opacity: .2; transition: opacity 300ms}
+.modal .modal-wrapper {margin: -20px; max-height: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #ffffff; z-index: 11; border-radius: 2px; box-shadow: 0px 0px 10px 1px #000000; overflow: auto; -webkit-overflow-scrolling: touch;}
+.modal.modalin {opacity: 1; z-index: 10000; overflow: visible;}
+.modal.modalin .modal-overlay {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000000; opacity: .7; cursor: pointer}
+.modal.modalin .modal-wrapper {position: absolute; margin: 0px auto; transition: margin 300ms; min-width: 75%;}
+body.modalin {overflow: hidden} /* prevents page scroll in the background when modal is visible */
+.modal-header {position: relative;}
+  .modal-header .modal-close {position: absolute; top: 0; right: 0; padding: 10px; height: 20px; width: 20px; fill: #d8d8d8; background: none; cursor: pointer}
+  .modal-header .modal-close:hover {fill: #02c3e6;}
+.modal-content {margin: 0px; padding: 2em 3em 2em 3em}
+  .modal-content h2 {font-weight: 600; font-size: 1.1em; padding: 0px; padding-bottom: 20px; margin: 0px; text-align: center}
+  .modal-content header {padding-top: 0px; padding-bottom: 2em; text-align: center; display: block}
+    .modal-content .toplogo {width: 30%; padding-top: 0px; top: auto}
+    .modal-content .small_list ul {width: auto; padding-left: 35%}
+  .modal-content header img.logo {height: 50px; padding: 10px}
+  .modal-content .top_details {padding-bottom: 20px}
+  .modal-content .body_details {text-align: left}
+  .modal-content .body_details h1, .modal-content .body_details h2, .modal-content .body_details h3, .modal-content .body_details h4, .modal-content .body_details h5, .modal-content .body_details h6 {line-height: 100%}
+  .modal.whatis .body_details .description {text-align: center; font-weight: 500}
+  .modal-content .whatis_grid {display: table; width: 100%}
+  .modal-content .whatis_grid .row {display: table-row}
+  .modal-content .whatis_grid .row .col {padding: 1em; display: table-cell; vertical-align: middle; text-align: left; font-weight: 500}
+  .modal-content .whatis_grid .row .col:first-child {width: 25%; padding: 1em; background-size: contain; text-align: center}
+    .modal-content .whatis_grid .row .col:first-child img {width: auto; height: 80px; max-width: 100%; max-height: 100%;}
+    .modal-content .whatis_grid .row .col.whatis_star img {}
+    .modal-content .whatis_grid .row .col.whatis_box img {}
+    .modal-content .whatis_grid .row .col.whatis_mobile img {}
+    .modal-content .whatis_grid .row .col.whatis_shoe img {max-width: 65%}
+  .modal-content .checkbox_box {padding-top: 30px;}
+  .modal-content .checkbox_box input[type=checkbox] {width: 30px; height: 30px; display: inline; margin: 0px; padding: 0px; float: left; cursor: pointer; -webkit-appearance: checkbox; -moz-appearance: checkbox; opacity: 0}
+  .modal-content button {width: auto; margin: auto; margin-top: 30px; padding-left: 3em; padding-right: 3em}
+  .modal-content .close_text, .modal-content .close_text:hover {cursor: pointer; display: inline-block; text-transform: uppercase; text-decoration: none; font-weight: 600; font-size: .9em; color: inherit}
+  .modal-content .error {text-align: center; padding-top: 1em}
+  .modal-content .centered, .modal-content.centered {text-align: center}
+
+@media screen and (max-width: 800px) {
+  /*aside {display: none}*/
+  main, aside {display: block; width: 100%; min-height: auto}
+  aside {min-height: auto; height: auto}
+  aside .leftback {position: relative; height: auto; width: auto; background: none !important}
+  main #main_inside {padding-bottom: 6em; width: 85%}
+  
+  .modal.modalin {overflow: auto; -webkit-overflow-scrolling: touch;}
+  .modal .modal-wrapper {left: auto; top: auto; transform: none; border-radius: unset; box-shadow: none; max-height: none; }
+  .modal.modalin .modal-wrapper {margin: auto; width: 100%;}
+  .modal-content .toplogo {width: 50%}
+  
+  .no_margin_mobile {margin-top: 0px; margin-bottom: 0px}
+  
+  .responsive_show {display: block}
+  .responsive_hide {display: none}
+}
+
+@media screen and (max-width: 399px) {
+  .breakall {display: inline-block;}
+  button.facebook > img, button.google > img {margin-right: 5px}
+}
+
+@media screen and (max-width: 320px) {
+  .breakall {word-break: break-all}
+  .two_col_box button.facebook, .two_col_box button.google {width: 100%; margin-left: 0px}
+  .two_col_box button.google {float: none}
+}
+
+@media (pointer: coarse) {
+  .checkbox_box input[type=checkbox] {width: 45px; height: 65px;}
+  .checkbox_box label:before {height: 28px; font-size: 28px; width: 28px}
+}
+@media (pointer: coarse) and (max-width: 399px) {
+  .checkbox_box input[type=checkbox] {width: 35px; height: 65px;}
+  .checkbox_box label:before {height: 23px; font-size: 23px; width: 23px}
+}
+
+@keyframes move{
+    0% {transform: scale(.98,.98);}
+    50% {transform: scale(1.02,1.02);}
+    100% {transform: scale(.98,.98);}
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+/* webview-specific stuff */
+.webview .packaging {position: relative; overflow: hidden}
+.webview main footer {position: absolute; bottom: 0}
+.webview main #main_inside {padding-bottom: 4em}
+
+/* nav stuff */
+#topnav {display: none} /* change to display none when done with DEV */
+#topnav.dev {display: block}
+#topnav .toggle {background: transparent; color: transparent; font-size: 7px; text-transform: uppercase; cursor: pointer; text-align: center; letter-spacing: 2px; line-height: 150%}
+  #topnav .toggle:hover {background: #d8d8d8; color: inherit;}
+#topnav nav {overflow: hidden; text-align: center; display: none}
+#topnav nav > div {display: inline-block; padding: 2px; background: #d8d8d8; width: 100%}
+#topnav nav a, #topnav i.fa {display: inline-block; color: #001E62; background: #ffffff; border: 1px solid #001e62; text-align: center; padding: .5em; text-decoration: none; font-size: .7em; text-transform: uppercase; line-height: 100%; margin: 2px;}
+#topnav nav a:hover {background-color: #02C3E6;}
+#topnav nav a.active, #topnav nav a:active {background-color: #001E62; color: white;}
+#topnav nav a.icon {display: none;}
+#topnav i.fa {color: #d9d9d9; text-shadow: 1px 1px 0px #000000;}
+
+@media screen and (max-width: 800px) {
+  #topnav nav a {display: block; text-align: left; margin: 0px; margin-bottom: 2px}
+  #topnav nav a:hover {background-color: #000000; color: white}
+  #topnav nav a:not(:first-child) {display: none;}
+  #topnav nav > div {position: relative; display: block; padding: 0px; background: #ffffff}
+  #topnav nav a.icon {position: absolute; right: 0; top: 0; display: block;}
+  #topnav nav.responsive a {display: block}  
+  #topnav i.fa {display: none}
+  #topnav i.fa:first-child {display: block; float: none; text-align: center}
+  #topnav nav.nojs a.icon {display: none}
+  #topnav nav.responsive.nojs a {text-align: center}
+  .terms-and-conditions {display: none;}
+  
+  /*.two_col_box button {width: 100%; display: block}
+  .two_col_box button.right {float: none; margin-left: 0}*/
+}
+
+.asics_runner_box {overflow:hidden; position: absolute; width: 100%; height: 100%; top: 0px; display: none}
+.asics_runner_box.run {display: block}
+.asics_runner {display: none}
+.asics_runner.run {
+  font-size: 60px;
+  z-index: 100;
+  color: #eeeeee;
+  text-shadow: -2px 2px 0px solid #000000;
+  display: inline;
+    bottom:0%;
+    position:absolute;
+    -webkit-animation: ease infinite normal;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 8s;
+}
+
+.asics_runner.one {
+  font-size: 80px;
+  color: #dddddd;
+  text-shadow: -2px 2px 0px #000000;
+  bottom: 30%;
+  -webkit-animation: linear infinite normal;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 7.5s;
+}
+
+.asics_runner.two {
+  bottom: 20%;
+  font-size: 60px;
+  color: #cccccc;
+  text-shadow: -2px 2px 0px #000000;
+  -webkit-animation: ease-out infinite normal;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8.5s;
+}
+
+.asics_runner.three {
+  bottom: 10%;
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: -2px 2px 0px #000000;
+  -webkit-animation: ease-in infinite normal;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8s;
+}
+
+@-webkit-keyframes run {
+    0% { left: 0;}
+    100%{ left : 100%;}
+}
+
+.asics_star {display: none}
+.asics_star.fall {
+  font-size: 18px;
+  display: inline;
+  opacity: .8;
+  z-index: 100;
+  top: -50px;
+  left: 50%;
+  position: absolute;
+  color: #ffffff;
+    text-shadow:
+    -1px -1px 2px #ffff00,
+    1px -1px 2px #ffff00,
+    -1px 1px 2px #ffff00,
+    1px 1px 2px #ffff00;
+  -webkit-animation: ease infinite normal;
+  -webkit-animation-name: fall;
+  -webkit-animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fall {
+    0% { top: 0%; opacity: .8}
+    100%{ top: 100%; opacity: 0;}
+}
+
+/* CONFIGURABLE */
+aside {background-color: #001e63;}
+aside .leftback {background: linear-gradient(#001e63, #0199c4);}
+main {background: #ffffff}
+.toplogo {width:40%}
+.toplogo figure {background-image: url(../images/default-top_logo_white.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */}
+.toplogo.blue figure {background-image: url(../images/default-top_logo_blue.svg); padding-top: 18.75% /* (img_height/img_width * container_width%) */}
+main #main_inside section .brand_family {width: 80%;}
+main #main_inside section .brand_family img {background: url(../images/default-brand_family_blue.svg) no-repeat transparent center center; height: 0px; width: 100%;  padding-top: 25% /* (img_height/img_width * container_width%) */;}
+main #main_inside section .app_logo {width: 25%}
+main #main_inside section .app_logo figure {background-image: url(../images/default-app_logo_blue.svg); padding-top: 100%}
+@keyframes colorTint{
+  0% {background: #02c3e6;}
+  100% {background: #d8d8d8;}
+}
+/* END CONFIGURABLE */

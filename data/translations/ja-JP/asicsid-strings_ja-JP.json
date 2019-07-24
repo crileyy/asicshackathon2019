@@ -1,0 +1,2586 @@
+{
+  "ja-jp": {
+    "change-email": {
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "change_email_button": {
+        "comment": "",
+        "value": "メールアドレスを変更"
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "このメールアドレスはすでにアカウントに登録済みです"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "新しいメールアドレス"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "無効なメールアドレス"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "メールアドレスまたはパスワードが正しくありません"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "無効なメールアドレス"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_password_required": {
+        "comment": "",
+        "value": "パスワードを入力してください"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "ユーザーが見つかりません"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "申し訳ごさいませんが、Facebook、Google アカウントでご登録されたお客様は、メールアドレスとパスワードを変更できません。"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "パスワード"
+      },
+      "title": {
+        "comment": "",
+        "value": "アカウントのメールアドレスを変更"
+      }
+    },
+    "change-email-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "メールアドレスが更新されました"
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "トークンが無効です"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "新しいメールアドレスに更新しました。"
+      },
+      "leadin_text2": {
+        "comment": "",
+        "value": "今後は新しいメールアドレスでログインしてください。"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "ASICSアカウントを作成すると、該当する<a href='privacy_policy' class='dynamic_link_pp' target='_blank'>個人情報保護方針</a>を一読してご理解になったものと見なされます。"
+      }
+    },
+    "change-email-done": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "email_updated": {
+        "comment": "",
+        "value": "確認してください"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "次のアドレスに確認のEメールを送信します： "
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      }
+    },
+    "change-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "change_password_button": {
+        "comment": "",
+        "value": "パスワードを変更"
+      },
+      "current_password_field": {
+        "comment": "",
+        "value": "現在のパスワード"
+      },
+      "error_invalid_current_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "現在のパスワードが間違っています"
+      },
+      "error_invalid_new_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_matching_passwords": {
+        "comment": "",
+        "value": "以前と異なるパスワードにしてください。"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "error_wrong_account_type_fb_google": {
+        "comment": "",
+        "value": "申し訳ごさいませんが、Facebook、Google アカウントでご登録されたお客様は、メールアドレスとパスワードを変更できません。"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "パスワードを忘れた場合"
+      },
+      "helptext_current_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "helptext_new_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "need_account": {
+        "comment": "",
+        "value": "アカウントが必要ですか？"
+      },
+      "new_password_field": {
+        "comment": "",
+        "value": "新しいパスワード"
+      },
+      "success": {
+        "comment": "",
+        "value": "完了しました"
+      },
+      "title": {
+        "comment": "",
+        "value": "パスワードを変更"
+      }
+    },
+    "connect-facebook": {
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "connect_facebook_button": {
+        "comment": "",
+        "value": "Facebook に接続"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "メールアドレスまたはパスワードが正しくありません"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "パスワードを忘れた場合"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "パスワード"
+      },
+      "title": {
+        "comment": "",
+        "value": "アカウントを Facebook に接続"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "このメールアドレスはパスワードを使用して登録されました。パスワードを確認して、アカウントをFacebookに接続してください。"
+      }
+    },
+    "connect-google": {
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "connect_google_button": {
+        "comment": "",
+        "value": "Googleに接続"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "メールアドレスまたはパスワードが正しくありません"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "パスワードを忘れた場合"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "パスワード"
+      },
+      "title": {
+        "comment": "",
+        "value": "アカウントをGoogleに接続"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "このメールアドレスはパスワードを使用して登録されました。パスワードを確認して、アカウントをGoogleに接続してください。"
+      }
+    },
+    "continue": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "continue_button": {
+        "comment": "",
+        "value": "続ける"
+      },
+      "disclaimer_text": {
+        "comment": "",
+        "value": "以下をクリックすることで、該当する<a href='privacy_policy' class='dynamic_link_pp' target='_blank'>個人情報保護方針</a>を一読してご理解になり、ASICSの<a href='terms' class='dynamic_link_terms' target='_blank'>ご利用規約</a>に同意したものと見なされます。"
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "ASICS があなたの OneASICS アカウント情報へのアクセスを要求しています:"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "or": {
+        "comment": "",
+        "value": "または"
+      },
+      "register_cta": {
+        "comment": "",
+        "value": "新しい OneASICS アカウントを作成する"
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      }
+    },
+    "country_options": {
+      "AD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アンドラ"
+      },
+      "AE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アラブ首長国連邦"
+      },
+      "AF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アフガニスタン"
+      },
+      "AG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アンチグア・バーブーダ"
+      },
+      "AI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アンギラ"
+      },
+      "AL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アルバニア"
+      },
+      "AM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アルメニア"
+      },
+      "AN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "オランダ領アンティル"
+      },
+      "AO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アンゴラ"
+      },
+      "AQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "南極"
+      },
+      "AR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アルゼンチン"
+      },
+      "AS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アメリカ領サモア"
+      },
+      "AT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "オーストリア"
+      },
+      "AU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "オーストラリア"
+      },
+      "AW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アルバ"
+      },
+      "AX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "オーランド諸島"
+      },
+      "AZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アゼルバイジャン"
+      },
+      "BA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ボスニア・ヘルツェゴヴィナ"
+      },
+      "BB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バルバドス"
+      },
+      "BD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バングラデシュ"
+      },
+      "BE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ベルギー"
+      },
+      "BF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブルキナファソ"
+      },
+      "BG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブルガリア"
+      },
+      "BH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バーレーン"
+      },
+      "BI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブルンジ"
+      },
+      "BJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ベニン"
+      },
+      "BL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サン・バルテルミー"
+      },
+      "BM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バミューダ"
+      },
+      "BN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブルネイ"
+      },
+      "BO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ボリビア"
+      },
+      "BR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブラジル"
+      },
+      "BS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バハマ"
+      },
+      "BT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブータン"
+      },
+      "BV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ブーベ島"
+      },
+      "BW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ボツワナ"
+      },
+      "BY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ベラルーシ"
+      },
+      "BZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ベリーズ"
+      },
+      "CA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "カナダ"
+      },
+      "CC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ココス諸島"
+      },
+      "CD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "コンゴ民主共和国"
+      },
+      "CF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "中央アフリカ共和国"
+      },
+      "CG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "コンゴ"
+      },
+      "CH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スイス"
+      },
+      "CI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "コートジボワール"
+      },
+      "CK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "クック諸島"
+      },
+      "CL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "チリ"
+      },
+      "CM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "カメルーン"
+      },
+      "CN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "中国"
+      },
+      "CO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "コロンビア"
+      },
+      "CR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "コスタリカ"
+      },
+      "CU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "キューバ"
+      },
+      "CV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "カーボベルデ"
+      },
+      "CX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "クリスマス諸島"
+      },
+      "CY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "キプロス"
+      },
+      "CZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "チェコ共和国"
+      },
+      "DE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ドイツ"
+      },
+      "DJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ジブチ"
+      },
+      "DK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "デンマーク"
+      },
+      "DM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ドミニカ"
+      },
+      "DO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ドミニカ共和国"
+      },
+      "DZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アルジェリア"
+      },
+      "EC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "エクアドル"
+      },
+      "EE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "エストニア"
+      },
+      "EG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "エジプト"
+      },
+      "EH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "西サハラ"
+      },
+      "ER": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "エリトリア"
+      },
+      "ES": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スペイン"
+      },
+      "ET": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "エチオピア"
+      },
+      "FI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フィンランド"
+      },
+      "FJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フィジー"
+      },
+      "FK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フォークランド諸島"
+      },
+      "FM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ミクロネシア連邦"
+      },
+      "FO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フェロー諸島"
+      },
+      "FR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フランス"
+      },
+      "GA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ガボン"
+      },
+      "GB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イギリス"
+      },
+      "GD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "グレナダ"
+      },
+      "GE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ジョージア"
+      },
+      "GF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フランス領ギアナ"
+      },
+      "GG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ガーンジー"
+      },
+      "GH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ガーナ"
+      },
+      "GI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ジブラルタル"
+      },
+      "GL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "グリーンランド"
+      },
+      "GM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ガンビア"
+      },
+      "GN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ギニア"
+      },
+      "GP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "グアドループ"
+      },
+      "GQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "赤道ギニア"
+      },
+      "GR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ギリシャ"
+      },
+      "GS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サウスジョージア・サウスサンドウィッチ諸島"
+      },
+      "GT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "グアテマラ"
+      },
+      "GU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "グアム"
+      },
+      "GW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ギニアビサウ"
+      },
+      "GY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ガイアナ"
+      },
+      "HK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "香港"
+      },
+      "HM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ハード島とマクドナルド諸島"
+      },
+      "HN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ホンジュラス"
+      },
+      "HR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "クロアチア"
+      },
+      "HT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ハイチ"
+      },
+      "HU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ハンガリー"
+      },
+      "ID": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "インドネシア"
+      },
+      "IE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アイルランド"
+      },
+      "IL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イスラエル"
+      },
+      "IM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マン島"
+      },
+      "IN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "インド"
+      },
+      "IO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イギリス領インド洋地域"
+      },
+      "IQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イラク"
+      },
+      "IR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イラン・イスラム共和国"
+      },
+      "IS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アイスランド"
+      },
+      "IT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イタリア"
+      },
+      "JE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ジャージー"
+      },
+      "JM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ジャマイカ"
+      },
+      "JO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ヨルダン"
+      },
+      "JP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "日本"
+      },
+      "KE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ケニア"
+      },
+      "KG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "キルギスタン"
+      },
+      "KH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "カンボジア"
+      },
+      "KI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "キリバス"
+      },
+      "KM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "コモロ"
+      },
+      "KN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セントクリストファー・ネイビス"
+      },
+      "KR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "韓国"
+      },
+      "KW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "クウェート"
+      },
+      "KY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ケイマン諸島"
+      },
+      "KZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "カザフスタン"
+      },
+      "LA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ラオス"
+      },
+      "LB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "レバノン"
+      },
+      "LC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セントルシア"
+      },
+      "LI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "リヒテンシュタイン"
+      },
+      "LK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スリランカ"
+      },
+      "LR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "リベリア"
+      },
+      "LS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "レソト"
+      },
+      "LT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "リトアニア"
+      },
+      "LU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ルクセンブルク"
+      },
+      "LV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ラトビア"
+      },
+      "LY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "リビア"
+      },
+      "MA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モロッコ"
+      },
+      "MC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モナコ"
+      },
+      "MD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モルドバ"
+      },
+      "ME": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モンテネグロ"
+      },
+      "MF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セント・マーチン"
+      },
+      "MG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マダガスカル"
+      },
+      "MH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マーシャル諸島"
+      },
+      "MK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マケドニア"
+      },
+      "ML": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マリ"
+      },
+      "MM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ミャンマー"
+      },
+      "MN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モンゴル"
+      },
+      "MO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マカオ"
+      },
+      "MP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "北マリアナ諸島"
+      },
+      "MQ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マルティニーク"
+      },
+      "MR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モーリタニア"
+      },
+      "MS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モントセラト"
+      },
+      "MT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マルタ"
+      },
+      "MU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モーリシャス"
+      },
+      "MV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モルジブ"
+      },
+      "MW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マラウイ"
+      },
+      "MX": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "メキシコ"
+      },
+      "MY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マレーシア"
+      },
+      "MZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "モザンビーク"
+      },
+      "NA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ナミビア"
+      },
+      "NC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ニューカレドニア"
+      },
+      "NE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ニジェール"
+      },
+      "NF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ノーフォーク諸島"
+      },
+      "NG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ナイジェリア"
+      },
+      "NI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ニカラグア"
+      },
+      "NL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "オランダ"
+      },
+      "NO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ノルウェー"
+      },
+      "NP": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ネパール"
+      },
+      "NR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ナウル"
+      },
+      "NU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ニウエ"
+      },
+      "NZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ニュージーランド"
+      },
+      "OM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "オマーン"
+      },
+      "PA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "パナマ"
+      },
+      "PE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ペルー"
+      },
+      "PF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フランス領ポリネシア"
+      },
+      "PG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "パプアニューギニア"
+      },
+      "PH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フィリピン"
+      },
+      "PK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "パキスタン"
+      },
+      "PL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ポーランド"
+      },
+      "PM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サンピエール島・ミクロン島"
+      },
+      "PN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ピトケアン諸島"
+      },
+      "PR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "プエルトリコ"
+      },
+      "PS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "パレスチナ自治区"
+      },
+      "PT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ポルトガル"
+      },
+      "PW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "パラオ"
+      },
+      "PY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "パラグアイ"
+      },
+      "QA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "カタール"
+      },
+      "RE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "レユニオン"
+      },
+      "RO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ルーマニア"
+      },
+      "RS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セルビア"
+      },
+      "RU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ロシア連邦"
+      },
+      "RW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ルワンダ"
+      },
+      "SA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サウジアラビア"
+      },
+      "SB": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ソロモン諸島"
+      },
+      "SC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セイシェル"
+      },
+      "SD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スーダン"
+      },
+      "SE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スウェーデン"
+      },
+      "SG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "シンガポール"
+      },
+      "SH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セントヘレナ"
+      },
+      "SI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スロベニア"
+      },
+      "SJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スヴァールバル諸島およびヤンマイエン島"
+      },
+      "SK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スロバキア"
+      },
+      "SL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "シエラレオネ"
+      },
+      "SM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サンマリノ"
+      },
+      "SN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セネガル"
+      },
+      "SO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ソマリア"
+      },
+      "SR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スリナム"
+      },
+      "ST": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サントメ・プリンシペ"
+      },
+      "SV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "エルサルバドル"
+      },
+      "SY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "シリア"
+      },
+      "SZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "スワジランド"
+      },
+      "TC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "タークス・カイコス諸島"
+      },
+      "TD": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "チャド"
+      },
+      "TF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "フランス領南方・南極地域"
+      },
+      "TG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "トーゴ"
+      },
+      "TH": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "タイ"
+      },
+      "TJ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "タジキスタン"
+      },
+      "TK": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "トケラウ"
+      },
+      "TL": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "東ティモール"
+      },
+      "TM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "トルクメニスタン"
+      },
+      "TN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "チュニジア"
+      },
+      "TO": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "トンガ"
+      },
+      "TR": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "トルコ"
+      },
+      "TT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "トリニダード・トバゴ"
+      },
+      "TV": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ツバル"
+      },
+      "TW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "台湾"
+      },
+      "TZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "タンザニア"
+      },
+      "UA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ウクライナ"
+      },
+      "UG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ウガンダ"
+      },
+      "UM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "合衆国領有小離島"
+      },
+      "US": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アメリカ"
+      },
+      "UY": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ウルグアイ"
+      },
+      "UZ": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ウズベキスタン"
+      },
+      "VA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バチカン"
+      },
+      "VC": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "セントビンセント・グレナディーン"
+      },
+      "VE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ベネズエラ"
+      },
+      "VG": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イギリス領ヴァージン諸島"
+      },
+      "VI": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "アメリカ領ヴァージン諸島"
+      },
+      "VN": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ベトナム"
+      },
+      "VU": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "バヌアツ"
+      },
+      "WF": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ウォリス・フツナ"
+      },
+      "WS": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "サモア"
+      },
+      "YE": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "イエメン"
+      },
+      "YT": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "マヨット"
+      },
+      "ZA": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "南アフリカ"
+      },
+      "ZM": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ザンビア"
+      },
+      "ZW": {
+        "comment": "This is a country, please translate to what it would be called in the assigned language",
+        "value": "ジンバブエ"
+      }
+    },
+    "delete": {
+      "above_button": {
+        "comment": "No need to translate the link.",
+        "value": "これは、ASICS Runkeeper、ASICS Studio、ASICS.com などの<b>すべてのASICS</b>アカウントに適用されます。削除したいデータがある場合は、<a target='_blank' href='https://www.asics.com/privacy'>プライバシーハブ</a>をご利用ください。"
+      },
+      "below_button": {
+        "comment": "",
+        "value": "ここはお探しのページではありませんか？<a href='http://www.asics.com'>ASICS.com へ</a>"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "すべてのデータを削除"
+      },
+      "leadin_text1": {
+        "comment": "",
+        "value": "当社のサービスから次のユーザーとその関連データが削除されます。"
+      },
+      "title": {
+        "comment": "",
+        "value": "ユーザーアカウントの削除"
+      }
+    },
+    "footer": {
+      "cookie_policy": {
+        "comment": "",
+        "value": "Cookie に関するポリシー"
+      },
+      "cookie_settings": {
+        "comment": "",
+        "value": "Cookie の設定"
+      },
+      "exit": {
+        "comment": "",
+        "value": "終了"
+      },
+      "language_change": {
+        "comment": "",
+        "value": "変更"
+      },
+      "privacy_policy": {
+        "comment": "",
+        "value": "個人情報保護方針"
+      },
+      "terms_of_service": {
+        "comment": "",
+        "value": "利用規約"
+      },
+      "aeg_outlet_instore": {
+        "terms-and-conditions": {
+          "comment": "",
+          "value": "利用規約が適用されます。詳細につきましては、<a href='https://outlet.asics.com/gb/en-gb/customer-service/faq-outlet-oneasics/faq-outlet-oneasics.html' target='_blank'>こちらをご覧ください</a>。"
+        }
+      }
+    },
+    "forgot-password": {
+      "email_field": {
+        "comment": "",
+        "value": "メールアドレス"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "無効なメールアドレス"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "ユーザーが見つかりません"
+      },
+      "forgot_password_button": {
+        "comment": "",
+        "value": "リセットリンクを送信"
+      },
+      "success": {
+        "comment": "",
+        "value": "完了しました。このリンクは一時的に有効なもので、24時間後に無効になります。"
+      },
+      "title": {
+        "comment": "",
+        "value": "パスワードを忘れた？"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "以下に、アカウントに関連付けたメールアドレスを入力してください。パスワードリセットのリンクをお送りします。"
+      }
+    },
+    "newsletter-opt-in": {
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "success": {
+        "comment": "",
+        "value": "完了しました"
+      },
+      "title": {
+        "comment": "",
+        "value": "ニュースレターのご登録"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "個人情報保護方針に沿って、自分の興味や好みに合った製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+      },
+      "newsletter_opt_in_button": {
+        "comment": "",
+        "value": "更新"
+      }
+    },
+    "format_date": {
+      "comment": "Please format this date to match the localized standard (using '.', '/', '-', etc.). Keep the letters M, D, and Y as identifiers for month, day, and year.",
+      "value": "YYYY/MM/DD"
+    },
+    "gender_options": {
+      "male": {
+        "comment": "This is a gender option.",
+        "value": "男性"
+      },
+      "female": {
+        "comment": "This is a gender option.",
+        "value": "女性"
+      },
+      "other": {
+        "comment": "This is a gender option.",
+        "value": "その他"
+      }
+    },
+    "lander": {
+      "already_have": {
+        "comment": "",
+        "value": "OneASICS アカウントをもうお持ちですか？"
+      },
+      "alt_brand_family": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "次の ASICS ファミリーブランドのすべてのロゴ: ASICS Tiger、Onitsuka Tiger、Häglofs、Runkeeper、ASICS Studio"
+      },
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Facebook でサインアップ"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Google アカウントでサインアップ"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "登録"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "登録"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "signup_email_button": {
+        "comment": "",
+        "value": "メールアドレスを使用して登録"
+      },
+      "title": {
+        "comment": "",
+        "value": "今すぐメンバー登録。"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "ASICS ファミリー全体を簡単に、自由にご利用いただけます。"
+      },
+      "asics_walking": {
+        "title": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->今すぐ会員登録"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "簡単・無料の登録でいますぐ。"
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_jp": {
+        "title": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->今すぐ会員登録"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "簡単・無料の登録でいますぐ。"
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "title": {
+          "comment": "",
+          "value": "簡単・無料の登録でいますぐ。"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "今すぐ登録して、Onitsuka Tigar の特典をお楽しみください。"
+        },
+        "disclaimer_bottom": {
+          "comment": "",
+          "value": ""
+        }
+      },
+      "asics_perf_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "ご登録いただくと、すべてのご注文の無料配送ならびにお買い上げ商品の90日間無料トライアルがご利用いただけます。"
+        },
+        "alt_brand_family": {
+          "comment": "This is alt text on image for low vision / blind users",
+          "value": "次の ASICS ファミリーブランドのすべてのロゴ: ASICS、Runkeeper、ASICS Studio"
+        }
+      },
+      "asics_tiger_uk": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "ご登録いただくと、すべてのご注文の無料配送ならびにお買い上げ商品の90日間無料トライアルがご利用いただけます。"
+        }
+      },
+      "aeg_outlet_instore": {
+        "bottom_details_text": {
+          "comment": "",
+          "value": "登録すると、<strong>最初のお買い物での10%割引、すべてのご注文の無料配送、Runkeeper Go&trade;の90日間無料トライアルがご利用いただけます。</strong>"
+        },
+        "already_have": {
+          "comment": "",
+          "value": "OneASICS アカウントは、すべての ASICS ブランドに共通でご利用いただけます。OneASICS アカウントをもうお持ちですか？"
+        }
+      }
+    },
+    "left_panel": {
+      "asics_studio_header": {
+        "comment": "",
+        "value": "アカウントはたった1つ。ASICS ファミリー全体を簡単に行き来できるようになります。"
+      },
+      "asics_walking": {
+        "description": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->OneASICS会員（無料）にご登録いただくと、次の特典をご利用いただけます。"
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "期間限定2019年3月31日までの特典です。詳細につきましては、<a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>こちら</a>をご覧ください。"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスストアのお買物 10% オフ"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->本格的ランニング カウンセリングサービスにご招待"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Runkeeper Go プレミアムアプリ 3か月 無料トライアル"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "あなたのお買物が世界の子ども達のスポーツ活動を支援"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスの無料会員サービス"
+        }
+      },
+      "aeg_outlet_instore": {
+        "description": {
+          "comment": "",
+          "value": "是非登録して、最初のお買い物の特典をご利用ください。"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "お買い上げ商品を10%割引"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Runkeeper Go&trade;の90日間無料トライアル"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "すべてのご注文を無料配送"
+        }
+      },
+      "asics_perf_jp": {
+        "description": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->OneASICS会員（無料）にご登録いただくと、次の特典をご利用いただけます。"
+        },
+        "disclaimer_text": {
+          "comment": "",
+          "value": "期間限定2019年3月31日までの特典です。詳細につきましては、<a href='https://www.asics.com/gb/en-gb/faq-page/oneasics-faq/oneAsics-faq.html' target='_blank'>こちら</a>をご覧ください。"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスストアのお買物 10% オフ"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->本格的ランニング カウンセリングサービスにご招待"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "Runkeeper Go プレミアムアプリ 3か月 無料トライアル"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "あなたのお買物が世界の子ども達のスポーツ活動を支援"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスの無料会員サービス"
+        }
+      },
+      "asics_perf_uk": {
+        "description": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->OneASICS会員（無料）にご登録いただくと、次の特典をご利用いただけます。"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "すべてのご注文を無料で速達配送"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Runkeeper Go&trade;アプリの90日間無料トライアル"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "すべてのシューズとアパレルを90日間試着"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "会員限定のお買い得品とイベント"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスの無料会員サービス"
+        }
+      },
+      "raceroster_25": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "所定の項目を入力していただくと、メールで$25のリワードコードを差し上げます。<br />さらに、$50以上のご注文で無料の2日間配送がご利用いただけます。"
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "$25のリワードをプレゼント"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "*無料のONEASICSアカウントに登録すると、ASICS.comでの$100以上お買い上げいただいた場合に$25割引きします。ご利用規則が適用されます"
+        }
+      },
+      "raceroster_rkgo": {
+        "description": {
+          "comment": "No need to translate this",
+          "value": "所定の情報をご記入いただき、Runkeeper Go&trade; の90日間無料トライアル版をお試しください。"
+        },
+        "subtitle": {
+          "comment": "No need to translate this",
+          "value": "Runkeeper Go&trade; 無料トライアル版をアクティベート"
+        },
+        "disclaimer_text": {
+          "comment": "No need to translate this",
+          "value": "*利用規約が適用されます。"
+        }
+      },
+      "asics_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->OneASICS会員（無料）にご登録いただくと、次の特典をご利用いただけます。"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "すべてのご注文を無料で速達配送"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Runkeeper Go&trade;アプリの90日間無料トライアル"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "すべてのシューズとアパレルを90日間試着"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "会員限定のお買い得品とイベント"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスの無料会員サービス"
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "description": {
+          "comment": "",
+          "value": "無料でご登録いただくと、次の特典がご利用いただけます。"
+        },
+        "icon_box": {
+          "comment": "",
+          "value": "すべてのご注文を無料配送"
+        },
+        "icon_mobile": {
+          "comment": "",
+          "value": "Runkeeper Go&trade;アプリの90日間無料トライアル"
+        },
+        "icon_shoe": {
+          "comment": "",
+          "value": "すべてのシューズとアパレルを90日間試着"
+        },
+        "icon_star": {
+          "comment": "",
+          "value": "会員限定のお買い得品とイベント"
+        },
+        "subtitle": {
+          "comment": "",
+          "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->アシックスの無料会員サービス"
+        }
+      }
+    },
+    "logged-in": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "ログインが完了しました。"
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>Thank you for logging in to your OneASICS Account</b><br><br><b>Get Started with 10% Off</b><br>Show this screen to a sales associate to redeem."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      },
+      "welcome_back": {
+        "comment": "",
+        "value": "おかえりなさい "
+      }
+    },
+    "login": {
+      "alt_facebook": {
+        "comment": "",
+        "value": "Facebookアカウントでログイン"
+      },
+      "alt_google": {
+        "comment": "",
+        "value": "Googleアカウントでログイン"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "メールアドレス"
+      },
+      "error_account_locked": {
+        "comment": "",
+        "value": "アカウントはロックされています"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "すでにアカウントが作成されているようです。<a href='/forgot-password' data-show='forgot-password'>ここをクリック</a>してパスワードをリセットしてください。"
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "ユーザー情報が取得できませんでした"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "無効なメールアドレス"
+      },
+      "error_invalid_email_or_password": {
+        "comment": "",
+        "value": "メールアドレスまたはパスワードが正しくありません"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードが入力されていません。<a href='/forgot-password' data-show='forgot-password'>ここをクリック</a>してパスワードをリセットしてください。"
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "ログインしていただくと、先ほどご希望のページにリダイレクトします。"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "error_user_not_found": {
+        "comment": "",
+        "value": "ユーザーが見つかりません"
+      },
+      "error_wrong_account_type_fb": {
+        "comment": "",
+        "value": "Facebook のアカウントでアカウントを作成しました。Facebook のアカウントでログインしてください。"
+      },
+      "error_wrong_account_type_google": {
+        "comment": "",
+        "value": "Google のアカウントでアカウントを作成しました。Google のアカウントでログインしてください。"
+      },
+      "forgot_password": {
+        "comment": "",
+        "value": "パスワードを忘れた場合"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "login_button": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "message_password_changed": {
+        "comment": "",
+        "value": "パスワードは正常に変更されました。下の欄に新しいパスワードを入れてログインしてください。"
+      },
+      "need_account": {
+        "comment": "",
+        "value": "アカウントが必要ですか？"
+      },
+      "or": {
+        "comment": "",
+        "value": "または"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "パスワード"
+      },
+      "remember_me_checkbox": {
+        "comment": "",
+        "value": "ログイン情報を記憶する"
+      },
+      "sign_up": {
+        "comment": "",
+        "value": "登録"
+      },
+      "title": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "runkeeper": {
+        "top_details": {
+          "comment": "",
+          "value": "OneASICS アカウントでログインして Runkeeper を使ってみましょう"
+        }
+      }
+    },
+    "logout": {
+      "leadin_text": {
+        "comment": "",
+        "value": "OneASICS アカウントからログアウトしました。"
+      }
+    },
+    "modal_cookie_policy": {
+      "close_button": {
+        "comment": "",
+        "value": "閉じる"
+      },
+      "title": {
+        "comment": "",
+        "value": "Cookie に関するポリシー"
+      }
+    },
+    "modal_delete_confirm": {
+      "close_button": {
+        "comment": "",
+        "value": "キャンセル"
+      },
+      "delete_account_button": {
+        "comment": "",
+        "value": "アカウントの削除"
+      },
+      "delete_confirm_final": {
+        "comment": "",
+        "value": "これらのアカウントからすべてのデータが削除されます。最大2週間かかる場合がありますのでご了承ください。"
+      },
+      "delete_confirm_leadin": {
+        "comment": "",
+        "value": "次のサービスをご利用いただけなくなります。"
+      },
+      "delete_confirm_services": {
+        "comment": "No need to translate this, brand stays the same",
+        "value": "<ul><li>ASICS</li><li>ASICS Tiger</li><li>Onitsuka Tiger</li><li>OneASICS</li><li>ASICS Studio</li><li>ASICS Runkeeper</li><li>Pace Your Race</li><li>Frontrunners</li></ul>"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "success": {
+        "comment": "",
+        "value": "アカウントは削除されました。ページをリダイレクトします。"
+      },
+      "title": {
+        "comment": "",
+        "value": "アカウント削除の確認"
+      }
+    },
+    "profile": {
+      "already_have": {
+        "comment": "",
+        "value": "OneASICS アカウントをもうお持ちですか？"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "選択"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "お住まいの国"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "生年月日"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "生年月日が正しいことを確認してください。"
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->会員登録いただけません。お手数ですが「asics-fit-jp@asics.com」へご連絡ください。"
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "無効な文字"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "無効な日付"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "必須フィールド"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "氏名 - 名"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "性別を選択"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "性別："
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "氏名 - 姓"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "個人情報保護方針に沿って、自分の興味や好みに合った製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+      },
+      "next_button": {
+        "comment": "",
+        "value": "次へ"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "氏名 - メイ (全角カナ)"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "氏名 - セイ (全角カナ)"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "性別"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "個人情報保護方針に沿って、製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "保存"
+      },
+      "success": {
+        "comment": "",
+        "value": "プロフィールを更新しました。"
+      },
+      "title": {
+        "comment": "",
+        "value": "プロフィールの編集"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "情報をご入力いただくと、お客様に合わせたギアやサービスの選別がより正確になります。"
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "ASICSアカウントを作成すると、該当する<a href='privacy_policy' class='dynamic_link_pp' target='_blank'>個人情報保護方針</a>を一読してご理解になったものと見なされます。"
+      }
+    },
+    "complete-profile": {
+      "complete_profile_required": {
+        "comment": "",
+        "value": "このまま続けるには、あと少し情報をご提供ください。"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "選択"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "お住まいの国"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "生年月日"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "生年月日が正しいことを確認してください。"
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->会員登録いただけません。お手数ですが「asics-fit-jp@asics.com」へご連絡ください。"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "無効な日付"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "必須フィールド"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "氏名 - 名"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "性別を選択"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "性別："
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "氏名 - 姓"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "個人情報保護方針に沿って、自分の興味や好みに合った製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "氏名 - メイ (全角カナ)"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "氏名 - セイ (全角カナ)"
+      },
+      "runkeeper": {
+        "gender_field_above": {
+          "comment": "",
+          "value": "性別"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "個人情報保護方針に沿って、製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+        }
+      },
+      "save_button": {
+        "comment": "",
+        "value": "続ける"
+      },
+      "title": {
+        "comment": "",
+        "value": "プロフィールを完成させてください"
+      },
+      "skip_for_now_link": {
+        "comment": "",
+        "value": "今はしない"
+      }
+    },
+    "register": {
+      "alt_facebook": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Facebook でサインアップ"
+      },
+      "alt_google": {
+        "comment": "This is alt text on image for low vision / blind users",
+        "value": "Google アカウントでサインアップ"
+      },
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "already_have": {
+        "comment": "",
+        "value": "OneASICS アカウントをもうお持ちですか？"
+      },
+      "button_facebook": {
+        "comment": "",
+        "value": "登録"
+      },
+      "button_google": {
+        "comment": "",
+        "value": "登録"
+      },
+      "country_field": {
+        "comment": "",
+        "value": "選択"
+      },
+      "country_field_above": {
+        "comment": "",
+        "value": "お住まいの国"
+      },
+      "dob_field": {
+        "comment": "",
+        "value": "生年月日"
+      },
+      "email_field": {
+        "comment": "",
+        "value": "メールアドレス"
+      },
+      "error_account_without_password": {
+        "comment": "User who has signed up but needs to click reset password email.",
+        "value": "すでにアカウントが作成されているようです。<a href='/forgot-password' data-show='forgot-password'>ここをクリック</a>してパスワードをリセットしてください。"
+      },
+      "error_check_date": {
+        "comment": "",
+        "value": "生年月日が正しいことを確認してください。"
+      },
+      "error_failed_getting_user": {
+        "comment": "",
+        "value": "ユーザー情報が取得できませんでした"
+      },
+      "error_ineligible_to_register": {
+        "comment": "",
+        "value": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->会員登録いただけません。お手数ですが「asics-fit-jp@asics.com」へご連絡ください。"
+      },
+      "error_email_exists": {
+        "comment": "",
+        "value": "すでにアカウントが作成されているようです。<a href='index.html#login' data-show='login'>ログイン</a>してください。"
+      },
+      "error_invalid_character": {
+        "comment": "",
+        "value": "無効な文字"
+      },
+      "error_invalid_date": {
+        "comment": "",
+        "value": "無効な日付"
+      },
+      "error_invalid_email": {
+        "comment": "",
+        "value": "無効なメールアドレス"
+      },
+      "error_invalid_email_mx_record": {
+        "comment": "",
+        "value": "無効なメールアドレス"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_login_required": {
+        "comment": "",
+        "value": "アカウントを作成していただくと、先ほどご希望のページにリダイレクトします。"
+      },
+      "error_missing_required_field": {
+        "comment": "",
+        "value": "必須フィールド"
+      },
+      "error_invalid_name": {
+        "comment": "",
+        "value": "50文字以内とし、特殊記号は使用しないでください"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "finish_button": {
+        "comment": "",
+        "value": "完了"
+      },
+      "finish_button_facebook": {
+        "comment": "",
+        "value": "Facebookでサインアップ"
+      },
+      "finish_button_google": {
+        "comment": "",
+        "value": "Googleアカウントでサインアップ"
+      },
+      "first_name_field": {
+        "comment": "",
+        "value": "氏名 - 名"
+      },
+      "gender_field": {
+        "comment": "",
+        "value": "性別を選択"
+      },
+      "gender_field_above": {
+        "comment": "",
+        "value": "性別："
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "last_name_field": {
+        "comment": "",
+        "value": "氏名 - 姓"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "newsletter_box": {
+        "comment": "",
+        "value": "個人情報保護方針に沿って、自分の興味や好みに合った製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+      },
+      "next_button": {
+        "comment": "",
+        "value": "次へ"
+      },
+      "or": {
+        "comment": "",
+        "value": "または"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "パスワード"
+      },
+      "phonetic_first_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "氏名 - メイ (全角カナ)"
+      },
+      "phonetic_last_name_field": {
+        "comment": "Only translate for ja-JP locale.",
+        "value": "氏名 - セイ (全角カナ)"
+      },
+      "runkeeper": {
+        "finish_button": {
+          "comment": "",
+          "value": "アカウントを作成"
+        },
+        "gender_field_above": {
+          "comment": "",
+          "value": "性別"
+        },
+        "top_details": {
+          "comment": "",
+          "value": "OneASICS アカウントを作成して Runkeeper にログイン"
+        },
+        "newsletter_box": {
+          "comment": "",
+          "value": "個人情報保護方針に沿って、製品、サービス、イベントに関するニュースレターや情報をメールで受け取ることを希望します。"
+        }
+      },
+      "success": {
+        "comment": "",
+        "value": "完了しました。アカウント作成が完了し、現在ログイン中です。"
+      },
+      "title": {
+        "comment": "",
+        "value": "アカウントの作成"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "情報をご入力いただくと、お客様に合わせたギアやサービスの選別がより正確になります。"
+      },
+      "tos_privacy_disclaimer": {
+        "comment": "",
+        "value": "ASICSアカウントを作成すると、該当する<a href='privacy_policy' class='dynamic_link_pp' target='_blank'>個人情報保護方針</a>を一読してご理解になったものと見なされます。"
+      },
+      "asics_studio": {
+        "error_email_exists": {
+          "comment": "",
+          "value": "すでに OneASICS または Runkeeper アカウントをお持ちです。<br>お持ちのアカウントで<a href='/login' data-show='login'>ログイン</a>してください。"
+        },
+        "error_account_without_password": {
+          "comment": "User who has signed up but needs to click reset password email.",
+          "value": "すでに OneASICS または Runkeeper アカウントをお持ちです。<br><a href='/forgot-password' data-show='forgot-password'>ここをクリック</a>してパスワードをリセットしてください。"
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "error_email_exists": {
+          "comment": "OT is separate from other brands but users still need to know their account is the same.",
+          "value": "すでにアカウントが作成されているようです。<a href='index.html#login' data-show='login'>ログイン</a>してください。"
+        }
+      }
+    },
+    "register-confirm": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "メールアドレスをご確認いただきありがとうございます。"
+      },
+      "log_in": {
+        "comment": "",
+        "value": "ログイン"
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      }
+    },
+    "reset-password": {
+      "alt_show": {
+        "comment": "",
+        "value": "パスワードを表示/非表示"
+      },
+      "error_invalid_password": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "error_server": {
+        "comment": "",
+        "value": "サーバーエラー：再度実行してください"
+      },
+      "error_invalid_token": {
+        "comment": "",
+        "value": "この一時リンクは有効期限切れです。<a href='/forgot-password' data-show='forgot-password'>こちら</a>から、再度パスワードをリセットしてください。"
+      },
+      "helptext_password_requirements": {
+        "comment": "",
+        "value": "パスワードは8文字以上で入力してください。"
+      },
+      "password_field": {
+        "comment": "",
+        "value": "パスワード"
+      },
+      "reset_password_button": {
+        "comment": "",
+        "value": "パスワードを設定"
+      },
+      "success": {
+        "comment": "",
+        "value": "完了しました"
+      },
+      "title": {
+        "comment": "",
+        "value": "パスワードをリセット"
+      },
+      "top_details": {
+        "comment": "",
+        "value": "以下に新しいパスワードを設定してください。"
+      }
+    },
+    "register-success": {
+      "alt_logo": {
+        "comment": "",
+        "value": "ASICS"
+      },
+      "asics_studio": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Studio"
+        }
+      },
+      "asics_walking": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Walking"
+        }
+      },
+      "asics_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "ASICS Tiger"
+        }
+      },
+      "haglofs": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Haglöfs"
+        }
+      },
+      "leadin_text": {
+        "comment": "",
+        "value": "新しい OneASICS アカウントにログインしました。"
+      },
+      "aeg_outlet_instore": {
+        "leadin_text": {
+          "comment": "",
+          "value": "<b>Welcome to the OneASICS Membership Program</b><br>You've just unlocked exclusive benefits that you can use in-store and online.<br><br><b>Get Started with 10% Off</b><br>Show this screen to a sales associate to redeem."
+        }
+      },
+      "onitsuka_tiger_uk": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Onitsuka Tiger"
+        }
+      },
+      "runkeeper": {
+        "alt_logo": {
+          "comment": "",
+          "value": "Runkeeper"
+        }
+      },
+      "thanks_for_signing_up": {
+        "comment": "",
+        "value": "ご登録いただきありがとうございます "
+      }
+    }
+  }
+}
