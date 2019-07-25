@@ -435,85 +435,78 @@ $(function(){
         
         <!-- HACKATHON CAMERA GRAB -->
         <style>
-        .web_capture .inline_video, .web_capture .snapshot {width: 100%; max-width: 100%}
         </style>
-<div id="results" class="web_capture">
-  <div>
-    <video autoplay="" class="inline_video"></video>
-    <button id="getUserMediaButton">Get User Media</button>
-  </div>
-  <div>
-    <canvas id="takePhotoCanvas" class="snapshot"></canvas>
-    <button id="takePhotoButton" disabled="">Take Photo</button>
-  </div>
-</div>
+	<div id="my_camera"></div>
+	
+	<!-- First, include the Webcam.js JavaScript Library -->
+	<script type="text/javascript" src="js/webcam.min.js"></script>
+	
+	<!-- Configure a few settings and attach camera -->
+	<script language="JavaScript">
+		Webcam.set({
+			width: 320,
+			height: 240,
+			image_format: 'jpeg',
+			jpeg_quality: 90,
+      constraints: {facingMode: { exact: 'environment' }} 
+		});
+    
+	</script>
+	
+	<!-- A button for taking snaps -->
+	<form>
+		<div id="pre_take_buttons">
+			<button onClick="preview_snapshot()">Take Snapshot</button>
+		</div>
+		<div id="post_take_buttons" style="display:none">
+			<button onClick="cancel_preview()">Cancel</button>
+			<button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
+		</div>
+	</form>
 	
 	<!-- Code to handle taking the snapshot and displaying it locally -->
 	<script language="JavaScript">
   
-  /*$(function(){
+  $(function(){
     var $take_button = $("#pre_take_buttons[type=button]");
     $take_button.val("Open Camera");
   
     $take_button.on("click", function(){
     		Webcam.attach( '#my_camera' );
         });
-  });*/
-  
-var imageCapture;
-
-function onGetUserMediaButtonClick() {
-  navigator.mediaDevices.getUserMedia({video: { facingMode: "environment" }})
-  .then(mediaStream => {
-    document.querySelector('video').srcObject = mediaStream;
-
-    const track = mediaStream.getVideoTracks()[0];
-    imageCapture = new ImageCapture(track);
-    
-    document.getElementById('getUserMediaButton').addEventListener('click', function () {
-            stopStream(mediaStream);
-        });
-  })
-  .catch(error => ChromeSamples.log(error));
-}
-
-function stopStream(stream) {
-  console.log('stop called');
-  stream.getVideoTracks().forEach(function (track) {
-      track.stop();
   });
-}
-
-function onTakePhotoButtonClick() {
-  imageCapture.takePhoto()
-  .then(blob => createImageBitmap(blob))
-  .then(imageBitmap => {
-    const canvas = document.querySelector('#takePhotoCanvas');
-    drawCanvas(canvas, imageBitmap);
-  })
-  .catch(error => ChromeSamples.log(error));
-}
-
-/* Utils */
-
-function drawCanvas(canvas, img) {
-  canvas.width = getComputedStyle(canvas).width.split('px')[0];
-  canvas.height = getComputedStyle(canvas).height.split('px')[0];
-  let ratio  = Math.min(canvas.width / img.width, canvas.height / img.height);
-  let x = (canvas.width - img.width * ratio) / 2;
-  let y = (canvas.height - img.height * ratio) / 2;
-  canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
-  canvas.getContext('2d').drawImage(img, 0, 0, img.width, img.height,
-      x, y, img.width * ratio, img.height * ratio);
-}
-
-document.querySelector('video').addEventListener('play', function() {
-  document.querySelector('#takePhotoButton').disabled = false;
-});
-
-  document.querySelector('#getUserMediaButton').addEventListener('click', onGetUserMediaButtonClick);
-  document.querySelector('#takePhotoButton').addEventListener('click', onTakePhotoButtonClick);
-
+  
+		function preview_snapshot() {
+			// freeze camera so user can preview pic
+			Webcam.freeze();
+			
+			// swap button sets
+			document.getElementById('pre_take_buttons').style.display = 'none';
+			document.getElementById('post_take_buttons').style.display = '';
+		}
+		
+		function cancel_preview() {
+			// cancel preview freeze and return to live camera feed
+			Webcam.unfreeze();
+			
+			// swap buttons back
+			document.getElementById('pre_take_buttons').style.display = '';
+			document.getElementById('post_take_buttons').style.display = 'none';
+		}
+		
+		function save_photo() {
+			// actually snap photo (from preview freeze) and display it
+			Webcam.snap( function(data_uri) {
+				// display results in page
+				document.getElementById('results').innerHTML = 
+					'<h2>Here is your image:</h2>' + 
+					'<img src="'+data_uri+'"/>';
+				
+				// swap buttons back
+				document.getElementById('pre_take_buttons').style.display = '';
+				document.getElementById('post_take_buttons').style.display = 'none';
+			} );
+		}
 	</script>
 
 <!-- END HACKATHON CAMERA GRAB -->        
