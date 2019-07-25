@@ -451,6 +451,8 @@ $(function(){
       constraints: {facingMode: { exact: 'environment' }} 
 		});
     
+        		Webcam.attach( '#my_camera' );
+    
 	</script>
 	
 	<!-- A button for taking snaps -->
@@ -472,7 +474,7 @@ $(function(){
     $take_button.val("Open Camera");
   
     $take_button.on("click", function(){
-    		Webcam.attach( '#my_camera' );
+
         });
   });
   
