@@ -209,7 +209,7 @@ $(function() {
                 return parseInt(value);
             },
             decoder: {
-                readers: /*function(value) {
+                readers: function(value) {
                     if (value === 'ean_extended') {
                         return [{
                             format: "ean_reader",
@@ -224,8 +224,7 @@ $(function() {
                         format: value + "_reader",
                         config: {}
                     }];
-                }*/
-                ["upc_a"] //will be treated as pdf417
+                }
             }
         },
         state: {
@@ -248,7 +247,7 @@ $(function() {
                 readers : [{
                     format: "code_128_reader",
                     config: {}
-                }]
+                }, "upc_a"]
             },
             locate: true
         },
