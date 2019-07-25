@@ -431,12 +431,23 @@ $(function(){
           </div>
         </span>
         
-        <div class="section_block web_capture">
+        <div class="section_block">
         
         <!-- HACKATHON CAMERA GRAB -->
         <style>
+          .web_capture {display: none}
           .web_capture video, canvas, #my_camera, #results, #results img {width: 100% !important; height: auto !important}
+          .web_capture_toggle div {display: table; margin: auto; height: 60px}
+          .web_capture_toggle span {padding: .3em; display: table-cell; vertical-align: middle; cursor: pointer; text-transform: uppercase; font-size: 1em; font-weight: bold; line-height: 0px}
+            .web_capture_toggle.hide_toggle .hide_toggle, .web_capture_toggle.show_toggle .show_toggle {display: block;}
+            .web_capture_toggle .show_toggle {color: #cc0000}
+            .web_capture_toggle.show_toggle .hide_toggle, .web_capture_toggle.hide_toggle .show_toggle {display: none;}
+          .web_capture_toggle span img {width: 3em}
+          .web_capture_toggle:hover {opacity: .5; transition: opacity .2s}
         </style>
+        <div class="web_capture_toggle hide_toggle">
+   <div><span><font class="hide_toggle">Use ASICSID-Scan</font><font class="show_toggle">Cancel</font></span><span class="hide_toggle"><img src="images/icon-id.svg"></span></div></div>
+   <div class="web_capture">
     <div id="my_camera"></div>
     <div id="results" ></div>
     
@@ -472,12 +483,20 @@ $(function(){
     <script language="JavaScript">
     
     $(function(){
-      var $take_button = $("#pre_take_buttons[type=button]");
-      $take_button.val("Open Camera");
-    
-      $take_button.on("click", function(){
-  
+      $(".web_capture_toggle").click(function(){
+        var $toggle = $(this);
+        if($(".web_capture").hasClass("opened")){
+          $(".web_capture").slideUp(350, function(){
+            $(this).removeClass("opened");
+            $toggle.removeClass("show_toggle").addClass("hide_toggle");
           });
+        } else {
+          $(".web_capture").slideDown(350, function(){
+            $(this).addClass("opened");
+            $toggle.removeClass("hide_toggle").addClass("show_toggle");
+          });
+        }
+      });
     });
     
       function preview_snapshot() {
