@@ -209,7 +209,7 @@ $(function() {
                 return parseInt(value);
             },
             decoder: {
-                readers: /*function(value) {
+                readers: function(value) {
                     if (value === 'ean_extended') {
                         return [{
                             format: "ean_reader",
@@ -224,8 +224,7 @@ $(function() {
                         format: value + "_reader",
                         config: {}
                     }];
-                }*/
-                ["upc_a"] //will be treated as pdf417
+                }
             }
         },
         state: {
@@ -281,6 +280,7 @@ $(function() {
                 cw = parseInt(canvas.getAttribute("width"));
                 ch = parseInt(canvas.getAttribute("height"));
 
+                console.log(result.codeResult);
                 if (result.codeResult.format === "upc_a") {
                    imageData = ctx.getImageData(0, 0, cw, ch);
 
