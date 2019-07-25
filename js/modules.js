@@ -76,10 +76,11 @@ var newview = (function (keep_params, content_box, translate_all, default_params
         p[keep_params[x]] = (param==='true') ? true : (param==='false') ? false : decodeURIComponent(param);
       }
     }
+    //TODO: uncomment to use endpoint as view param
     //special case for "view" param since it's the endpoint in the pathname
-    if(get_endpoint() !== ""){
+    /*if(get_endpoint() !== ""){
       p.view = get_endpoint();
-    }
+    }*/
     return p;
   };
 
@@ -208,7 +209,10 @@ var newview = (function (keep_params, content_box, translate_all, default_params
       if(state.hasOwnProperty("bounce") && (state.view !== screens.complete_profile) && (state.view === state.bounce || screens.logged_in_continue_or_bounce.indexOf(state.view) === -1 || state.bounce==="")){ delete state.bounce; if($login_required){ $login_required.hide();}} //if the view state matches the bounce state, it means we've done bounced son, so delete the property and hide any login required message. Or...if we navigate to a non-bounce-able screen (like forgot password), then remove the bounce param
       var clean_url = $.extend({}, clean_params(state)); //duplicate the params object to allow for manipulation before sending to history object, and rinse
       var url_add = $.param(clean_url) + (landing_hash && landing_hash !== state.view ? "#" + landing_hash : "") + "!new"; //rebuild the query string, taking only what is desired and add "!new" so the browser registers a unique push
-      var new_endpoint = (location.pathname).replace(/(.*\/)(.*)$/, "$1"+state.view); //the state view is going to replace the endpoint
+      
+      //TODO: uncomment to use endpoint as the view param
+      //var new_endpoint = (location.pathname).replace(/(.*\/)(.*)$/, "$1"+state.view); //the state view is going to replace the endpoint
+      var new_endpoint = location.pathname;
       var push_url = (location.protocol + '//' + location.host + new_endpoint + (url_add !== "" ? "?" + url_add : "")); //rebuild the url using fresh parameterization
       state.title = title; //set the title of the page and save to history params
 
