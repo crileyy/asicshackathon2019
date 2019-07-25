@@ -468,6 +468,7 @@ $(function(){
         <button onClick="cancel_preview()">Cancel</button>
         <text class="decodedText">text</text> <!-- just for test! -->
       </div>
+      <img class="image-test" src="images/reverse_side_sample2.jpg"/>
     </form>
     
     <!-- Code to handle taking the snapshot and displaying it locally -->
@@ -553,6 +554,7 @@ $(function(){
       }
 
       function doScan(image) {
+      	//image = document.getElementsByClassName('image-test')[0];
                     var
                             canvas = document.createElement('canvas'),
                             canvas_context = canvas.getContext('2d'),
