@@ -454,20 +454,6 @@ $(function(){
     <!-- First, include the Webcam.js JavaScript Library -->
     <script type="text/javascript" src="js/webcam.min.js"></script>
     
-    <!-- Configure a few settings and attach camera -->
-    <script language="JavaScript">
-      Webcam.set({
-        image_format: 'jpeg',
-        jpeg_quality: 90,
-        width: 320,
-        height: 240,
-        constraints: {facingMode: 'environment' } 
-      });
-      
-              Webcam.attach( '#my_camera' );
-      
-    </script>
-    
     <!-- A button for taking snaps -->
     <form>
       <div id="pre_take_buttons">
