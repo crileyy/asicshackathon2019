@@ -448,6 +448,9 @@ $(function(){
         <div class="web_capture_toggle hide_toggle">
    <div><span><font class="hide_toggle">Use ASICSID-Scan</font><font class="show_toggle">Cancel</font></span><span class="hide_toggle"><img src="images/icon-id.svg"></span></div></div>
    <div class="web_capture">
+   <div class="select">
+        <label for="videoSource">Video source: </label><select id="videoSource"></select>
+    </div>
     <div id="my_camera"></div>
     <div id="results" ></div>
     
@@ -469,6 +472,7 @@ $(function(){
     
     <!-- Code to handle taking the snapshot and displaying it locally -->
     <script language="JavaScript">
+    var camera = {facingMode: "environment"}; //default camera is rear, but fallback to any available. if a user selects a camera, this gets overwritten.
     
     $(function(){
       $(".web_capture_toggle").click(function(){
@@ -489,10 +493,10 @@ $(function(){
           // open camera
       	  Webcam.set({
             image_format: 'jpeg',
-            jpeg_quality: 90,
-            width: 320,
-            height: 240,
-            constraints: {facingMode: 'environment' } 
+            jpeg_quality: 100,
+            width: 960,
+            height: 720,
+            constraints: {camera} 
       	  });
       
           Webcam.attach( '#my_camera' );
@@ -524,10 +528,10 @@ $(function(){
         // cancel preview freeze and return to live camera feed
         Webcam.set({
         image_format: 'jpeg',
-        jpeg_quality: 90,
-        width: 320,
-        height: 240,
-        constraints: {facingMode: 'environment' } 
+        jpeg_quality: 100,
+        width: 960,
+        height: 720,
+        constraints: {camera} 
       });
       
             Webcam.attach( '#my_camera' );
@@ -573,6 +577,82 @@ $(function(){
                         //$('.error').text(err);
                     }
                 }
+                
+    //FOR SELECTING CAMERA
+    /*
+*  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+*
+*  Use of this source code is governed by a BSD-style license
+*  that can be found in the LICENSE file in the root of the source
+*  tree.
+*/
+
+'use strict';
+
+const videoElement = document.querySelector('video');
+const videoSelect = document.querySelector('select#videoSource');
+const selectors = [videoSelect];
+
+function gotDevices(deviceInfos) {
+  // Handles being called several times to update labels. Preserve values.
+  const values = selectors.map(select => select.value);
+  selectors.forEach(select => {
+    while (select.firstChild) {
+      select.removeChild(select.firstChild);
+    }
+  });
+  for (let i = 0; i !== deviceInfos.length; ++i) {
+    const deviceInfo = deviceInfos[i];
+    const option = document.createElement('option');
+    option.value = deviceInfo.deviceId;
+    if (deviceInfo.kind === 'videoinput') {
+      option.text = deviceInfo.label || `camera ${videoSelect.length + 1}`;
+      videoSelect.appendChild(option);
+    } else {
+      console.log('Some other kind of source/device: ', deviceInfo);
+    }
+  }
+  selectors.forEach((select, selectorIndex) => {
+    if (Array.prototype.slice.call(select.childNodes).some(n => n.value === values[selectorIndex])) {
+      select.value = values[selectorIndex];
+    }
+  });
+}
+
+if(navigator.mediaDevices){
+  navigator.mediaDevices.enumerateDevices().then(gotDevices).catch(handleError);
+}
+
+function gotStream(stream) {
+  window.stream = stream; // make stream available to console
+  videoElement.srcObject = stream;
+  // Refresh button list in case labels have become available
+  return navigator.mediaDevices.enumerateDevices();
+}
+
+function handleError(error) {
+  console.log('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);
+}
+
+function start() {
+  Webcam.reset(); //stop webcam
+  const videoSource = videoSelect.value;
+  const constraints = {
+    video: {deviceId: videoSource ? {exact: videoSource} : undefined}
+  };
+  
+  //fire up webcam again
+          Webcam.set({
+        image_format: 'jpeg',
+        jpeg_quality: 100,
+        width: 960,
+        height: 720,
+        constraints: constraints
+});        
+  navigator.mediaDevices.getUserMedia({video: true}).then(gotStream).then(gotDevices).catch(handleError);
+}
+
+videoSelect.onchange = start;
     </script>
   </div>
   <!-- END HACKATHON CAMERA GRAB -->        
