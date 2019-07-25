@@ -434,13 +434,16 @@ $(function(){
         <div class="section_block">
         
         <!-- HACKATHON CAMERA GRAB -->
-<div id="results">
+        <style>
+        .web_capture .inline_video, .web_capture .snapshot {width: 100%; max-width: 100%}
+        </style>
+<div id="results" class="web_capture">
   <div>
-    <video autoplay=""></video>
+    <video autoplay="" class="inline_video"></video>
     <button id="getUserMediaButton">Get User Media</button>
   </div>
   <div>
-    <canvas id="takePhotoCanvas"></canvas>
+    <canvas id="takePhotoCanvas" class="snapshot"></canvas>
     <button id="takePhotoButton" disabled="">Take Photo</button>
   </div>
 </div>
