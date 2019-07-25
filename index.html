@@ -453,7 +453,8 @@ $(function(){
     
     <!-- First, include the Webcam.js JavaScript Library -->
     <script type="text/javascript" src="js/webcam.min.js"></script>
-    
+    <script src="js/BigInteger.min.js"></script>
+    <script src="js/zxing-pdf417.min.js"></script>
     <!-- A button for taking snaps -->
     <form>
       <div id="pre_take_buttons">
@@ -462,6 +463,7 @@ $(function(){
       <div id="post_take_buttons" style="display:none">
         <button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
         <button onClick="cancel_preview()">Cancel</button>
+        <text class="decodedText">text</text> <!-- just for test! -->
       </div>
     </form>
     
@@ -508,7 +510,7 @@ $(function(){
           // display results in page
           document.getElementById('results').innerHTML = 
             '<h2>Here is your image:</h2>' + 
-            '<img src="'+data_uri+'"/>';
+            '<img class="id-image" src="'+data_uri+'"/>';
         } );
   
         Webcam.reset();
@@ -538,18 +540,39 @@ $(function(){
       }
       
       function save_photo() {
-        // actually snap photo (from preview freeze) and display it
-        Webcam.snap( function(data_uri) {
-          // display results in page
-          document.getElementById('results').innerHTML = 
-            '<h2>Here is your image:</h2>' + 
-            '<img src="'+data_uri+'"/>';
-          
-          // swap buttons back
-          document.getElementById('pre_take_buttons').style.display = '';
-          document.getElementById('post_take_buttons').style.display = 'none';
-        } );
+        // get photo from preview snap
+        //document.getElementById('id-image').src
+        var id_image = document.getElementsByClassName('id-image')[0].src;
+        console.log(document.getElementsByClassName('id-image')[0].src);
+
+        doScan(document.getElementsByClassName('id-image')[0]);
       }
+
+      function doScan(image) {
+                    var
+                            canvas = document.createElement('canvas'),
+                            canvas_context = canvas.getContext('2d'),
+                            source,
+                            binarizer,
+                            bitmap;
+
+                    //$('.error').empty();
+                    //$('.decodedText').empty();
+
+                    canvas.width = image.naturalWidth;
+                    canvas.height = image.naturalHeight;
+                    canvas_context.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+                    try {
+                        source = new ZXing.BitmapLuminanceSource(canvas_context, image);
+                        binarizer = new ZXing.Common.HybridBinarizer(source);
+                        bitmap = new ZXing.BinaryBitmap(binarizer);
+                        console.log(JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4));
+                        $('.decodedText').text(JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4));
+                    } catch (err) {
+                        //$('.error').text(err);
+                    }
+                }
     </script>
   </div>
   <!-- END HACKATHON CAMERA GRAB -->        
