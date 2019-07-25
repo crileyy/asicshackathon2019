@@ -12,7 +12,8 @@ $.extend(config, {
     style: "",
     privacy_url: "https://www.asics.com/privacy/privacy-policy",
     terms_url: "https://www.asics.com/us/en-us/terms-and-conditions",
-    prev_view: ""
+    prev_view: "",
+    no_analytics: true
   },
   xtm_default: "en-US",
   keep_params: ["style", "client_id", "locale", "bounce", "grant_type", "code_challenge_method", "redirect_uri", "code_challenge", "scope", "state", "utm_campaign", "utm_source", "utm_medium", "utm_term", "utm_content", "no_confirm_email", "send_confirm_email", "callback_url", "terms_privacy_country", "privacy_url", "terms_privacy_version", "terms_url", "webview", "thirdp_auth", "allow_native_fb", "redirect_uri", "triggerGoogleLogin", "triggerFbLogin", "no_analytics", "max_cookie_timeout"], //these params should be carried forward in the url. This DOES NOT mean that other state params will be deleted as the user goes to different screens! Those state params will still be kept DURING THE USER SESSION. However if the page is refreshed, or the user copies/pastes the url to a new session, ONLY THE PARAMS that are in the url will be applied to the new session.
