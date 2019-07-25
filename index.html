@@ -454,28 +454,14 @@ $(function(){
     <!-- First, include the Webcam.js JavaScript Library -->
     <script type="text/javascript" src="js/webcam.min.js"></script>
     
-    <!-- Configure a few settings and attach camera -->
-    <script language="JavaScript">
-      Webcam.set({
-        image_format: 'jpeg',
-        jpeg_quality: 90,
-        width: 320,
-        height: 240,
-        constraints: {facingMode: 'environment' } 
-      });
-      
-              Webcam.attach( '#my_camera' );
-      
-    </script>
-    
     <!-- A button for taking snaps -->
     <form>
       <div id="pre_take_buttons">
         <button onClick="preview_snapshot()">Take Snapshot</button>
       </div>
       <div id="post_take_buttons" style="display:none">
-        <button onClick="cancel_preview()">Cancel</button>
         <button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
+        <button onClick="cancel_preview()">Cancel</button>
       </div>
     </form>
     
@@ -486,11 +472,28 @@ $(function(){
       $(".web_capture_toggle").click(function(){
         var $toggle = $(this);
         if($(".web_capture").hasClass("opened")){
+          // close camera
+          Webcam.reset();
+          // reset any picture taken
+          document.getElementById('results').innerHTML = '';
+          // swap buttons back
+          document.getElementById('pre_take_buttons').style.display = '';
+          document.getElementById('post_take_buttons').style.display = 'none';
           $(".web_capture").slideUp(350, function(){
             $(this).removeClass("opened");
             $toggle.removeClass("show_toggle").addClass("hide_toggle");
           });
         } else {
+          // open camera
+      	  Webcam.set({
+            image_format: 'jpeg',
+            jpeg_quality: 90,
+            width: 320,
+            height: 240,
+            constraints: {facingMode: 'environment' } 
+      	  });
+      
+          Webcam.attach( '#my_camera' );
           $(".web_capture").slideDown(350, function(){
             $(this).addClass("opened");
             $toggle.removeClass("hide_toggle").addClass("show_toggle");
