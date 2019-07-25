@@ -435,83 +435,103 @@ $(function(){
         
         <!-- HACKATHON CAMERA GRAB -->
         <style>
-        </style>
-	<div id="my_camera"></div>
-	
-	<!-- First, include the Webcam.js JavaScript Library -->
-	<script type="text/javascript" src="js/webcam.min.js"></script>
-	
-	<!-- Configure a few settings and attach camera -->
-	<script language="JavaScript">
-		Webcam.set({
-			width: 320,
-			height: 240,
-			image_format: 'jpeg',
-			jpeg_quality: 90,
-      constraints: {facingMode: 'environment' } 
-		});
+          .web_capture video {width: 100% !important; height: auto;}
+          #my_camera {width: 100% !important; height: auto !important}
+          </style>
+    <div id="my_camera"></div>
+    <div id="results" ></div>
     
-        		Webcam.attach( '#my_camera' );
+    <!-- First, include the Webcam.js JavaScript Library -->
+    <script type="text/javascript" src="js/webcam.min.js"></script>
     
-	</script>
-	
-	<!-- A button for taking snaps -->
-	<form>
-		<div id="pre_take_buttons">
-			<button onClick="preview_snapshot()">Take Snapshot</button>
-		</div>
-		<div id="post_take_buttons" style="display:none">
-			<button onClick="cancel_preview()">Cancel</button>
-			<button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
-		</div>
-	</form>
-	
-	<!-- Code to handle taking the snapshot and displaying it locally -->
-	<script language="JavaScript">
+    <!-- Configure a few settings and attach camera -->
+    <script language="JavaScript">
+      Webcam.set({
+        image_format: 'jpeg',
+        jpeg_quality: 90,
+        width: 320,
+        height: 240,
+        constraints: {facingMode: 'environment' } 
+      });
+      
+              Webcam.attach( '#my_camera' );
+      
+    </script>
+    
+    <!-- A button for taking snaps -->
+    <form>
+      <div id="pre_take_buttons">
+        <button onClick="preview_snapshot()">Take Snapshot</button>
+      </div>
+      <div id="post_take_buttons" style="display:none">
+        <button onClick="cancel_preview()">Cancel</button>
+        <button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
+      </div>
+    </form>
+    
+    <!-- Code to handle taking the snapshot and displaying it locally -->
+    <script language="JavaScript">
+    
+    $(function(){
+      var $take_button = $("#pre_take_buttons[type=button]");
+      $take_button.val("Open Camera");
+    
+      $take_button.on("click", function(){
   
-  $(function(){
-    var $take_button = $("#pre_take_buttons[type=button]");
-    $take_button.val("Open Camera");
+          });
+    });
+    
+      function preview_snapshot() {
+        // actually snap photo and display it
+        Webcam.snap( function(data_uri) {
+          // display results in page
+          document.getElementById('results').innerHTML = 
+            '<h2>Here is your image:</h2>' + 
+            '<img src="'+data_uri+'"/>';
+        } );
   
-    $take_button.on("click", function(){
-
-        });
-  });
+        Webcam.reset();
   
-		function preview_snapshot() {
-			// freeze camera so user can preview pic
-			Webcam.freeze();
-			
-			// swap button sets
-			document.getElementById('pre_take_buttons').style.display = 'none';
-			document.getElementById('post_take_buttons').style.display = '';
-		}
-		
-		function cancel_preview() {
-			// cancel preview freeze and return to live camera feed
-			Webcam.unfreeze();
-			
-			// swap buttons back
-			document.getElementById('pre_take_buttons').style.display = '';
-			document.getElementById('post_take_buttons').style.display = 'none';
-		}
-		
-		function save_photo() {
-			// actually snap photo (from preview freeze) and display it
-			Webcam.snap( function(data_uri) {
-				// display results in page
-				document.getElementById('results').innerHTML = 
-					'<h2>Here is your image:</h2>' + 
-					'<img src="'+data_uri+'"/>';
-				
-				// swap buttons back
-				document.getElementById('pre_take_buttons').style.display = '';
-				document.getElementById('post_take_buttons').style.display = 'none';
-			} );
-		}
-	</script>
-
-<!-- END HACKATHON CAMERA GRAB -->        
+        // swap button sets
+        document.getElementById('pre_take_buttons').style.display = 'none';
+        document.getElementById('post_take_buttons').style.display = '';
+      }
+      
+      function cancel_preview() {
+        // cancel preview freeze and return to live camera feed
+        Webcam.set({
+        image_format: 'jpeg',
+        jpeg_quality: 90,
+        width: 320,
+        height: 240,
+        constraints: {facingMode: 'environment' } 
+      });
+      
+            Webcam.attach( '#my_camera' );
+            // remove preview
+        document.getElementById('results').innerHTML = '';	
+        
+        // swap buttons back
+        document.getElementById('pre_take_buttons').style.display = '';
+        document.getElementById('post_take_buttons').style.display = 'none';
+      }
+      
+      function save_photo() {
+        // actually snap photo (from preview freeze) and display it
+        Webcam.snap( function(data_uri) {
+          // display results in page
+          document.getElementById('results').innerHTML = 
+            '<h2>Here is your image:</h2>' + 
+            '<img src="'+data_uri+'"/>';
+          
+          // swap buttons back
+          document.getElementById('pre_take_buttons').style.display = '';
+          document.getElementById('post_take_buttons').style.display = 'none';
+        } );
+      }
+    </script>
+  </div>
+  <!-- END HACKATHON CAMERA GRAB -->        
 
         <div class="input_outer_container email">
           <div class="field_box">
