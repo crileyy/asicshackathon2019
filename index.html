@@ -431,10 +431,12 @@ $(function(){
           </div>
         </span>
         
-        <div class="section_block">
+        <div class="section_block web_capture">
         
         <!-- HACKATHON CAMERA GRAB -->
         <style>
+        .web_capture video {width: 100% !important; height: auto;}
+        #my_camera {width: 100% !important; height: auto !important}
         </style>
 	<div id="my_camera"></div>
 	
@@ -444,8 +446,6 @@ $(function(){
 	<!-- Configure a few settings and attach camera -->
 	<script language="JavaScript">
 		Webcam.set({
-			width: 320,
-			height: 240,
 			image_format: 'jpeg',
 			jpeg_quality: 90,
       constraints: {facingMode: 'environment' } 
@@ -510,7 +510,7 @@ $(function(){
 			} );
 		}
 	</script>
-
+</div>
 <!-- END HACKATHON CAMERA GRAB -->        
 
         <div class="input_outer_container email">
