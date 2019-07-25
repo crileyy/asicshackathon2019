@@ -247,7 +247,7 @@ $(function() {
                 readers : [{
                     format: "code_128_reader",
                     config: {}
-                }, "upc_a"]
+                }]
             },
             locate: true
         },
@@ -280,6 +280,7 @@ $(function() {
                 cw = parseInt(canvas.getAttribute("width"));
                 ch = parseInt(canvas.getAttribute("height"));
 
+                console.log(result.codeResult);
                 if (result.codeResult.format === "upc_a") {
                    imageData = ctx.getImageData(0, 0, cw, ch);
 
