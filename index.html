@@ -466,9 +466,10 @@ $(function(){
 			width: 320,
 			height: 240,
 			image_format: 'jpeg',
-			jpeg_quality: 90
+			jpeg_quality: 90,
+      constraints: {facingMode: { exact: 'environment' }}
 		});
-		Webcam.attach( '#my_camera' );
+    
 	</script>
 	
 	<!-- A button for taking snaps -->
@@ -484,6 +485,18 @@ $(function(){
 	
 	<!-- Code to handle taking the snapshot and displaying it locally -->
 	<script language="JavaScript">
+  
+  $(function(){
+    var $take_button = $("#pre_take_buttons[type=button]");
+    $take_button.val("Open Camera");
+  
+    $take_button.on("click", function(){
+    		Webcam.attach( '#my_camera' );
+        });
+  });
+  
+  
+  
 		function preview_snapshot() {
 			// freeze camera so user can preview pic
 			Webcam.freeze();
