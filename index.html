@@ -474,8 +474,8 @@ $(function(){
         <button onClick="preview_snapshot()">Take Snapshot</button>
       </div>
       <div id="post_take_buttons" style="display:none">
-        <button onClick="cancel_preview()">Cancel</button>
         <button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
+        <button onClick="cancel_preview()">Cancel</button>
       </div>
     </form>
     
@@ -490,6 +490,9 @@ $(function(){
           Webcam.reset();
           // reset any picture taken
           document.getElementById('results').innerHTML = '';
+          // swap buttons back
+          document.getElementById('pre_take_buttons').style.display = '';
+          document.getElementById('post_take_buttons').style.display = 'none';
           $(".web_capture").slideUp(350, function(){
             $(this).removeClass("opened");
             $toggle.removeClass("show_toggle").addClass("hide_toggle");
