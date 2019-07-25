@@ -486,11 +486,25 @@ $(function(){
       $(".web_capture_toggle").click(function(){
         var $toggle = $(this);
         if($(".web_capture").hasClass("opened")){
+          // close camera
+          Webcam.reset();
+          // reset any picture taken
+          document.getElementById('results').innerHTML = '';
           $(".web_capture").slideUp(350, function(){
             $(this).removeClass("opened");
             $toggle.removeClass("show_toggle").addClass("hide_toggle");
           });
         } else {
+          // open camera
+      	  Webcam.set({
+            image_format: 'jpeg',
+            jpeg_quality: 90,
+            width: 320,
+            height: 240,
+            constraints: {facingMode: 'environment' } 
+      	  });
+      
+          Webcam.attach( '#my_camera' );
           $(".web_capture").slideDown(350, function(){
             $(this).addClass("opened");
             $toggle.removeClass("hide_toggle").addClass("show_toggle");
