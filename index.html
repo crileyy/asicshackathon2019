@@ -591,7 +591,6 @@ $(function(){
 
 'use strict';
 
-const videoElement = document.querySelector('video');
 const videoSelect = document.querySelector('select#videoSource');
 const selectors = [videoSelect];
 
@@ -627,6 +626,7 @@ if(navigator.mediaDevices){
 
 function gotStream(stream) {
   window.stream = stream; // make stream available to console
+  const videoElement = document.querySelector('#my_camera video');
   videoElement.srcObject = stream;
   // Refresh button list in case labels have become available
   return navigator.mediaDevices.enumerateDevices();
@@ -642,7 +642,7 @@ function start() {
   const constraints = {
     video: {deviceId: videoSource ? {exact: videoSource} : undefined}
   };
-  
+
   //fire up webcam again
           Webcam.set({
         image_format: 'jpeg',
