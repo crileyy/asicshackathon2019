@@ -647,9 +647,9 @@ $(function(){
                 $('.id-image-upload').load(function() {
                     doScan($('.id-image-upload')[0]);
                 });
+                });
 
-                $('#file').change(handleFiles);
-                })();
+                document.getElementById("file").addEventListener('change', (e) => handleFiles(e));
                 
     //FOR SELECTING CAMERA
     /*
