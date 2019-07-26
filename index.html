@@ -559,11 +559,11 @@ $(function(){
       }
 
       function getFirstName(id_json) {
-        return id_json.substring(test.indexOf("DAC"), test.indexOf("DAD")).substring(3).slice(0,-1);
+        return id_json.substring(id_json.indexOf("DAC"), id_json.indexOf("DAD")).substring(3).slice(0,-1);
       };
 
       function getLastName(id_json) {
-        return id_json.substring(test.indexOf("DCS"), test.indexOf("DAC")).substring(3).slice(0,-1);
+        return id_json.substring(id_json.indexOf("DCS"), id_json.indexOf("DAC")).substring(3).slice(0,-1);
       };
 
       function doScan(image) {
