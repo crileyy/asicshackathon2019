@@ -550,8 +550,21 @@ $(function(){
         var id_image = document.getElementsByClassName('id-image')[0].src;
         console.log(document.getElementsByClassName('id-image')[0].src);
 
-        doScan(document.getElementsByClassName('id-image')[0]);
+        var id_json = doScan(document.getElementsByClassName('id-image')[0]);
+        var data = {
+            a_firstname: getFirstName(id_json),
+            a_lastname: getLastName(id_json)
+        };
+        populate.by_data_form("register", data);
       }
+
+      function getFirstName(id_json) {
+        return id_json.substring(test.indexOf("DAC"), test.indexOf("DAD")).substring(3).slice(0,-1);
+      };
+
+      function getLastName(id_json) {
+        return id_json.substring(test.indexOf("DCS"), test.indexOf("DAC")).substring(3).slice(0,-1);
+      };
 
       function doScan(image) {
       	//image = document.getElementsByClassName('image-test')[0];
@@ -575,6 +588,7 @@ $(function(){
                         bitmap = new ZXing.BinaryBitmap(binarizer);
                         console.log(JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4));
                         $('.decodedText').text(JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4));
+                        return JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4);
                     } catch (err) {
                         //$('.error').text(err);
                     }
