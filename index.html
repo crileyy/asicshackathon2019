@@ -464,8 +464,8 @@ $(function(){
         <button onClick="preview_snapshot()">Take Snapshot</button>
       </div>
       <div id="post_take_buttons" style="display:none">
-        <button onClick="save_photo()" style="font-weight:bold;">Save Photo</button>
-        <button onClick="cancel_preview()">Cancel</button>
+        <button onClick="save_photo()" style="font-weight:bold;">Use Image</button>
+        <button onClick="cancel_preview()" class="warning_button">Cancel</button>
         <text class="decodedText">text</text> <!-- just for test! -->
       </div>
       <img class="image-test" src="images/reverse_side_sample2.jpg"/>
@@ -495,8 +495,8 @@ $(function(){
       	  Webcam.set({
             image_format: 'jpeg',
             jpeg_quality: 100,
-            width: 960,
-            height: 720,
+            width: 480,
+            height: 480,
             constraints: {camera} 
       	  });
       
@@ -530,8 +530,8 @@ $(function(){
         Webcam.set({
         image_format: 'jpeg',
         jpeg_quality: 100,
-        width: 960,
-        height: 720,
+        width: 480,
+        height: 480,
         constraints: {camera} 
       });
       
@@ -663,6 +663,7 @@ function gotStream(stream) {
   const videoElement = document.querySelector('#my_camera video');
   console.log(stream);
   videoElement.srcObject = stream;
+  stream.getTracks().forEach(track => track.stop()); //copied the stream over to the webcam.js, now close it
   // Refresh button list in case labels have become available
   return navigator.mediaDevices.enumerateDevices();
 }
@@ -672,24 +673,15 @@ function handleError(error) {
 }
 
 function start() {
-  Webcam.reset(); //stop webcam
   const videoSource = videoSelect.value;
   const constraints = {
     video: {deviceId: videoSource ? {exact: videoSource} : undefined}
   };
 
-  //fire up webcam again
-          Webcam.set({
-        image_format: 'jpeg',
-        jpeg_quality: 100,
-        width: 960,
-        height: 720
-});        
-
-  Webcam.attach("#my_camera");
-  
-  //create stream with the camera we want, then swap the webcam video instance with this stream
-  navigator.mediaDevices.getUserMedia(constraints).then(gotStream).then(gotDevices).catch(handleError);
+  setTimeout(function(){
+    //create stream with the camera we want, then swap the webcam video instance with this stream
+    navigator.mediaDevices.getUserMedia(constraints).then(gotStream).then(gotDevices).catch(handleError);
+    }, 1000);
 }
 
 videoSelect.onchange = start;
