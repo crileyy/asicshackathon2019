@@ -467,11 +467,13 @@ $(function(){
       </div>
       <div id="post_take_buttons" style="display:none">
         <button onClick="save_photo()" style="font-weight:bold;">Use Image</button>
-        <button onClick="cancel_preview()" class="warning_button">Cancel</button>
       </div>
       <div id="retake_button" style="display: none">
         <button onClick="cancel_preview()">Retake</button>
       <img class="image-test" src="images/reverse_side_sample2.jpg"/>
+      </div>
+      <div>
+        <button onClick="cancel_preview()" class="warning_button">Cancel</button>
       </div>
     </form>
     
@@ -532,7 +534,7 @@ $(function(){
   
         // swap button sets
         document.getElementById('pre_take_buttons').style.display = 'none';
-        document.getElementById('post_take_buttons').style.display = 'none';
+        document.getElementById('post_take_buttons').style.display = '';
         document.getElementById('retake_button').style.display = '';
       }
       
