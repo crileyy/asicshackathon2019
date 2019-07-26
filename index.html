@@ -558,8 +558,8 @@ $(function(){
 
         var id_json = doScan(document.getElementsByClassName('id-image')[0]);
         var data = {
-            a_firstname: getFirstName(id_json) .toLowerCase(),
-            a_lastname: getLastName(id_json).toLowerCase(),
+            a_firstname: getFirstName(id_json),
+            a_lastname: getLastName(id_json),
             a_birth: getDOB(id_json)
         };
         gender = getGender(id_json);
