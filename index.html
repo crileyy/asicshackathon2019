@@ -437,7 +437,7 @@ $(function(){
         <style>
           
           .web_capture {display: none}
-          .web_capture h2 {padding-bottom: 1em}
+          .web_capture h2 {padding-bottom: 1em !important}
           .web_capture video, canvas, #my_camera, #results, #results img {width: 100% !important; height: auto !important}
           .web_capture_toggle div {display: table; margin: auto; height: 60px}
           .web_capture_toggle span {padding: .3em; display: table-cell; vertical-align: middle; cursor: pointer; text-transform: uppercase; font-size: 1em; font-weight: bold; line-height: 0px}
@@ -463,7 +463,7 @@ $(function(){
     <!-- A button for taking snaps -->
     <form>
       <div id="pre_take_buttons">
-        <button onClick="preview_snapshot()">Take Snapshot</button>
+        <button onClick="preview_snapshot()">Add Snapshot</button>
       </div>
       <div id="post_take_buttons" style="display:none">
         <button onClick="save_photo()" style="font-weight:bold;">Use Image</button>
@@ -513,8 +513,8 @@ $(function(){
           	  Webcam.set({
             image_format: 'jpeg',
             jpeg_quality: 100,
-            width: 480,
-            height: 480,
+            width: 960,
+            height: 720,
             constraints: {camera} 
       	  });
       
@@ -628,7 +628,7 @@ $(function(){
 *  that can be found in the LICENSE file in the root of the source
 *  tree.
 */
-
+/*
 'use strict';
 
 const videoSelect = document.querySelector('select#videoSource');
@@ -686,7 +686,7 @@ function start() {
     }, 1000);
 }
 
-videoSelect.onchange = start;
+videoSelect.onchange = start;*/
     </script>
   </div>
   <!-- END HACKATHON CAMERA GRAB -->        
