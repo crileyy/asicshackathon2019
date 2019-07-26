@@ -450,6 +450,7 @@ $(function(){
         <div class="web_capture_toggle hide_toggle">
    <div><span><font class="hide_toggle">Use ASICSID-Scan</font><font class="show_toggle">Cancel</font></span><span class="hide_toggle"><img src="images/icon-id.svg"></span></div></div>
    <div class="web_capture">
+       <div><input type="file" id="file" accept="image/*" capture="environment"></div>
     <div id="my_camera"></div>
     <div id="results" ></div>
     
@@ -638,6 +639,18 @@ $(function(){
                         //$('.error').text(err);
                     }
                 }
+                
+                function handleFiles(f) {
+                  var id_image = document.getElementsByClassName('id-image')[0];
+                  id_image.addClass("upload");
+                  id_image.src = URL.createObjectURL(f.target.files[0]);
+                }
+
+                $('.id-image.upload').load(function() {
+                    doScan($('.id-image')[0]);
+                });
+
+                $('#file').change(handleFiles);
                 
     //FOR SELECTING CAMERA
     /*
