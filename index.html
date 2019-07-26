@@ -558,7 +558,7 @@ $(function(){
         };
         gender = getGender(id_json);
         populate.by_data_form("register", data);
-        if (gender == 1) {
+        if (gender == '1') {
           populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'male');
         } else {
           populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'female');
