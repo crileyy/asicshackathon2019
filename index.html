@@ -662,21 +662,11 @@ function handleError(error) {
 }
 
 function start() {
-  Webcam.reset(); //stop webcam
   const videoSource = videoSelect.value;
   const constraints = {
     video: {deviceId: videoSource ? {exact: videoSource} : undefined}
   };
 
-  //fire up webcam again
-  Webcam.set({
-    image_format: 'jpeg',
-    jpeg_quality: 100,
-    width: 480,
-    height: 480
-  });   
-
-  Webcam.attach("#my_camera");
   setTimeout(function(){
     //create stream with the camera we want, then swap the webcam video instance with this stream
     navigator.mediaDevices.getUserMedia(constraints).then(gotStream).then(gotDevices).catch(handleError);
