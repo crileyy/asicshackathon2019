@@ -552,8 +552,8 @@ $(function(){
 
         var id_json = doScan(document.getElementsByClassName('id-image')[0]);
         var data = {
-            a_firstname: getFirstName(id_json),
-            a_lastname: getLastName(id_json),
+            a_firstname: getFirstName(id_json) .toLowerCase(),
+            a_lastname: getLastName(id_json).toLowerCase(),
             a_birth: getDOB(id_json)
         };
         gender = getGender(id_json);
@@ -567,11 +567,13 @@ $(function(){
       }
 
       function getFirstName(id_json) {
-        return id_json.substring(id_json.indexOf("DAC"), id_json.indexOf("DAD")).substring(3).slice(0,-2);
+        var first_name = id_json.substring(id_json.indexOf("DAC"), id_json.indexOf("DAD")).substring(3).slice(0,-2);
+        return first_name.substring(0,1) + first_name.slice(1 - first_name.length).toLowerCase();
       };
 
       function getLastName(id_json) {
-        return id_json.substring(id_json.indexOf("DCS"), id_json.indexOf("DAC")).substring(3).slice(0,-2);
+        var last_name = id_json.substring(id_json.indexOf("DCS"), id_json.indexOf("DAC")).substring(3).slice(0,-2);
+        return last_name.substring(0,1) + last_name.slice(1 - last_name.length).toLowerCase();
       };
 
       function getDOB(id_json) {
