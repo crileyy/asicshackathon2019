@@ -568,7 +568,11 @@ $(function(){
       };
 
       function getDOB(id_json) {
-        return id_json.substring(id_json.indexOf("DBB"), id_json.indexOf("DBC")).substring(3).slice(0, -2);
+        dob_bad_form = id_json.substring(id_json.indexOf("DBB"), id_json.indexOf("DBC")).substring(3).slice(0, -2);
+        year = dob_bad_form.slice(-4);
+        month = dob_bad_form.substring(0,2);
+        day = dob_bad_form.substring(2,4);
+        return year + '-' + month + '-' + day;
       };
 
       function doScan(image) {
