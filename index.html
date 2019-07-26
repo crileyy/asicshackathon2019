@@ -450,9 +450,6 @@ $(function(){
         <div class="web_capture_toggle hide_toggle">
    <div><span><font class="hide_toggle">Use ASICSID-Scan</font><font class="show_toggle">Cancel</font></span><span class="hide_toggle"><img src="images/icon-id.svg"></span></div></div>
    <div class="web_capture">
-   <div class="select">
-        <label for="videoSource">Video source: </label><select id="videoSource"></select>
-    </div>
     <div id="my_camera"></div>
     <div id="results" ></div>
     
@@ -470,12 +467,16 @@ $(function(){
       </div>
       <div id="retake_button" style="display: none">
         <button onClick="cancel_preview()">Retake</button>
-      <img class="image-test" src="images/reverse_side_sample2.jpg"/>
       </div>
       <div>
         <button onClick="cancel_preview()" class="warning_button">Cancel</button>
       </div>
     </form>
+    
+    <div>
+    <div class="parse success">Successfully populated the form using your ID. Complete the form and hit Submit to finish Signing Up.</div>
+    <div class="parse error">Parsing your ID image failed. Hit "Retake" to try again.</div>
+    </div>
     
     <!-- Code to handle taking the snapshot and displaying it locally -->
     <script language="JavaScript">
@@ -551,25 +552,34 @@ $(function(){
       }
       
       function save_photo() {
+        $(".parse").hide();
         // get photo from preview snap
         //document.getElementById('id-image').src
         var id_image = document.getElementsByClassName('id-image')[0].src;
         console.log(document.getElementsByClassName('id-image')[0].src);
 
         var id_json = doScan(document.getElementsByClassName('id-image')[0]);
-        var data = {
-            a_firstname: getFirstName(id_json),
-            a_lastname: getLastName(id_json),
-            a_birth: getDOB(id_json)
-        };
-        gender = getGender(id_json);
-        populate.by_data_form("register", data);
-        if (gender == '1') {
-          populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'male');
+        
+        if(!!getFirstName(id_json)){ //only consider this successful if first name was successfully parse
+          var data = {
+              a_firstname: getFirstName(id_json),
+              a_lastname: getLastName(id_json),
+              a_birth: getDOB(id_json)
+          };
+          gender = getGender(id_json);
+          populate.by_data_form("register", data);
+          if (gender == '1') {
+            populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'male');
+          } else {
+            populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'female');
+          }
+          populate.by_selector($('[data-fieldid=a_country]', '#register'), 'US'); // hardcode to US
+          
+          $(".parse.successful").show();
+          $(".web_capture_toggle").click();
         } else {
-          populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'female');
+          $(".parse.failed").show();
         }
-        populate.by_selector($('[data-fieldid=a_country]', '#register'), 'US'); // hardcode to US
       }
 
       function getFirstName(id_json) {
