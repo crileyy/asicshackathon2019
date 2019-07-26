@@ -435,7 +435,9 @@ $(function(){
         
         <!-- HACKATHON CAMERA GRAB -->
         <style>
+          
           .web_capture {display: none}
+          .web_capture h2 {padding-bottom: 1em !important}
           .web_capture video, canvas, #my_camera, #results, #results img {width: 100% !important; height: auto !important}
           .web_capture_toggle div {display: table; margin: auto; height: 60px}
           .web_capture_toggle span {padding: .3em; display: table-cell; vertical-align: middle; cursor: pointer; text-transform: uppercase; font-size: 1em; font-weight: bold; line-height: 0px}
@@ -461,14 +463,18 @@ $(function(){
     <!-- A button for taking snaps -->
     <form>
       <div id="pre_take_buttons">
-        <button onClick="preview_snapshot()">Take Snapshot</button>
+        <button onClick="preview_snapshot()">Add Snapshot</button>
       </div>
       <div id="post_take_buttons" style="display:none">
         <button onClick="save_photo()" style="font-weight:bold;">Use Image</button>
-        <button onClick="cancel_preview()" class="warning_button">Cancel</button>
-        <text class="decodedText">text</text> <!-- just for test! -->
       </div>
+      <div id="retake_button" style="display: none">
+        <button onClick="cancel_preview()">Retake</button>
       <img class="image-test" src="images/reverse_side_sample2.jpg"/>
+      </div>
+      <div>
+        <button onClick="cancel_preview()" class="warning_button">Cancel</button>
+      </div>
     </form>
     
     <!-- Code to handle taking the snapshot and displaying it locally -->
@@ -492,15 +498,7 @@ $(function(){
           });
         } else {
           // open camera
-      	  Webcam.set({
-            image_format: 'jpeg',
-            jpeg_quality: 100,
-            width: 480,
-            height: 480,
-            constraints: {camera} 
-      	  });
-      
-          Webcam.attach( '#my_camera' );
+      	  webcam_init();
           $(".web_capture").slideDown(350, function(){
             $(this).addClass("opened");
             $toggle.removeClass("hide_toggle").addClass("show_toggle");
@@ -509,12 +507,26 @@ $(function(){
       });
     });
     
+    
+    
+    function webcam_init(){
+          	  Webcam.set({
+            image_format: 'jpeg',
+            jpeg_quality: 100,
+            width: 960,
+            height: 720,
+            constraints: {camera} 
+      	  });
+      
+          Webcam.attach( '#my_camera' );
+          };
+    
       function preview_snapshot() {
         // actually snap photo and display it
         Webcam.snap( function(data_uri) {
           // display results in page
           document.getElementById('results').innerHTML = 
-            '<h2>Here is your image:</h2>' + 
+            '<h2>Parsing Barcode from image below:</h2>' + 
             '<img class="id-image" src="'+data_uri+'"/>';
         } );
   
@@ -523,25 +535,19 @@ $(function(){
         // swap button sets
         document.getElementById('pre_take_buttons').style.display = 'none';
         document.getElementById('post_take_buttons').style.display = '';
+        document.getElementById('retake_button').style.display = '';
       }
       
       function cancel_preview() {
         // cancel preview freeze and return to live camera feed
-        Webcam.set({
-        image_format: 'jpeg',
-        jpeg_quality: 100,
-        width: 480,
-        height: 480,
-        constraints: {camera} 
-      });
-      
-            Webcam.attach( '#my_camera' );
+        webcam_init();
             // remove preview
         document.getElementById('results').innerHTML = '';	
         
         // swap buttons back
         document.getElementById('pre_take_buttons').style.display = '';
         document.getElementById('post_take_buttons').style.display = 'none';
+        document.getElementById('retake_button').style.display = 'none';
       }
       
       function save_photo() {
@@ -624,7 +630,7 @@ $(function(){
 *  that can be found in the LICENSE file in the root of the source
 *  tree.
 */
-
+/*
 'use strict';
 
 const videoSelect = document.querySelector('select#videoSource');
@@ -661,11 +667,7 @@ if(navigator.mediaDevices){
 }
 
 function gotStream(stream) {
-  window.stream = stream; // make stream available to console
-  const videoElement = document.querySelector('#my_camera video');
-  console.log(stream);
-  videoElement.srcObject = stream;
-  stream.getTracks().forEach(track => track.stop()); //copied the stream over to the webcam.js, now close it
+  Webcam.stream = stream;
   // Refresh button list in case labels have become available
   return navigator.mediaDevices.enumerateDevices();
 }
@@ -686,7 +688,7 @@ function start() {
     }, 1000);
 }
 
-videoSelect.onchange = start;
+videoSelect.onchange = start;*/
     </script>
   </div>
   <!-- END HACKATHON CAMERA GRAB -->        
