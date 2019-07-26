@@ -460,16 +460,13 @@ $(function(){
     <!-- A button for taking snaps -->
     <form>
       <div id="pre_take_buttons">
-        <button onClick="preview_snapshot()">Add Snapshot</button>
+        <button onClick="preview_snapshot()">Take Photo</button>
       </div>
       <div id="post_take_buttons" style="display:none">
         <button onClick="save_photo()" style="font-weight:bold;">Use Image</button>
       </div>
       <div id="retake_button" style="display: none">
         <button onClick="cancel_preview()">Retake</button>
-      </div>
-      <div>
-        <button onClick="cancel_preview()" class="warning_button">Cancel</button>
       </div>
     </form>
     
@@ -549,6 +546,7 @@ $(function(){
         document.getElementById('pre_take_buttons').style.display = '';
         document.getElementById('post_take_buttons').style.display = 'none';
         document.getElementById('retake_button').style.display = 'none';
+        $(".parse").hide();
       }
       
       function save_photo() {
