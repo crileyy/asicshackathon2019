@@ -641,11 +641,14 @@ $(function(){
                   var id_image = document.getElementsByClassName('id-image-upload')[0];
                   id_image.style.display = "";
                   id_image.src = URL.createObjectURL(f.target.files[0]);
+                  setTimeout(function(){
+                  	save_photo();
+					}, 2000);
                 }
 
                 $(function(){
                 $('.id-image-upload').load(function() {
-                    doScan($('.id-image-upload')[0]);
+                    
                 });
                 });
 
