@@ -583,7 +583,7 @@ $(function(){
       };
 
       function getGender(id_json) {
-        id_json.substring(id_json.indexOf("DBC"), id_json.indexOf("DAY")).substring(3).slice(0, -2);
+        return id_json.substring(id_json.indexOf("DBC"), id_json.indexOf("DAY")).substring(3).slice(0, -2);
       }
 
       function doScan(image) {
