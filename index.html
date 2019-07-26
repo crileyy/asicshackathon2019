@@ -451,6 +451,7 @@ $(function(){
    <div><span><font class="hide_toggle">Use ASICSID-Scan</font><font class="show_toggle">Cancel</font></span><span class="hide_toggle"><img src="images/icon-id.svg"></span></div></div>
    <div class="web_capture">
        <div><input type="file" id="file" accept="image/*" capture="environment"></div>
+       <img src="" class="id-image-upload" style="display: none">
     <div id="my_camera"></div>
     <div id="results" ></div>
     
@@ -470,11 +471,6 @@ $(function(){
         <button onClick="cancel_preview()">Retake</button>
       </div>
     </form>
-    
-    <div>
-    <div class="parse success">Successfully populated the form using your ID. Complete the form and hit Submit to finish Signing Up.</div>
-    <div class="parse error">Parsing your ID image failed. Hit "Retake" to try again.</div>
-    </div>
     
     <!-- Code to handle taking the snapshot and displaying it locally -->
     <script language="JavaScript">
@@ -553,11 +549,12 @@ $(function(){
       function save_photo() {
         $(".parse").hide();
         // get photo from preview snap
-        //document.getElementById('id-image').src
-        var id_image = document.getElementsByClassName('id-image')[0].src;
-        console.log(document.getElementsByClassName('id-image')[0].src);
 
-        var id_json = doScan(document.getElementsByClassName('id-image')[0]);
+        if($(".id-image-upload").is(":visible")){
+        var id_json = doScan(document.getElementsByClassName('id-image-upload')[0]);
+        } else {
+                var id_json = doScan(document.getElementsByClassName('id-image')[0]);
+                }
 
         if(!!getFirstName(id_json)){ //only consider this successful if first name was successfully parse
           var data = {
@@ -641,13 +638,13 @@ $(function(){
                 }
                 
                 function handleFiles(f) {
-                  var id_image = document.getElementsByClassName('id-image')[0];
-                  id_image.addClass("upload");
+                  var id_image = document.getElementsByClassName('id-image-upload')[0];
+                  id_image.style.display = "";
                   id_image.src = URL.createObjectURL(f.target.files[0]);
                 }
 
-                $('.id-image.upload').load(function() {
-                    doScan($('.id-image')[0]);
+                $('.id-image-upload').load(function() {
+                    doScan($('.id-image-upload')[0]);
                 });
 
                 $('#file').change(handleFiles);
@@ -721,6 +718,10 @@ function start() {
 videoSelect.onchange = start;*/
     </script>
   </div>
+      <div>
+    <div class="parse success">Successfully populated the form using your ID. Complete the form and hit Submit to finish Signing Up.</div>
+    <div class="parse error">Parsing your ID image failed. Hit "Retake" to try again.</div>
+    </div>
   <!-- END HACKATHON CAMERA GRAB -->        
 
         <div class="input_outer_container email">
