@@ -495,8 +495,8 @@ $(function(){
       	  Webcam.set({
             image_format: 'jpeg',
             jpeg_quality: 100,
-            width: 960,
-            height: 720,
+            width: 480,
+            height: 480,
             constraints: {camera} 
       	  });
       
@@ -530,8 +530,8 @@ $(function(){
         Webcam.set({
         image_format: 'jpeg',
         jpeg_quality: 100,
-        width: 960,
-        height: 720,
+        width: 480,
+        height: 480,
         constraints: {camera} 
       });
       
@@ -669,17 +669,18 @@ function start() {
   };
 
   //fire up webcam again
-        Webcam.set({
-        image_format: 'jpeg',
-        jpeg_quality: 100,
-        width: 960,
-        height: 720
-});        
+  Webcam.set({
+    image_format: 'jpeg',
+    jpeg_quality: 100,
+    width: 480,
+    height: 480
+  });   
 
   Webcam.attach("#my_camera");
-  
-  //create stream with the camera we want, then swap the webcam video instance with this stream
-  navigator.mediaDevices.getUserMedia(constraints).then(gotStream).then(gotDevices).catch(handleError);
+  setTimeout(function(){
+    //create stream with the camera we want, then swap the webcam video instance with this stream
+    navigator.mediaDevices.getUserMedia(constraints).then(gotStream).then(gotDevices).catch(handleError);
+    }, 1000);
 }
 
 videoSelect.onchange = start;
