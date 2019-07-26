@@ -466,9 +466,11 @@ $(function(){
       <div id="post_take_buttons" style="display:none">
         <button onClick="save_photo()" style="font-weight:bold;">Use Image</button>
         <button onClick="cancel_preview()" class="warning_button">Cancel</button>
-        <text class="decodedText">text</text> <!-- just for test! -->
       </div>
+      <div id="retake_button" style="display: none">
+        <button onClick="cancel_preview()">Retake</button>
       <img class="image-test" src="images/reverse_side_sample2.jpg"/>
+      </div>
     </form>
     
     <!-- Code to handle taking the snapshot and displaying it locally -->
@@ -492,15 +494,7 @@ $(function(){
           });
         } else {
           // open camera
-      	  Webcam.set({
-            image_format: 'jpeg',
-            jpeg_quality: 100,
-            width: 480,
-            height: 480,
-            constraints: {camera} 
-      	  });
-      
-          Webcam.attach( '#my_camera' );
+      	  webcam_init();
           $(".web_capture").slideDown(350, function(){
             $(this).addClass("opened");
             $toggle.removeClass("hide_toggle").addClass("show_toggle");
@@ -509,12 +503,26 @@ $(function(){
       });
     });
     
+    
+    
+    function webcam_init(){
+          	  Webcam.set({
+            image_format: 'jpeg',
+            jpeg_quality: 100,
+            width: 480,
+            height: 480,
+            constraints: {camera} 
+      	  });
+      
+          Webcam.attach( '#my_camera' );
+          };
+    
       function preview_snapshot() {
         // actually snap photo and display it
         Webcam.snap( function(data_uri) {
           // display results in page
           document.getElementById('results').innerHTML = 
-            '<h2>Here is your image:</h2>' + 
+            '<h2>Parsing Barcode from image below:</h2>' + 
             '<img class="id-image" src="'+data_uri+'"/>';
         } );
   
@@ -522,20 +530,13 @@ $(function(){
   
         // swap button sets
         document.getElementById('pre_take_buttons').style.display = 'none';
-        document.getElementById('post_take_buttons').style.display = '';
+        document.getElementById('post_take_buttons').style.display = 'none';
+        document.getElementById('retake_button').style.display = '';
       }
       
       function cancel_preview() {
         // cancel preview freeze and return to live camera feed
-        Webcam.set({
-        image_format: 'jpeg',
-        jpeg_quality: 100,
-        width: 480,
-        height: 480,
-        constraints: {camera} 
-      });
-      
-            Webcam.attach( '#my_camera' );
+        webcam_init();
             // remove preview
         document.getElementById('results').innerHTML = '';	
         
