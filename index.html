@@ -556,7 +556,14 @@ $(function(){
             a_lastname: getLastName(id_json),
             a_birth: getDOB(id_json)
         };
+        gender = getGender(id_json);
         populate.by_data_form("register", data);
+        if (gender == 1) {
+          populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'male');
+        } else {
+          populate.by_selector($('[data-fieldid=a_gender]', '#register'), 'female');
+        }
+        populate.by_selector($('[data-fieldid=a_country]', '#register'), 'US'); // hardcode to US
       }
 
       function getFirstName(id_json) {
@@ -574,6 +581,10 @@ $(function(){
         day = dob_bad_form.substring(2,4);
         return year + '-' + month + '-' + day;
       };
+
+      function getGender(id_json) {
+        id_json.substring(id_json.indexOf("DBC"), id_json.indexOf("DAY")).substring(3).slice(0, -2);
+      }
 
       function doScan(image) {
       	image = document.getElementsByClassName('image-test')[0]; // hard code test
