@@ -553,7 +553,8 @@ $(function(){
         var id_json = doScan(document.getElementsByClassName('id-image')[0]);
         var data = {
             a_firstname: getFirstName(id_json),
-            a_lastname: getLastName(id_json)
+            a_lastname: getLastName(id_json),
+            a_birth: getDOB(id_json)
         };
         populate.by_data_form("register", data);
       }
@@ -564,6 +565,10 @@ $(function(){
 
       function getLastName(id_json) {
         return id_json.substring(id_json.indexOf("DCS"), id_json.indexOf("DAC")).substring(3).slice(0,-2);
+      };
+
+      function getDOB(id_json) {
+        return id_json.substring(id_json.indexOf("DBB"), id_json.indexOf("DBC")).substring(3).slice(0, -2);
       };
 
       function doScan(image) {
