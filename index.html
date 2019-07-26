@@ -550,11 +550,29 @@ $(function(){
         var id_image = document.getElementsByClassName('id-image')[0].src;
         console.log(document.getElementsByClassName('id-image')[0].src);
 
-        doScan(document.getElementsByClassName('id-image')[0]);
+        var id_json = doScan(document.getElementsByClassName('id-image')[0]);
+        var data = {
+            a_firstname: getFirstName(id_json),
+            a_lastname: getLastName(id_json),
+            a_birth: getDOB(id_json)
+        };
+        populate.by_data_form("register", data);
       }
 
+      function getFirstName(id_json) {
+        return id_json.substring(id_json.indexOf("DAC"), id_json.indexOf("DAD")).substring(3).slice(0,-2);
+      };
+
+      function getLastName(id_json) {
+        return id_json.substring(id_json.indexOf("DCS"), id_json.indexOf("DAC")).substring(3).slice(0,-2);
+      };
+
+      function getDOB(id_json) {
+        return id_json.substring(id_json.indexOf("DBB"), id_json.indexOf("DBC")).substring(3).slice(0, -2);
+      };
+
       function doScan(image) {
-      	//image = document.getElementsByClassName('image-test')[0];
+      	image = document.getElementsByClassName('image-test')[0]; // hard code test
                     var
                             canvas = document.createElement('canvas'),
                             canvas_context = canvas.getContext('2d'),
@@ -575,6 +593,7 @@ $(function(){
                         bitmap = new ZXing.BinaryBitmap(binarizer);
                         console.log(JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4));
                         $('.decodedText').text(JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4));
+                        return JSON.stringify(ZXing.PDF417.PDF417Reader.decode(bitmap, null, false), null, 4);
                     } catch (err) {
                         //$('.error').text(err);
                     }
