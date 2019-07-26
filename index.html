@@ -561,8 +561,8 @@ $(function(){
 
         if(!!getFirstName(id_json)){ //only consider this successful if first name was successfully parse
           var data = {
-              a_firstname: getFirstName(id_json).toLowerCase(),
-              a_lastname: getLastName(id_json).toLowerCase(),
+              a_firstname: getFirstName(id_json),
+              a_lastname: getLastName(id_json),
               a_birth: getDOB(id_json)
           };
           gender = getGender(id_json);
