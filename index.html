@@ -435,7 +435,9 @@ $(function(){
         
         <!-- HACKATHON CAMERA GRAB -->
         <style>
+          
           .web_capture {display: none}
+          .web_capture h2 {padding-bottom: 1em}
           .web_capture video, canvas, #my_camera, #results, #results img {width: 100% !important; height: auto !important}
           .web_capture_toggle div {display: table; margin: auto; height: 60px}
           .web_capture_toggle span {padding: .3em; display: table-cell; vertical-align: middle; cursor: pointer; text-transform: uppercase; font-size: 1em; font-weight: bold; line-height: 0px}
@@ -543,6 +545,7 @@ $(function(){
         // swap buttons back
         document.getElementById('pre_take_buttons').style.display = '';
         document.getElementById('post_take_buttons').style.display = 'none';
+        document.getElementById('retake_button').style.display = 'none';
       }
       
       function save_photo() {
